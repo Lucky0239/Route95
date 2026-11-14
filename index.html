@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Route 95 — Chauffeurs et transporteurs, sur la même route</title>
+<meta name="description" content="Route 95 met en relation les chauffeurs poids lourds et les entreprises de transport en Belgique. Profil structuré, certificats à jour, contact protégé.">
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MjIgODIwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlJvdXRlIDk1Ij4KICA8dGl0bGU+Um91dGUgOTU8L3RpdGxlPgogIDxkZWZzPjxjbGlwUGF0aCBpZD0icjk1LXNoYXBlIj48cGF0aCBkPSJNNDExIDExIEw0MDEgMTMgTDM5MyAxNyBMMzg0IDIxIEwzNzQgMjUgTDM2NSAyOCBMMzU1IDMyIEwzNDUgMzUgTDMzNiAzNyBMMzI2IDM5IEwzMTYgNDIgTDMwNyA0MyBMMjk3IDQ0IEwyODcgNDQgTDI3NyA0NCBMMjY3IDQ0IEwyNTcgNDQgTDI0NyA0MyBMMjM3IDQyIEwyMjcgNDAgTDIxNyAzOCBMMjA3IDM2IEwxOTcgMzQgTDE4OCAzMiBMMTc4IDI5IEwxNjggMjUgTDE1OSAyMCBMMTUxIDE2IEwxNDEgMTkgTDEzMSAyOCBMMTIxIDM4IEwxMTIgNDcgTDEwMiA1NyBMOTIgNjcgTDgyIDc3IEw3MyA4NiBMNjMgOTYgTDU0IDEwNSBMNDUgMTE1IEwzNiAxMjUgTDI2IDEzNSBMMTYgMTQ1IEwxMyAxNTUgTDE5IDE2NCBMMjcgMTczIEwzMyAxODEgTDM4IDE4OSBMNDQgMTk4IEw0OSAyMDggTDU0IDIxOCBMNTggMjI2IEw2MSAyMzUgTDY1IDI0NCBMNjcgMjU0IEw3MCAyNjMgTDcxIDI3MiBMNzIgMjgxIEw3MyAyOTEgTDczIDMwMSBMNzMgMzExIEw3MyAzMjEgTDcyIDMzMSBMNzAgMzQxIEw2OCAzNTAgTDY2IDM2MCBMNjQgMzY5IEw2MSAzNzkgTDU3IDM4OSBMNTQgMzk4IEw1MCA0MDcgTDQ2IDQxNyBMNDIgNDI2IEwzOSA0MzYgTDM1IDQ0NiBMMzEgNDU1IEwyOCA0NjQgTDI1IDQ3NCBMMjIgNDg0IEwxOSA0OTMgTDE3IDUwMyBMMTUgNTEyIEwxMyA1MjIgTDExIDUzMiBMMTAgNTQyIEwxMCA1NTIgTDEwIDU2MiBMMTEgNTcyIEwxMiA1ODIgTDE0IDU5MiBMMTYgNjAxIEwxOSA2MTEgTDIyIDYyMSBMMjcgNjMxIEwzMSA2NDEgTDM3IDY1MSBMNDIgNjYwIEw0OSA2NjkgTDU1IDY3NyBMNjQgNjg2IEw3MyA2OTUgTDgyIDcwNCBMOTEgNzExIEw5OSA3MTYgTDEwOCA3MjIgTDExOCA3MjcgTDEyOCA3MzIgTDEzNyA3MzYgTDE0NiA3MzkgTDE1NiA3NDEgTDE2NiA3NDQgTDE3NiA3NDYgTDE4NSA3NDcgTDE5NSA3NDggTDIwNCA3NDkgTDIxNCA3NTAgTDIyNCA3NTAgTDIzMyA3NTEgTDI0MyA3NTIgTDI1MyA3NTMgTDI2MyA3NTQgTDI3MyA3NTUgTDI4MyA3NTYgTDI5MyA3NTggTDMwMyA3NjAgTDMxMyA3NjIgTDMyMyA3NjUgTDMzMiA3NjggTDM0MSA3NzIgTDM1MCA3NzUgTDM2MCA3ODAgTDM2OSA3ODQgTDM3NyA3ODkgTDM4NiA3OTQgTDM5NiA4MDAgTDQxMSA4MDUgTDQyNiA4MDAgTDQzNiA3OTQgTDQ0NSA3ODkgTDQ1MyA3ODQgTDQ2MiA3ODAgTDQ3MiA3NzUgTDQ4MSA3NzIgTDQ5MCA3NjggTDQ5OSA3NjUgTDUwOSA3NjIgTDUxOSA3NjAgTDUyOSA3NTggTDUzOSA3NTYgTDU0OSA3NTUgTDU1OSA3NTQgTDU2OSA3NTMgTDU3OSA3NTIgTDU4OSA3NTEgTDU5OCA3NTAgTDYwOCA3NTAgTDYxOCA3NDkgTDYyNyA3NDggTDYzNyA3NDcgTDY0NiA3NDYgTDY1NiA3NDQgTDY2NiA3NDEgTDY3NiA3MzkgTDY4NSA3MzYgTDY5NCA3MzIgTDcwNCA3MjcgTDcxNCA3MjIgTDcyMyA3MTYgTDczMSA3MTEgTDc0MCA3MDQgTDc0OSA2OTUgTDc1OCA2ODYgTDc2NyA2NzcgTDc3MyA2NjkgTDc4MCA2NjAgTDc4NSA2NTEgTDc5MSA2NDEgTDc5NSA2MzEgTDgwMCA2MjEgTDgwMyA2MTEgTDgwNiA2MDEgTDgwOCA1OTIgTDgxMCA1ODIgTDgxMSA1NzIgTDgxMiA1NjIgTDgxMiA1NTIgTDgxMiA1NDIgTDgxMSA1MzIgTDgwOSA1MjIgTDgwNyA1MTIgTDgwNSA1MDMgTDgwMyA0OTMgTDgwMCA0ODQgTDc5NyA0NzQgTDc5NCA0NjQgTDc5MSA0NTUgTDc4NyA0NDYgTDc4MyA0MzYgTDc4MCA0MjYgTDc3NiA0MTcgTDc3MiA0MDcgTDc2OCAzOTggTDc2NSAzODkgTDc2MSAzNzkgTDc1OCAzNjkgTDc1NiAzNjAgTDc1NCAzNTAgTDc1MiAzNDEgTDc1MCAzMzEgTDc0OSAzMjEgTDc0OSAzMTEgTDc0OSAzMDEgTDc0OSAyOTEgTDc1MCAyODEgTDc1MSAyNzIgTDc1MiAyNjMgTDc1NSAyNTQgTDc1NyAyNDQgTDc2MSAyMzUgTDc2NCAyMjYgTDc2OCAyMTggTDc3MyAyMDggTDc3OCAxOTggTDc4NCAxODkgTDc4OSAxODEgTDc5NSAxNzMgTDgwMyAxNjQgTDgwOSAxNTUgTDgwNiAxNDUgTDc5NiAxMzUgTDc4NiAxMjUgTDc3NyAxMTUgTDc2OCAxMDUgTDc1OSA5NiBMNzQ5IDg2IEw3NDAgNzcgTDczMCA2NyBMNzIwIDU3IEw3MTAgNDcgTDcwMSAzOCBMNjkxIDI4IEw2ODEgMTkgTDY3MSAxNiBMNjYzIDIwIEw2NTQgMjUgTDY0NCAyOSBMNjM0IDMyIEw2MjUgMzQgTDYxNSAzNiBMNjA1IDM4IEw1OTUgNDAgTDU4NSA0MiBMNTc1IDQzIEw1NjUgNDQgTDU1NSA0NCBMNTQ1IDQ0IEw1MzUgNDQgTDUyNSA0NCBMNTE1IDQzIEw1MDYgNDIgTDQ5NiAzOSBMNDg2IDM3IEw0NzcgMzUgTDQ2NyAzMiBMNDU3IDI4IEw0NDggMjUgTDQzOCAyMSBMNDI5IDE3IEw0MjEgMTMgWiIvPjwvY2xpcFBhdGg+PC9kZWZzPgogIDxwYXRoIGQ9Ik00MTEgMTEgTDQwMSAxMyBMMzkzIDE3IEwzODQgMjEgTDM3NCAyNSBMMzY1IDI4IEwzNTUgMzIgTDM0NSAzNSBMMzM2IDM3IEwzMjYgMzkgTDMxNiA0MiBMMzA3IDQzIEwyOTcgNDQgTDI4NyA0NCBMMjc3IDQ0IEwyNjcgNDQgTDI1NyA0NCBMMjQ3IDQzIEwyMzcgNDIgTDIyNyA0MCBMMjE3IDM4IEwyMDcgMzYgTDE5NyAzNCBMMTg4IDMyIEwxNzggMjkgTDE2OCAyNSBMMTU5IDIwIEwxNTEgMTYgTDE0MSAxOSBMMTMxIDI4IEwxMjEgMzggTDExMiA0NyBMMTAyIDU3IEw5MiA2NyBMODIgNzcgTDczIDg2IEw2MyA5NiBMNTQgMTA1IEw0NSAxMTUgTDM2IDEyNSBMMjYgMTM1IEwxNiAxNDUgTDEzIDE1NSBMMTkgMTY0IEwyNyAxNzMgTDMzIDE4MSBMMzggMTg5IEw0NCAxOTggTDQ5IDIwOCBMNTQgMjE4IEw1OCAyMjYgTDYxIDIzNSBMNjUgMjQ0IEw2NyAyNTQgTDcwIDI2MyBMNzEgMjcyIEw3MiAyODEgTDczIDI5MSBMNzMgMzAxIEw3MyAzMTEgTDczIDMyMSBMNzIgMzMxIEw3MCAzNDEgTDY4IDM1MCBMNjYgMzYwIEw2NCAzNjkgTDYxIDM3OSBMNTcgMzg5IEw1NCAzOTggTDUwIDQwNyBMNDYgNDE3IEw0MiA0MjYgTDM5IDQzNiBMMzUgNDQ2IEwzMSA0NTUgTDI4IDQ2NCBMMjUgNDc0IEwyMiA0ODQgTDE5IDQ5MyBMMTcgNTAzIEwxNSA1MTIgTDEzIDUyMiBMMTEgNTMyIEwxMCA1NDIgTDEwIDU1MiBMMTAgNTYyIEwxMSA1NzIgTDEyIDU4MiBMMTQgNTkyIEwxNiA2MDEgTDE5IDYxMSBMMjIgNjIxIEwyNyA2MzEgTDMxIDY0MSBMMzcgNjUxIEw0MiA2NjAgTDQ5IDY2OSBMNTUgNjc3IEw2NCA2ODYgTDczIDY5NSBMODIgNzA0IEw5MSA3MTEgTDk5IDcxNiBMMTA4IDcyMiBMMTE4IDcyNyBMMTI4IDczMiBMMTM3IDczNiBMMTQ2IDczOSBMMTU2IDc0MSBMMTY2IDc0NCBMMTc2IDc0NiBMMTg1IDc0NyBMMTk1IDc0OCBMMjA0IDc0OSBMMjE0IDc1MCBMMjI0IDc1MCBMMjMzIDc1MSBMMjQzIDc1MiBMMjUzIDc1MyBMMjYzIDc1NCBMMjczIDc1NSBMMjgzIDc1NiBMMjkzIDc1OCBMMzAzIDc2MCBMMzEzIDc2MiBMMzIzIDc2NSBMMzMyIDc2OCBMMzQxIDc3MiBMMzUwIDc3NSBMMzYwIDc4MCBMMzY5IDc4NCBMMzc3IDc4OSBMMzg2IDc5NCBMMzk2IDgwMCBMNDExIDgwNSBMNDI2IDgwMCBMNDM2IDc5NCBMNDQ1IDc4OSBMNDUzIDc4NCBMNDYyIDc4MCBMNDcyIDc3NSBMNDgxIDc3MiBMNDkwIDc2OCBMNDk5IDc2NSBMNTA5IDc2MiBMNTE5IDc2MCBMNTI5IDc1OCBMNTM5IDc1NiBMNTQ5IDc1NSBMNTU5IDc1NCBMNTY5IDc1MyBMNTc5IDc1MiBMNTg5IDc1MSBMNTk4IDc1MCBMNjA4IDc1MCBMNjE4IDc0OSBMNjI3IDc0OCBMNjM3IDc0NyBMNjQ2IDc0NiBMNjU2IDc0NCBMNjY2IDc0MSBMNjc2IDczOSBMNjg1IDczNiBMNjk0IDczMiBMNzA0IDcyNyBMNzE0IDcyMiBMNzIzIDcxNiBMNzMxIDcxMSBMNzQwIDcwNCBMNzQ5IDY5NSBMNzU4IDY4NiBMNzY3IDY3NyBMNzczIDY2OSBMNzgwIDY2MCBMNzg1IDY1MSBMNzkxIDY0MSBMNzk1IDYzMSBMODAwIDYyMSBMODAzIDYxMSBMODA2IDYwMSBMODA4IDU5MiBMODEwIDU4MiBMODExIDU3MiBMODEyIDU2MiBMODEyIDU1MiBMODEyIDU0MiBMODExIDUzMiBMODA5IDUyMiBMODA3IDUxMiBMODA1IDUwMyBMODAzIDQ5MyBMODAwIDQ4NCBMNzk3IDQ3NCBMNzk0IDQ2NCBMNzkxIDQ1NSBMNzg3IDQ0NiBMNzgzIDQzNiBMNzgwIDQyNiBMNzc2IDQxNyBMNzcyIDQwNyBMNzY4IDM5OCBMNzY1IDM4OSBMNzYxIDM3OSBMNzU4IDM2OSBMNzU2IDM2MCBMNzU0IDM1MCBMNzUyIDM0MSBMNzUwIDMzMSBMNzQ5IDMyMSBMNzQ5IDMxMSBMNzQ5IDMwMSBMNzQ5IDI5MSBMNzUwIDI4MSBMNzUxIDI3MiBMNzUyIDI2MyBMNzU1IDI1NCBMNzU3IDI0NCBMNzYxIDIzNSBMNzY0IDIyNiBMNzY4IDIxOCBMNzczIDIwOCBMNzc4IDE5OCBMNzg0IDE4OSBMNzg5IDE4MSBMNzk1IDE3MyBMODAzIDE2NCBMODA5IDE1NSBMODA2IDE0NSBMNzk2IDEzNSBMNzg2IDEyNSBMNzc3IDExNSBMNzY4IDEwNSBMNzU5IDk2IEw3NDkgODYgTDc0MCA3NyBMNzMwIDY3IEw3MjAgNTcgTDcxMCA0NyBMNzAxIDM4IEw2OTEgMjggTDY4MSAxOSBMNjcxIDE2IEw2NjMgMjAgTDY1NCAyNSBMNjQ0IDI5IEw2MzQgMzIgTDYyNSAzNCBMNjE1IDM2IEw2MDUgMzggTDU5NSA0MCBMNTg1IDQyIEw1NzUgNDMgTDU2NSA0NCBMNTU1IDQ0IEw1NDUgNDQgTDUzNSA0NCBMNTI1IDQ0IEw1MTUgNDMgTDUwNiA0MiBMNDk2IDM5IEw0ODYgMzcgTDQ3NyAzNSBMNDY3IDMyIEw0NTcgMjggTDQ0OCAyNSBMNDM4IDIxIEw0MjkgMTcgTDQyMSAxMyBaIiBmaWxsPSIjRkZGRkZGIi8+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI3I5NS1zaGFwZSkiPgogICAgPHJlY3QgeD0iOTkuNSIgeT0iMjQ3IiB3aWR0aD0iMjA3LjYiIGhlaWdodD0iMjciIGZpbGw9IiMxMTExMTEiLz4KICAgIDxyZWN0IHg9IjMwNy4yIiB5PSIyNDciIHdpZHRoPSIyMDcuNiIgaGVpZ2h0PSIyNyIgZmlsbD0iI0ZEREEyNCIvPgogICAgPHJlY3QgeD0iNTE0LjgiIHk9IjI0NyIgd2lkdGg9IjIwNy42IiBoZWlnaHQ9IjI3IiBmaWxsPSIjRUYzMzQwIi8+CiAgICA8cGF0aCBkPSJNNDExIDExIEw0MDEgMTMgTDM5MyAxNyBMMzg0IDIxIEwzNzQgMjUgTDM2NSAyOCBMMzU1IDMyIEwzNDUgMzUgTDMzNiAzNyBMMzI2IDM5IEwzMTYgNDIgTDMwNyA0MyBMMjk3IDQ0IEwyODcgNDQgTDI3NyA0NCBMMjY3IDQ0IEwyNTcgNDQgTDI0NyA0MyBMMjM3IDQyIEwyMjcgNDAgTDIxNyAzOCBMMjA3IDM2IEwxOTcgMzQgTDE4OCAzMiBMMTc4IDI5IEwxNjggMjUgTDE1OSAyMCBMMTUxIDE2IEwxNDEgMTkgTDEzMSAyOCBMMTIxIDM4IEwxMTIgNDcgTDEwMiA1NyBMOTIgNjcgTDgyIDc3IEw3MyA4NiBMNjMgOTYgTDU0IDEwNSBMNDUgMTE1IEwzNiAxMjUgTDI2IDEzNSBMMTYgMTQ1IEwxMyAxNTUgTDE5IDE2NCBMMjcgMTczIEwzMyAxODEgTDM4IDE4OSBMNDQgMTk4IEw0OSAyMDggTDU0IDIxOCBMNTggMjI2IEw2MSAyMzUgTDY1IDI0NCBMNjcgMjU0IEw3MCAyNjMgTDcxIDI3MiBMNzIgMjgxIEw3MyAyOTEgTDczIDMwMSBMNzMgMzExIEw3MyAzMjEgTDcyIDMzMSBMNzAgMzQxIEw2OCAzNTAgTDY2IDM2MCBMNjQgMzY5IEw2MSAzNzkgTDU3IDM4OSBMNTQgMzk4IEw1MCA0MDcgTDQ2IDQxNyBMNDIgNDI2IEwzOSA0MzYgTDM1IDQ0NiBMMzEgNDU1IEwyOCA0NjQgTDI1IDQ3NCBMMjIgNDg0IEwxOSA0OTMgTDE3IDUwMyBMMTUgNTEyIEwxMyA1MjIgTDExIDUzMiBMMTAgNTQyIEwxMCA1NTIgTDEwIDU2MiBMMTEgNTcyIEwxMiA1ODIgTDE0IDU5MiBMMTYgNjAxIEwxOSA2MTEgTDIyIDYyMSBMMjcgNjMxIEwzMSA2NDEgTDM3IDY1MSBMNDIgNjYwIEw0OSA2NjkgTDU1IDY3NyBMNjQgNjg2IEw3MyA2OTUgTDgyIDcwNCBMOTEgNzExIEw5OSA3MTYgTDEwOCA3MjIgTDExOCA3MjcgTDEyOCA3MzIgTDEzNyA3MzYgTDE0NiA3MzkgTDE1NiA3NDEgTDE2NiA3NDQgTDE3NiA3NDYgTDE4NSA3NDcgTDE5NSA3NDggTDIwNCA3NDkgTDIxNCA3NTAgTDIyNCA3NTAgTDIzMyA3NTEgTDI0MyA3NTIgTDI1MyA3NTMgTDI2MyA3NTQgTDI3MyA3NTUgTDI4MyA3NTYgTDI5MyA3NTggTDMwMyA3NjAgTDMxMyA3NjIgTDMyMyA3NjUgTDMzMiA3NjggTDM0MSA3NzIgTDM1MCA3NzUgTDM2MCA3ODAgTDM2OSA3ODQgTDM3NyA3ODkgTDM4NiA3OTQgTDM5NiA4MDAgTDQxMSA4MDUgTDQyNiA4MDAgTDQzNiA3OTQgTDQ0NSA3ODkgTDQ1MyA3ODQgTDQ2MiA3ODAgTDQ3MiA3NzUgTDQ4MSA3NzIgTDQ5MCA3NjggTDQ5OSA3NjUgTDUwOSA3NjIgTDUxOSA3NjAgTDUyOSA3NTggTDUzOSA3NTYgTDU0OSA3NTUgTDU1OSA3NTQgTDU2OSA3NTMgTDU3OSA3NTIgTDU4OSA3NTEgTDU5OCA3NTAgTDYwOCA3NTAgTDYxOCA3NDkgTDYyNyA3NDggTDYzNyA3NDcgTDY0NiA3NDYgTDY1NiA3NDQgTDY2NiA3NDEgTDY3NiA3MzkgTDY4NSA3MzYgTDY5NCA3MzIgTDcwNCA3MjcgTDcxNCA3MjIgTDcyMyA3MTYgTDczMSA3MTEgTDc0MCA3MDQgTDc0OSA2OTUgTDc1OCA2ODYgTDc2NyA2NzcgTDc3MyA2NjkgTDc4MCA2NjAgTDc4NSA2NTEgTDc5MSA2NDEgTDc5NSA2MzEgTDgwMCA2MjEgTDgwMyA2MTEgTDgwNiA2MDEgTDgwOCA1OTIgTDgxMCA1ODIgTDgxMSA1NzIgTDgxMiA1NjIgTDgxMiA1NTIgTDgxMiA1NDIgTDgxMSA1MzIgTDgwOSA1MjIgTDgwNyA1MTIgTDgwNSA1MDMgTDgwMyA0OTMgTDgwMCA0ODQgTDc5NyA0NzQgTDc5NCA0NjQgTDc5MSA0NTUgTDc4NyA0NDYgTDc4MyA0MzYgTDc4MCA0MjYgTDc3NiA0MTcgTDc3MiA0MDcgTDc2OCAzOTggTDc2NSAzODkgTDc2MSAzNzkgTDc1OCAzNjkgTDc1NiAzNjAgTDc1NCAzNTAgTDc1MiAzNDEgTDc1MCAzMzEgTDc0OSAzMjEgTDc0OSAzMTEgTDc0OSAzMDEgTDc0OSAyOTEgTDc1MCAyODEgTDc1MSAyNzIgTDc1MiAyNjMgTDc1NSAyNTQgTDc1NyAyNDQgTDc2MSAyMzUgTDc2NCAyMjYgTDc2OCAyMTggTDc3MyAyMDggTDc3OCAxOTggTDc4NCAxODkgTDc4OSAxODEgTDc5NSAxNzMgTDgwMyAxNjQgTDgwOSAxNTUgTDgwNiAxNDUgTDc5NiAxMzUgTDc4NiAxMjUgTDc3NyAxMTUgTDc2OCAxMDUgTDc1OSA5NiBMNzQ5IDg2IEw3NDAgNzcgTDczMCA2NyBMNzIwIDU3IEw3MTAgNDcgTDcwMSAzOCBMNjkxIDI4IEw2ODEgMTkgTDY3MSAxNiBMNjYzIDIwIEw2NTQgMjUgTDY0NCAyOSBMNjM0IDMyIEw2MjUgMzQgTDYxNSAzNiBMNjA1IDM4IEw1OTUgNDAgTDU4NSA0MiBMNTc1IDQzIEw1NjUgNDQgTDU1NSA0NCBMNTQ1IDQ0IEw1MzUgNDQgTDUyNSA0NCBMNTE1IDQzIEw1MDYgNDIgTDQ5NiAzOSBMNDg2IDM3IEw0NzcgMzUgTDQ2NyAzMiBMNDU3IDI4IEw0NDggMjUgTDQzOCAyMSBMNDI5IDE3IEw0MjEgMTMgWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExMTExIiBzdHJva2Utd2lkdGg9IjYwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPC9nPgogIDxwYXRoIGQ9Ik0xNzYuMDAgMjIwLjkyVjEwMC4wN0gyMjMuNzVRMjM2LjM3IDEwMC4wNyAyNDMuODAgMTA1LjM4UTI1MS4yMiAxMTAuNjggMjU0LjQxIDExOS40NVEyNTcuNjAgMTI4LjIxIDI1Ny42MCAxMzguNDBRMjU3LjYwIDE0NS4yMiAyNTUuNDkgMTUyLjIxUTI1My4zNyAxNTkuMjAgMjQ5LjE0IDE2NC45NFEyNDQuOTEgMTcwLjY4IDIzOC42NyAxNzMuNDRMMjU3Ljg5IDIyMC45MkgyMzQuODBMMjE2LjMwIDE3Ny4xNkgxOTYuNjVWMjIwLjkyWk0xOTYuNjUgMTUzLjc2SDIyNC4wNFEyMjguNjMgMTUzLjc2IDIzMS4zMiAxNTEuNjBRMjM0LjAxIDE0OS40NSAyMzUuMTIgMTQ1Ljk1UTIzNi4yMyAxNDIuNDUgMjM2LjIzIDEzOC40OFEyMzYuMjMgMTM0Ljg2IDIzNS4xOSAxMzEuNDBRMjM0LjE1IDEyNy45NSAyMzEuNDYgMTI1LjcxUTIyOC43NyAxMjMuNDYgMjI0LjA0IDEyMy40NkgxOTYuNjVaTTMxNy45OCAyMjMuMFEzMDUuOTMgMjIzLjAgMjk3LjQ3IDIxNy41MVEyODkuMDEgMjEyLjAzIDI4My44MSAyMDIuOTJRMjc4LjYxIDE5My44MiAyNzYuMjEgMTgyLjc3UTI3My44MSAxNzEuNzIgMjczLjgxIDE2MC41UTI3My44MSAxNDkuMjcgMjc2LjIxIDEzOC4yMlEyNzguNjEgMTI3LjE3IDI4My44MSAxMTguMDdRMjg5LjAxIDEwOC45NiAyOTcuNDcgMTAzLjQ4UTMwNS45MyA5Ny45OSAzMTcuOTggOTcuOTlRMzMwLjE3IDk3Ljk5IDMzOC41NiAxMDMuNDhRMzQ2Ljk1IDEwOC45NiAzNTIuMTUgMTE4LjA3UTM1Ny4zNSAxMjcuMTcgMzU5LjcyIDEzOC4yMlEzNjIuMDggMTQ5LjI3IDM2Mi4wOCAxNjAuNVEzNjIuMDggMTcxLjcyIDM1OS43MiAxODIuNzdRMzU3LjM1IDE5My44MiAzNTIuMTUgMjAyLjkyUTM0Ni45NSAyMTIuMDMgMzM4LjU2IDIxNy41MVEzMzAuMTcgMjIzLjAgMzE3Ljk4IDIyMy4wWk0zMTcuOTggMTk5LjAwUTMyNC4yOSAxOTkuMDAgMzI4LjYzIDE5NS40NlEzMzIuOTcgMTkxLjkyIDMzNS42MiAxODYuMDlRMzM4LjI4IDE4MC4yNiAzMzkuNDkgMTczLjUzUTM0MC43MSAxNjYuODAgMzQwLjcxIDE2MC41UTM0MC43MSAxNTMuNzYgMzM5LjU3IDE0Ni45NFEzMzguNDIgMTQwLjEyIDMzNS44MCAxMzQuNDJRMzMzLjE4IDEyOC43MyAzMjguODEgMTI1LjI3UTMyNC40MyAxMjEuODIgMzE3Ljk4IDEyMS44MlEzMTEuNTMgMTIxLjgyIDMwNy4xNSAxMjUuNDBRMzAyLjc4IDEyOC45OSAzMDAuMTMgMTM0Ljc3UTI5Ny40NyAxNDAuNTUgMjk2LjMyIDE0Ny4zN1EyOTUuMTggMTU0LjE5IDI5NS4xOCAxNjAuNVEyOTUuMTggMTY3LjE0IDI5Ni4zNiAxNzMuOTJRMjk3LjU0IDE4MC43MCAzMDAuMjMgMTg2LjM5UTMwMi45MiAxOTIuMDkgMzA3LjMwIDE5NS41NFEzMTEuNjcgMTk5LjAwIDMxNy45OCAxOTkuMDBaTTQyMi42MSAyMjMuMFE0MDkuODQgMjIzLjAgNDAwLjU5IDIxNy4zMFEzOTEuMzQgMjExLjYwIDM4Ni4zOSAyMDAuNzdRMzgxLjQ0IDE4OS45MyAzODEuNDQgMTc0LjU3VjEwMC4wN0g0MDIuMTBWMTc0LjU3UTQwMi4xMCAxODcuNjkgNDA3LjAxIDE5My4zNFE0MTEuOTIgMTk5LjAwIDQyMi42MSAxOTkuMDBRNDI5LjM1IDE5OS4wMCA0MzMuOTAgMTk2LjY3UTQzOC40NSAxOTQuMzMgNDQwLjc1IDE4OC45NFE0NDMuMDQgMTgzLjU0IDQ0My4wNCAxNzQuNTdWMTAwLjA3SDQ2My43MFYxNzQuNTdRNDYzLjcwIDE4Ny43NyA0NjAuMjkgMTk3LjAxUTQ1Ni44OCAyMDYuMjUgNDUxLjA4IDIxMS45OVE0NDUuMjcgMjE3LjczIDQzNy45MiAyMjAuMzZRNDMwLjU3IDIyMy4wIDQyMi42MSAyMjMuMFpNNTA4Ljg3IDIyMC45MlYxMjMuODlINDgwLjE5VjEwMC4wN0g1NTguMjhWMTIzLjg5SDUyOS41M1YyMjAuOTJaTTU3NS40OSAyMjAuOTJWMTAwLjA3SDY0Ni4wNVYxMjMuNjNINTk2LjE0VjE0Ni43N0g2MjQuNjFWMTcwLjM0SDU5Ni4xNFYxOTcuMThINjQ5LjAwVjIyMC45MloiIGZpbGw9IiMxMTExMTEiLz4KICA8cGF0aCBkPSJNMjIwLjQ0IDYzNS4wVjU3OS4wMlEyNDEuNDMgNTc3Ljk2IDI2MS45OSA1NzAuNzVRMjgyLjU2IDU2My41NSAyOTguNzggNTQ3LjU0UTMxNS4wMCA1MzEuNTMgMzIzLjA1IDUwNC44MlEzMTQuMTUgNTExLjM5IDMwMi4wNiA1MTUuMzFRMjg5Ljk4IDUxOS4yMyAyNzQuOTMgNTE5LjIzUTI0NS42NyA1MTkuMjMgMjIyLjg4IDUwNy44OVEyMDAuMDggNDk2LjU1IDE4Ni45NCA0NzUuMjRRMTczLjc5IDQ1My45MyAxNzMuNzkgNDIzLjYxUTE3My43OSAzOTQuNTcgMTg3Ljc5IDM3My4wNVEyMDEuNzggMzUxLjUzIDIyNi4xNiAzMzkuNzZRMjUwLjU0IDMyNy45OSAyODIuMzUgMzI3Ljk5UTMyMC4zMCAzMjcuOTkgMzQ0LjY4IDM0Mi44NFEzNjkuMDYgMzU3LjY4IDM4MC44MyAzODMuNjVRMzkyLjYwIDQwOS42MiAzOTIuNjAgNDQyLjkxUTM5Mi42MCA0OTkuNTIgMzczLjczIDU0MS45MlEzNTQuODYgNTg0LjMyIDMxNi42OSA2MDguNjBRMjc4LjUzIDYzMi44NyAyMjAuNDQgNjM1LjBaTTI4MS43MSA0NjMuMjZRMjk1LjA3IDQ2My4yNiAzMDUuMjQgNDU4LjcwUTMxNS40MiA0NTQuMTQgMzIxLjA0IDQ0NS4yNFEzMjYuNjYgNDM2LjM0IDMyNi42NiA0MjIuOThRMzI2LjY2IDQxMS4zMiAzMjAuOTMgNDAyLjIwUTMxNS4yMSAzOTMuMDggMzA1LjE0IDM4OC4wMFEyOTUuMDcgMzgyLjkxIDI4MS45MiAzODIuOTFRMjY2LjY2IDM4Mi45MSAyNTUuODQgMzg4LjAwUTI0NS4wMyAzOTMuMDggMjM5LjIwIDQwMi4wOVEyMzMuMzcgNDExLjExIDIzMy4zNyA0MjIuNTVRMjMzLjM3IDQzNS43MCAyMzkuMjAgNDQ0LjgyUTI0NS4wMyA0NTMuOTMgMjU1Ljg0IDQ1OC42MFEyNjYuNjYgNDYzLjI2IDI4MS43MSA0NjMuMjZaTTUzNi4zNCA2MzUuMFE1MTQuNTEgNjM1LjAgNDk2LjgwIDYzMC41NFE0NzkuMTAgNjI2LjA5IDQ2NS42NCA2MTkuMjBRNDUyLjE3IDYxMi4zMSA0NDMuMDYgNjA1LjEwTDQ3NS4wNyA1NTcuNDBRNDgyLjcwIDU2Mi40OSA0OTEuOTMgNTY3LjE1UTUwMS4xNSA1NzEuODEgNTEyLjE3IDU3NC43OFE1MjMuMjAgNTc3Ljc1IDUzNi4zNCA1NzcuNzVRNTUyLjAzIDU3Ny43NSA1NjQuMTIgNTcyLjI0UTU3Ni4yMCA1NjYuNzMgNTgyLjg4IDU1Ni4xMlE1ODkuNTYgNTQ1LjUyIDU4OS41NiA1MzAuNDdRNTg5LjU2IDUxOC4zOSA1ODUuMjEgNTA5LjA2UTU4MC44NyA0OTkuNzMgNTcyLjQ5IDQ5NC40M1E1NjQuMTIgNDg5LjEzIDU1MS42MSA0ODkuMTNRNTM1LjI4IDQ4OS4xMyA1MjQuNDcgNDk0Ljk2UTUxMy42NiA1MDAuNzkgNTA0Ljc1IDUxMC43NUw0NTEuOTYgNDgzLjgzTDQ1OS44MCAzMzMuMDhINjMxLjMzVjM5MS42MEg1MTUuNzhMNTEyLjYwIDQzOS41MlE1MjIuMzUgNDM1LjkxIDUzMS43OCA0MzMuNjlRNTQxLjIyIDQzMS40NiA1NTIuMDMgNDMxLjQ2UTU4NC4wNSA0MzEuNDYgNjA1Ljg4IDQ0NC42MFE2MjcuNzIgNDU3Ljc1IDYzOC45NiA0ODAuMjJRNjUwLjIwIDUwMi43MCA2NTAuMjAgNTMwLjY4UTY1MC4yMCA1NjIuNDkgNjM1LjQ2IDU4NS45MVE2MjAuNzMgNjA5LjM0IDU5NC45NyA2MjIuMTdRNTY5LjIxIDYzNS4wIDUzNi4zNCA2MzUuMFoiIGZpbGw9IiMxMTExMTEiLz4KPC9zdmc+Cg==">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Overpass:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#15181D; --ink-2:#2A2F38; --muted:#5D6573; --line:#E3E6EB; --bg:#F5F6F8; --card:#FFFFFF;
+  --yellow:#FDDA24; --yellow-d:#E9C400; --red:#EF3340; --green:#1F8A5B; --green-bg:#E7F5EE;
+  --amber-bg:#FFF6D6; --amber-tx:#8A6100; --red-bg:#FDECEE; --red-tx:#B4232F;
+  --radius:12px; --shadow:0 1px 2px rgba(16,24,40,.06),0 2px 8px rgba(16,24,40,.06);
+  --shadow-lg:0 12px 32px rgba(16,24,40,.16);
+  --head:'Overpass','Arial Narrow',system-ui,sans-serif; --body:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--body);color:var(--ink);background:var(--bg);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{max-width:100%}
+h1,h2,h3{font-family:var(--head);line-height:1.1;margin:0 0 .5em;letter-spacing:-.01em}
+h1{font-size:clamp(2.1rem,4.6vw,3.6rem);font-weight:900}
+h2{font-size:clamp(1.6rem,3vw,2.3rem);font-weight:800}
+h3{font-size:1.2rem;font-weight:800}
+p{margin:0 0 1em}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.muted{color:var(--muted)}
+.small{font-size:.875rem}
+.tri{display:flex;height:4px}
+.tri i{flex:1}.tri i:nth-child(1){background:var(--ink)}.tri i:nth-child(2){background:var(--yellow)}.tri i:nth-child(3){background:var(--red)}
+
+/* Bandeau prototype */
+.proto{background:var(--ink);color:#fff;font-size:.8rem;text-align:center;padding:6px 12px}
+.proto b{color:var(--yellow)}
+
+/* En-tête */
+header.top{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:saturate(1.4) blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:20px;height:68px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand img{width:40px;height:40px}
+.brand span{font-family:var(--head);font-weight:900;font-size:1.35rem;letter-spacing:.01em}
+.nav-links{display:flex;gap:4px;margin-left:12px}
+.nav-links a{text-decoration:none;font-weight:600;font-size:.95rem;padding:8px 12px;border-radius:8px;color:var(--ink-2)}
+.nav-links a:hover{background:var(--bg)}
+.nav-links a.active{background:var(--ink);color:#fff}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:10px}
+.lang{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.lang button{border:0;background:#fff;padding:6px 9px;font-weight:700;font-size:.78rem;cursor:pointer;color:var(--muted)}
+.lang button.on{background:var(--ink);color:#fff}
+.burger{display:none;border:1px solid var(--line);background:#fff;border-radius:8px;width:42px;height:42px;cursor:pointer;font-size:1.2rem}
+
+/* Boutons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 18px;border-radius:10px;border:1px solid transparent;font:600 .95rem var(--body);cursor:pointer;text-decoration:none;transition:transform .15s,box-shadow .15s,background .15s}
+.btn:active{transform:translateY(1px)}
+.btn-primary{background:var(--yellow);color:var(--ink);border-color:var(--yellow-d)}
+.btn-primary:hover{background:#FFE34D;box-shadow:0 4px 14px rgba(253,218,36,.45)}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-dark:hover{background:var(--ink-2)}
+.btn-ghost{background:#fff;color:var(--ink);border-color:var(--line)}
+.btn-ghost:hover{border-color:#C9CFD8}
+.btn-sm{min-height:36px;padding:6px 12px;font-size:.85rem}
+
+/* Accueil */
+.hero{padding:64px 0 40px;background:radial-gradient(900px 400px at 85% 10%,rgba(253,218,36,.18),transparent 60%),#fff;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-2);background:var(--bg);border:1px solid var(--line);padding:6px 10px;border-radius:999px;margin-bottom:18px}
+.eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--green)}
+.hero p.lead{font-size:1.15rem;color:var(--ink-2);max-width:560px}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.hero-shield{display:flex;justify-content:center}
+.hero-shield img{width:min(320px,80%);filter:drop-shadow(0 18px 30px rgba(16,24,40,.18));animation:float 6s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.stats{display:flex;gap:28px;margin-top:32px;flex-wrap:wrap}
+.stats div b{display:block;font-family:var(--head);font-size:1.6rem;font-weight:900}
+.stats div span{font-size:.85rem;color:var(--muted)}
+
+.section{padding:64px 0}
+.section-head{max-width:640px;margin-bottom:28px}
+
+/* Cartes de rôle */
+.roles{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.role{position:relative;display:flex;flex-direction:column;justify-content:space-between;min-height:400px;padding:32px;border-radius:20px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);text-decoration:none;overflow:hidden;cursor:pointer;
+  transition:transform .28s cubic-bezier(.2,.8,.2,1),box-shadow .28s,background .28s,color .28s,border-color .28s}
+.role::after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;background:linear-gradient(90deg,var(--ink) 0 33.3%,var(--yellow) 33.3% 66.6%,var(--red) 66.6%);transform:scaleX(0);transform-origin:left;transition:transform .35s}
+.role .kicker{font-weight:700;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);transition:color .28s}
+.role h3{font-size:2.2rem;font-weight:900;margin:.25em 0 .3em;transition:font-size .28s,letter-spacing .28s}
+.role p{color:var(--ink-2);max-width:360px;transition:color .28s}
+.role ul{list-style:none;padding:0;margin:0 0 18px;display:grid;gap:8px}
+.role li{display:flex;gap:10px;align-items:flex-start;font-size:.95rem}
+.role li::before{content:"";flex:0 0 18px;height:18px;margin-top:2px;border-radius:50%;background:var(--yellow) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5 10.5l3 3 7-7' fill='none' stroke='%2315181D' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/12px no-repeat}
+.role .illu{position:absolute;right:-10px;top:24px;width:42%;max-width:230px;transition:transform .35s;z-index:0}
+.role > div{position:relative;z-index:1}
+.role .intro{max-width:56%}
+.role .go{display:inline-flex;align-items:center;gap:8px;font-weight:700}
+.role .go svg{transition:transform .25s}
+.role:hover,.role:focus-visible{transform:translateY(-6px) scale(1.02);box-shadow:var(--shadow-lg);outline:none}
+.role:hover::after,.role:focus-visible::after{transform:scaleX(1)}
+.role:hover h3,.role:focus-visible h3{font-size:2.5rem;letter-spacing:.01em}
+.role:hover .illu{transform:translateX(-8px) scale(1.04)}
+.role:hover .go svg{transform:translateX(4px)}
+.role.driver:hover,.role.driver:focus-visible{background:var(--ink);color:#fff;border-color:var(--ink)}
+.role.driver:hover p,.role.driver:hover .kicker,.role.driver:focus-visible p{color:#C9CED6}
+.role.company:hover,.role.company:focus-visible{background:var(--yellow);border-color:var(--yellow-d)}
+.role.company:hover .kicker{color:var(--ink-2)}
+
+/* Fonctionnalités */
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.feature{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
+.feature .ic{width:44px;height:44px;border-radius:10px;background:var(--bg);display:grid;place-items:center;margin-bottom:14px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;counter-reset:s}
+.step{position:relative;padding:24px 24px 24px 72px;background:#fff;border:1px solid var(--line);border-radius:var(--radius)}
+.step::before{counter-increment:s;content:counter(s);position:absolute;left:20px;top:22px;width:36px;height:36px;border-radius:8px;background:var(--ink);color:var(--yellow);font:900 1.1rem var(--head);display:grid;place-items:center}
+.band{background:var(--ink);color:#fff;border-radius:20px;padding:40px;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+.band p{color:#C9CED6}
+.remind{background:#fff;color:var(--ink);border-radius:14px;padding:18px;display:grid;gap:10px}
+.remind-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px}
+
+/* Plaques et statuts */
+.plate{display:inline-flex;align-items:stretch;border:2px solid var(--ink);border-radius:6px;background:#fff;font:800 .82rem/1 var(--head);letter-spacing:.04em;color:var(--ink);overflow:hidden;vertical-align:middle}
+.plate::before{content:"";width:6px;background:#1D4ED8}
+.plate span{padding:5px 7px 4px}
+.plates{display:flex;flex-wrap:wrap;gap:6px}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:600;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.pill::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.ok{background:var(--green-bg);color:var(--green)}
+.warn{background:var(--amber-bg);color:var(--amber-tx)}
+.bad{background:var(--red-bg);color:var(--red-tx)}
+.neutral{background:var(--bg);color:var(--muted)}
+.tag{display:inline-block;font-size:.78rem;padding:3px 8px;border-radius:6px;background:var(--bg);border:1px solid var(--line);color:var(--ink-2)}
+
+/* Mise en page applicative */
+.page-head{background:#fff;border-bottom:1px solid var(--line);padding:28px 0 22px}
+.page-head p{margin:0}
+.layout{display:grid;grid-template-columns:280px 1fr;gap:24px;padding:24px 0 64px;align-items:start}
+.layout.profile{grid-template-columns:1fr 360px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.panel-pad{padding:20px}
+.sticky{position:sticky;top:88px}
+.filters h4{font:800 .78rem var(--body);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:18px 0 8px}
+.filters h4:first-child{margin-top:0}
+.check{display:flex;align-items:center;gap:8px;font-size:.92rem;padding:4px 0;cursor:pointer}
+.check input{width:18px;height:18px;accent-color:var(--ink)}
+select,input[type=text],input[type=number],input[type=date],input[type=month]{width:100%;min-height:42px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:500 .95rem var(--body);background:#fff;color:var(--ink)}
+select:focus,input:focus{outline:2px solid var(--yellow);outline-offset:1px;border-color:var(--yellow-d)}
+input[type=range]{width:100%;accent-color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 13px;font:600 .88rem var(--body);cursor:pointer;color:var(--ink-2);transition:all .15s}
+.chip:hover{border-color:#B9C0CA}
+.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.chip.plate-chip{border-radius:8px;font-family:var(--head);font-weight:800;letter-spacing:.04em;min-width:52px}
+.chip.plate-chip.on{background:var(--yellow);color:var(--ink);border-color:var(--ink)}
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.results{display:grid;gap:14px}
+.driver-card{display:grid;grid-template-columns:auto 1fr auto;gap:16px;padding:18px;align-items:start}
+.avatar{width:52px;height:52px;border-radius:12px;background:var(--ink);color:var(--yellow);display:grid;place-items:center;font:900 1.1rem var(--head)}
+.driver-card h3{margin:0;font-size:1.1rem}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.88rem;color:var(--muted);margin:2px 0 10px}
+.why{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.why span{font-size:.78rem;background:var(--green-bg);color:var(--green);padding:3px 8px;border-radius:6px;font-weight:600}
+.score{text-align:right;min-width:120px}
+.score b{font:900 1.6rem var(--head)}
+.bar{height:6px;background:var(--bg);border-radius:6px;overflow:hidden;margin:6px 0 12px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--yellow),#F7B500)}
+.empty{text-align:center;padding:48px 20px;color:var(--muted)}
+
+/* Profil chauffeur */
+.form-section{padding:22px;border-bottom:1px solid var(--line)}
+.form-section:last-child{border-bottom:0}
+.form-section h3{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.form-section h3 .n{width:26px;height:26px;border-radius:7px;background:var(--ink);color:var(--yellow);display:grid;place-items:center;font-size:.85rem}
+.form-section > p{font-size:.9rem;color:var(--muted)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+label.f{display:block;font-size:.85rem;font-weight:600;margin-bottom:4px;color:var(--ink-2)}
+.cert-row{display:grid;grid-template-columns:1fr 170px 150px;gap:12px;align-items:center;padding:10px 0;border-top:1px dashed var(--line)}
+.cert-row:first-of-type{border-top:0}
+.cert-row .lbl{display:flex;align-items:center;gap:10px;font-weight:600;font-size:.93rem}
+.cert-row .lbl small{display:block;font-weight:400;color:var(--muted);font-size:.78rem}
+.lock{font-size:.75rem;color:var(--muted);display:inline-flex;gap:4px;align-items:center}
+.salary-out{font:900 2rem var(--head)}
+.hint{font-size:.82rem;color:var(--muted)}
+.progress{height:8px;background:var(--bg);border-radius:8px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--ink);transition:width .3s}
+.procard{border-radius:16px;overflow:hidden;border:1px solid var(--line)}
+.procard-top{background:var(--ink);color:#fff;padding:18px;display:flex;gap:14px;align-items:center}
+.procard-top img{width:46px;height:46px;background:#fff;border-radius:8px;padding:3px}
+.procard-body{padding:16px;display:grid;gap:12px;background:#fff}
+.procard-body h5{margin:0 0 6px;font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.rlist{display:grid;gap:8px}
+.rlist .remind-row{padding:8px 10px;font-size:.88rem}
+
+/* Offres */
+.offers{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.offer{padding:20px;display:flex;flex-direction:column;gap:10px}
+.offer-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.offer h3{margin:0;font-size:1.15rem}
+.offer-co{display:flex;gap:10px;align-items:center;font-size:.9rem;color:var(--muted)}
+.offer-co .logo{width:34px;height:34px;border-radius:8px;display:grid;place-items:center;font:900 .8rem var(--head);color:#fff}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:4px 0}
+.fact{background:var(--bg);border-radius:10px;padding:10px}
+.fact small{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700}
+.fact b{font-size:.95rem}
+.offer-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:auto;padding-top:8px;border-top:1px solid var(--line)}
+
+/* Modale, toast */
+.modal-bg{position:fixed;inset:0;background:rgba(15,20,28,.55);display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
+.modal-bg.show{display:flex}
+.modal{background:#fff;border-radius:18px;max-width:640px;width:100%;max-height:88vh;overflow:auto;box-shadow:var(--shadow-lg)}
+.modal-head{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;border-bottom:1px solid var(--line)}
+.modal-body{padding:22px;display:grid;gap:16px}
+.x{border:0;background:var(--bg);width:36px;height:36px;border-radius:8px;cursor:pointer;font-size:1.1rem}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:12px;box-shadow:var(--shadow-lg);opacity:0;pointer-events:none;transition:all .25s;z-index:120;max-width:90vw;font-size:.92rem}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.toast b{color:var(--yellow)}
+
+footer{background:var(--ink);color:#C9CED6;padding:40px 0 24px;margin-top:0}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer a{color:#fff;text-decoration:none}
+footer .fbrand{display:flex;gap:12px;align-items:center;color:#fff;font:900 1.2rem var(--head)}
+footer .fbrand img{width:44px;height:44px}
+
+.view{display:none}.view.on{display:block}
+.filters-toggle{display:none}
+
+@media (max-width:960px){
+  .hero-grid,.band{grid-template-columns:1fr}
+  .hero-shield{order:-1}.hero-shield img{width:200px}
+  .features,.steps{grid-template-columns:1fr}
+  .layout,.layout.profile{grid-template-columns:1fr}
+  .sticky{position:static}
+  .offers{grid-template-columns:1fr}
+  .filters-toggle{display:inline-flex}
+  .filters.collapsed{display:none}
+}
+@media (max-width:760px){
+  .nav-links{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;padding:10px 20px;margin:0}
+  .nav-links.open{display:flex}
+  .burger{display:block}
+  .nav-right .btn{display:none}
+  .roles{grid-template-columns:1fr}
+  .role{min-height:340px;padding:26px}
+  .role .illu{width:36%;top:20px}
+  .role .intro{max-width:66%}
+  .role h3{font-size:1.9rem}.role:hover h3{font-size:2.1rem}
+  .grid2,.grid3{grid-template-columns:1fr}
+  .cert-row{grid-template-columns:1fr 1fr}
+  .cert-row .lbl{grid-column:1/-1}
+  .driver-card{grid-template-columns:auto 1fr}
+  .score{grid-column:1/-1;text-align:left}
+  .facts{grid-template-columns:1fr 1fr}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="proto">Prototype Route 95 — <b>toutes les données affichées sont fictives</b>. Aucune information n'est envoyée : ton profil reste dans ton navigateur.</div>
+
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="#/" aria-label="Route 95, accueil"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MjIgODIwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlJvdXRlIDk1Ij4KICA8dGl0bGU+Um91dGUgOTU8L3RpdGxlPgogIDxkZWZzPjxjbGlwUGF0aCBpZD0icjk1LXNoYXBlIj48cGF0aCBkPSJNNDExIDExIEw0MDEgMTMgTDM5MyAxNyBMMzg0IDIxIEwzNzQgMjUgTDM2NSAyOCBMMzU1IDMyIEwzNDUgMzUgTDMzNiAzNyBMMzI2IDM5IEwzMTYgNDIgTDMwNyA0MyBMMjk3IDQ0IEwyODcgNDQgTDI3NyA0NCBMMjY3IDQ0IEwyNTcgNDQgTDI0NyA0MyBMMjM3IDQyIEwyMjcgNDAgTDIxNyAzOCBMMjA3IDM2IEwxOTcgMzQgTDE4OCAzMiBMMTc4IDI5IEwxNjggMjUgTDE1OSAyMCBMMTUxIDE2IEwxNDEgMTkgTDEzMSAyOCBMMTIxIDM4IEwxMTIgNDcgTDEwMiA1NyBMOTIgNjcgTDgyIDc3IEw3MyA4NiBMNjMgOTYgTDU0IDEwNSBMNDUgMTE1IEwzNiAxMjUgTDI2IDEzNSBMMTYgMTQ1IEwxMyAxNTUgTDE5IDE2NCBMMjcgMTczIEwzMyAxODEgTDM4IDE4OSBMNDQgMTk4IEw0OSAyMDggTDU0IDIxOCBMNTggMjI2IEw2MSAyMzUgTDY1IDI0NCBMNjcgMjU0IEw3MCAyNjMgTDcxIDI3MiBMNzIgMjgxIEw3MyAyOTEgTDczIDMwMSBMNzMgMzExIEw3MyAzMjEgTDcyIDMzMSBMNzAgMzQxIEw2OCAzNTAgTDY2IDM2MCBMNjQgMzY5IEw2MSAzNzkgTDU3IDM4OSBMNTQgMzk4IEw1MCA0MDcgTDQ2IDQxNyBMNDIgNDI2IEwzOSA0MzYgTDM1IDQ0NiBMMzEgNDU1IEwyOCA0NjQgTDI1IDQ3NCBMMjIgNDg0IEwxOSA0OTMgTDE3IDUwMyBMMTUgNTEyIEwxMyA1MjIgTDExIDUzMiBMMTAgNTQyIEwxMCA1NTIgTDEwIDU2MiBMMTEgNTcyIEwxMiA1ODIgTDE0IDU5MiBMMTYgNjAxIEwxOSA2MTEgTDIyIDYyMSBMMjcgNjMxIEwzMSA2NDEgTDM3IDY1MSBMNDIgNjYwIEw0OSA2NjkgTDU1IDY3NyBMNjQgNjg2IEw3MyA2OTUgTDgyIDcwNCBMOTEgNzExIEw5OSA3MTYgTDEwOCA3MjIgTDExOCA3MjcgTDEyOCA3MzIgTDEzNyA3MzYgTDE0NiA3MzkgTDE1NiA3NDEgTDE2NiA3NDQgTDE3NiA3NDYgTDE4NSA3NDcgTDE5NSA3NDggTDIwNCA3NDkgTDIxNCA3NTAgTDIyNCA3NTAgTDIzMyA3NTEgTDI0MyA3NTIgTDI1MyA3NTMgTDI2MyA3NTQgTDI3MyA3NTUgTDI4MyA3NTYgTDI5MyA3NTggTDMwMyA3NjAgTDMxMyA3NjIgTDMyMyA3NjUgTDMzMiA3NjggTDM0MSA3NzIgTDM1MCA3NzUgTDM2MCA3ODAgTDM2OSA3ODQgTDM3NyA3ODkgTDM4NiA3OTQgTDM5NiA4MDAgTDQxMSA4MDUgTDQyNiA4MDAgTDQzNiA3OTQgTDQ0NSA3ODkgTDQ1MyA3ODQgTDQ2MiA3ODAgTDQ3MiA3NzUgTDQ4MSA3NzIgTDQ5MCA3NjggTDQ5OSA3NjUgTDUwOSA3NjIgTDUxOSA3NjAgTDUyOSA3NTggTDUzOSA3NTYgTDU0OSA3NTUgTDU1OSA3NTQgTDU2OSA3NTMgTDU3OSA3NTIgTDU4OSA3NTEgTDU5OCA3NTAgTDYwOCA3NTAgTDYxOCA3NDkgTDYyNyA3NDggTDYzNyA3NDcgTDY0NiA3NDYgTDY1NiA3NDQgTDY2NiA3NDEgTDY3NiA3MzkgTDY4NSA3MzYgTDY5NCA3MzIgTDcwNCA3MjcgTDcxNCA3MjIgTDcyMyA3MTYgTDczMSA3MTEgTDc0MCA3MDQgTDc0OSA2OTUgTDc1OCA2ODYgTDc2NyA2NzcgTDc3MyA2NjkgTDc4MCA2NjAgTDc4NSA2NTEgTDc5MSA2NDEgTDc5NSA2MzEgTDgwMCA2MjEgTDgwMyA2MTEgTDgwNiA2MDEgTDgwOCA1OTIgTDgxMCA1ODIgTDgxMSA1NzIgTDgxMiA1NjIgTDgxMiA1NTIgTDgxMiA1NDIgTDgxMSA1MzIgTDgwOSA1MjIgTDgwNyA1MTIgTDgwNSA1MDMgTDgwMyA0OTMgTDgwMCA0ODQgTDc5NyA0NzQgTDc5NCA0NjQgTDc5MSA0NTUgTDc4NyA0NDYgTDc4MyA0MzYgTDc4MCA0MjYgTDc3NiA0MTcgTDc3MiA0MDcgTDc2OCAzOTggTDc2NSAzODkgTDc2MSAzNzkgTDc1OCAzNjkgTDc1NiAzNjAgTDc1NCAzNTAgTDc1MiAzNDEgTDc1MCAzMzEgTDc0OSAzMjEgTDc0OSAzMTEgTDc0OSAzMDEgTDc0OSAyOTEgTDc1MCAyODEgTDc1MSAyNzIgTDc1MiAyNjMgTDc1NSAyNTQgTDc1NyAyNDQgTDc2MSAyMzUgTDc2NCAyMjYgTDc2OCAyMTggTDc3MyAyMDggTDc3OCAxOTggTDc4NCAxODkgTDc4OSAxODEgTDc5NSAxNzMgTDgwMyAxNjQgTDgwOSAxNTUgTDgwNiAxNDUgTDc5NiAxMzUgTDc4NiAxMjUgTDc3NyAxMTUgTDc2OCAxMDUgTDc1OSA5NiBMNzQ5IDg2IEw3NDAgNzcgTDczMCA2NyBMNzIwIDU3IEw3MTAgNDcgTDcwMSAzOCBMNjkxIDI4IEw2ODEgMTkgTDY3MSAxNiBMNjYzIDIwIEw2NTQgMjUgTDY0NCAyOSBMNjM0IDMyIEw2MjUgMzQgTDYxNSAzNiBMNjA1IDM4IEw1OTUgNDAgTDU4NSA0MiBMNTc1IDQzIEw1NjUgNDQgTDU1NSA0NCBMNTQ1IDQ0IEw1MzUgNDQgTDUyNSA0NCBMNTE1IDQzIEw1MDYgNDIgTDQ5NiAzOSBMNDg2IDM3IEw0NzcgMzUgTDQ2NyAzMiBMNDU3IDI4IEw0NDggMjUgTDQzOCAyMSBMNDI5IDE3IEw0MjEgMTMgWiIvPjwvY2xpcFBhdGg+PC9kZWZzPgogIDxwYXRoIGQ9Ik00MTEgMTEgTDQwMSAxMyBMMzkzIDE3IEwzODQgMjEgTDM3NCAyNSBMMzY1IDI4IEwzNTUgMzIgTDM0NSAzNSBMMzM2IDM3IEwzMjYgMzkgTDMxNiA0MiBMMzA3IDQzIEwyOTcgNDQgTDI4NyA0NCBMMjc3IDQ0IEwyNjcgNDQgTDI1NyA0NCBMMjQ3IDQzIEwyMzcgNDIgTDIyNyA0MCBMMjE3IDM4IEwyMDcgMzYgTDE5NyAzNCBMMTg4IDMyIEwxNzggMjkgTDE2OCAyNSBMMTU5IDIwIEwxNTEgMTYgTDE0MSAxOSBMMTMxIDI4IEwxMjEgMzggTDExMiA0NyBMMTAyIDU3IEw5MiA2NyBMODIgNzcgTDczIDg2IEw2MyA5NiBMNTQgMTA1IEw0NSAxMTUgTDM2IDEyNSBMMjYgMTM1IEwxNiAxNDUgTDEzIDE1NSBMMTkgMTY0IEwyNyAxNzMgTDMzIDE4MSBMMzggMTg5IEw0NCAxOTggTDQ5IDIwOCBMNTQgMjE4IEw1OCAyMjYgTDYxIDIzNSBMNjUgMjQ0IEw2NyAyNTQgTDcwIDI2MyBMNzEgMjcyIEw3MiAyODEgTDczIDI5MSBMNzMgMzAxIEw3MyAzMTEgTDczIDMyMSBMNzIgMzMxIEw3MCAzNDEgTDY4IDM1MCBMNjYgMzYwIEw2NCAzNjkgTDYxIDM3OSBMNTcgMzg5IEw1NCAzOTggTDUwIDQwNyBMNDYgNDE3IEw0MiA0MjYgTDM5IDQzNiBMMzUgNDQ2IEwzMSA0NTUgTDI4IDQ2NCBMMjUgNDc0IEwyMiA0ODQgTDE5IDQ5MyBMMTcgNTAzIEwxNSA1MTIgTDEzIDUyMiBMMTEgNTMyIEwxMCA1NDIgTDEwIDU1MiBMMTAgNTYyIEwxMSA1NzIgTDEyIDU4MiBMMTQgNTkyIEwxNiA2MDEgTDE5IDYxMSBMMjIgNjIxIEwyNyA2MzEgTDMxIDY0MSBMMzcgNjUxIEw0MiA2NjAgTDQ5IDY2OSBMNTUgNjc3IEw2NCA2ODYgTDczIDY5NSBMODIgNzA0IEw5MSA3MTEgTDk5IDcxNiBMMTA4IDcyMiBMMTE4IDcyNyBMMTI4IDczMiBMMTM3IDczNiBMMTQ2IDczOSBMMTU2IDc0MSBMMTY2IDc0NCBMMTc2IDc0NiBMMTg1IDc0NyBMMTk1IDc0OCBMMjA0IDc0OSBMMjE0IDc1MCBMMjI0IDc1MCBMMjMzIDc1MSBMMjQzIDc1MiBMMjUzIDc1MyBMMjYzIDc1NCBMMjczIDc1NSBMMjgzIDc1NiBMMjkzIDc1OCBMMzAzIDc2MCBMMzEzIDc2MiBMMzIzIDc2NSBMMzMyIDc2OCBMMzQxIDc3MiBMMzUwIDc3NSBMMzYwIDc4MCBMMzY5IDc4NCBMMzc3IDc4OSBMMzg2IDc5NCBMMzk2IDgwMCBMNDExIDgwNSBMNDI2IDgwMCBMNDM2IDc5NCBMNDQ1IDc4OSBMNDUzIDc4NCBMNDYyIDc4MCBMNDcyIDc3NSBMNDgxIDc3MiBMNDkwIDc2OCBMNDk5IDc2NSBMNTA5IDc2MiBMNTE5IDc2MCBMNTI5IDc1OCBMNTM5IDc1NiBMNTQ5IDc1NSBMNTU5IDc1NCBMNTY5IDc1MyBMNTc5IDc1MiBMNTg5IDc1MSBMNTk4IDc1MCBMNjA4IDc1MCBMNjE4IDc0OSBMNjI3IDc0OCBMNjM3IDc0NyBMNjQ2IDc0NiBMNjU2IDc0NCBMNjY2IDc0MSBMNjc2IDczOSBMNjg1IDczNiBMNjk0IDczMiBMNzA0IDcyNyBMNzE0IDcyMiBMNzIzIDcxNiBMNzMxIDcxMSBMNzQwIDcwNCBMNzQ5IDY5NSBMNzU4IDY4NiBMNzY3IDY3NyBMNzczIDY2OSBMNzgwIDY2MCBMNzg1IDY1MSBMNzkxIDY0MSBMNzk1IDYzMSBMODAwIDYyMSBMODAzIDYxMSBMODA2IDYwMSBMODA4IDU5MiBMODEwIDU4MiBMODExIDU3MiBMODEyIDU2MiBMODEyIDU1MiBMODEyIDU0MiBMODExIDUzMiBMODA5IDUyMiBMODA3IDUxMiBMODA1IDUwMyBMODAzIDQ5MyBMODAwIDQ4NCBMNzk3IDQ3NCBMNzk0IDQ2NCBMNzkxIDQ1NSBMNzg3IDQ0NiBMNzgzIDQzNiBMNzgwIDQyNiBMNzc2IDQxNyBMNzcyIDQwNyBMNzY4IDM5OCBMNzY1IDM4OSBMNzYxIDM3OSBMNzU4IDM2OSBMNzU2IDM2MCBMNzU0IDM1MCBMNzUyIDM0MSBMNzUwIDMzMSBMNzQ5IDMyMSBMNzQ5IDMxMSBMNzQ5IDMwMSBMNzQ5IDI5MSBMNzUwIDI4MSBMNzUxIDI3MiBMNzUyIDI2MyBMNzU1IDI1NCBMNzU3IDI0NCBMNzYxIDIzNSBMNzY0IDIyNiBMNzY4IDIxOCBMNzczIDIwOCBMNzc4IDE5OCBMNzg0IDE4OSBMNzg5IDE4MSBMNzk1IDE3MyBMODAzIDE2NCBMODA5IDE1NSBMODA2IDE0NSBMNzk2IDEzNSBMNzg2IDEyNSBMNzc3IDExNSBMNzY4IDEwNSBMNzU5IDk2IEw3NDkgODYgTDc0MCA3NyBMNzMwIDY3IEw3MjAgNTcgTDcxMCA0NyBMNzAxIDM4IEw2OTEgMjggTDY4MSAxOSBMNjcxIDE2IEw2NjMgMjAgTDY1NCAyNSBMNjQ0IDI5IEw2MzQgMzIgTDYyNSAzNCBMNjE1IDM2IEw2MDUgMzggTDU5NSA0MCBMNTg1IDQyIEw1NzUgNDMgTDU2NSA0NCBMNTU1IDQ0IEw1NDUgNDQgTDUzNSA0NCBMNTI1IDQ0IEw1MTUgNDMgTDUwNiA0MiBMNDk2IDM5IEw0ODYgMzcgTDQ3NyAzNSBMNDY3IDMyIEw0NTcgMjggTDQ0OCAyNSBMNDM4IDIxIEw0MjkgMTcgTDQyMSAxMyBaIiBmaWxsPSIjRkZGRkZGIi8+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI3I5NS1zaGFwZSkiPgogICAgPHJlY3QgeD0iOTkuNSIgeT0iMjQ3IiB3aWR0aD0iMjA3LjYiIGhlaWdodD0iMjciIGZpbGw9IiMxMTExMTEiLz4KICAgIDxyZWN0IHg9IjMwNy4yIiB5PSIyNDciIHdpZHRoPSIyMDcuNiIgaGVpZ2h0PSIyNyIgZmlsbD0iI0ZEREEyNCIvPgogICAgPHJlY3QgeD0iNTE0LjgiIHk9IjI0NyIgd2lkdGg9IjIwNy42IiBoZWlnaHQ9IjI3IiBmaWxsPSIjRUYzMzQwIi8+CiAgICA8cGF0aCBkPSJNNDExIDExIEw0MDEgMTMgTDM5MyAxNyBMMzg0IDIxIEwzNzQgMjUgTDM2NSAyOCBMMzU1IDMyIEwzNDUgMzUgTDMzNiAzNyBMMzI2IDM5IEwzMTYgNDIgTDMwNyA0MyBMMjk3IDQ0IEwyODcgNDQgTDI3NyA0NCBMMjY3IDQ0IEwyNTcgNDQgTDI0NyA0MyBMMjM3IDQyIEwyMjcgNDAgTDIxNyAzOCBMMjA3IDM2IEwxOTcgMzQgTDE4OCAzMiBMMTc4IDI5IEwxNjggMjUgTDE1OSAyMCBMMTUxIDE2IEwxNDEgMTkgTDEzMSAyOCBMMTIxIDM4IEwxMTIgNDcgTDEwMiA1NyBMOTIgNjcgTDgyIDc3IEw3MyA4NiBMNjMgOTYgTDU0IDEwNSBMNDUgMTE1IEwzNiAxMjUgTDI2IDEzNSBMMTYgMTQ1IEwxMyAxNTUgTDE5IDE2NCBMMjcgMTczIEwzMyAxODEgTDM4IDE4OSBMNDQgMTk4IEw0OSAyMDggTDU0IDIxOCBMNTggMjI2IEw2MSAyMzUgTDY1IDI0NCBMNjcgMjU0IEw3MCAyNjMgTDcxIDI3MiBMNzIgMjgxIEw3MyAyOTEgTDczIDMwMSBMNzMgMzExIEw3MyAzMjEgTDcyIDMzMSBMNzAgMzQxIEw2OCAzNTAgTDY2IDM2MCBMNjQgMzY5IEw2MSAzNzkgTDU3IDM4OSBMNTQgMzk4IEw1MCA0MDcgTDQ2IDQxNyBMNDIgNDI2IEwzOSA0MzYgTDM1IDQ0NiBMMzEgNDU1IEwyOCA0NjQgTDI1IDQ3NCBMMjIgNDg0IEwxOSA0OTMgTDE3IDUwMyBMMTUgNTEyIEwxMyA1MjIgTDExIDUzMiBMMTAgNTQyIEwxMCA1NTIgTDEwIDU2MiBMMTEgNTcyIEwxMiA1ODIgTDE0IDU5MiBMMTYgNjAxIEwxOSA2MTEgTDIyIDYyMSBMMjcgNjMxIEwzMSA2NDEgTDM3IDY1MSBMNDIgNjYwIEw0OSA2NjkgTDU1IDY3NyBMNjQgNjg2IEw3MyA2OTUgTDgyIDcwNCBMOTEgNzExIEw5OSA3MTYgTDEwOCA3MjIgTDExOCA3MjcgTDEyOCA3MzIgTDEzNyA3MzYgTDE0NiA3MzkgTDE1NiA3NDEgTDE2NiA3NDQgTDE3NiA3NDYgTDE4NSA3NDcgTDE5NSA3NDggTDIwNCA3NDkgTDIxNCA3NTAgTDIyNCA3NTAgTDIzMyA3NTEgTDI0MyA3NTIgTDI1MyA3NTMgTDI2MyA3NTQgTDI3MyA3NTUgTDI4MyA3NTYgTDI5MyA3NTggTDMwMyA3NjAgTDMxMyA3NjIgTDMyMyA3NjUgTDMzMiA3NjggTDM0MSA3NzIgTDM1MCA3NzUgTDM2MCA3ODAgTDM2OSA3ODQgTDM3NyA3ODkgTDM4NiA3OTQgTDM5NiA4MDAgTDQxMSA4MDUgTDQyNiA4MDAgTDQzNiA3OTQgTDQ0NSA3ODkgTDQ1MyA3ODQgTDQ2MiA3ODAgTDQ3MiA3NzUgTDQ4MSA3NzIgTDQ5MCA3NjggTDQ5OSA3NjUgTDUwOSA3NjIgTDUxOSA3NjAgTDUyOSA3NTggTDUzOSA3NTYgTDU0OSA3NTUgTDU1OSA3NTQgTDU2OSA3NTMgTDU3OSA3NTIgTDU4OSA3NTEgTDU5OCA3NTAgTDYwOCA3NTAgTDYxOCA3NDkgTDYyNyA3NDggTDYzNyA3NDcgTDY0NiA3NDYgTDY1NiA3NDQgTDY2NiA3NDEgTDY3NiA3MzkgTDY4NSA3MzYgTDY5NCA3MzIgTDcwNCA3MjcgTDcxNCA3MjIgTDcyMyA3MTYgTDczMSA3MTEgTDc0MCA3MDQgTDc0OSA2OTUgTDc1OCA2ODYgTDc2NyA2NzcgTDc3MyA2NjkgTDc4MCA2NjAgTDc4NSA2NTEgTDc5MSA2NDEgTDc5NSA2MzEgTDgwMCA2MjEgTDgwMyA2MTEgTDgwNiA2MDEgTDgwOCA1OTIgTDgxMCA1ODIgTDgxMSA1NzIgTDgxMiA1NjIgTDgxMiA1NTIgTDgxMiA1NDIgTDgxMSA1MzIgTDgwOSA1MjIgTDgwNyA1MTIgTDgwNSA1MDMgTDgwMyA0OTMgTDgwMCA0ODQgTDc5NyA0NzQgTDc5NCA0NjQgTDc5MSA0NTUgTDc4NyA0NDYgTDc4MyA0MzYgTDc4MCA0MjYgTDc3NiA0MTcgTDc3MiA0MDcgTDc2OCAzOTggTDc2NSAzODkgTDc2MSAzNzkgTDc1OCAzNjkgTDc1NiAzNjAgTDc1NCAzNTAgTDc1MiAzNDEgTDc1MCAzMzEgTDc0OSAzMjEgTDc0OSAzMTEgTDc0OSAzMDEgTDc0OSAyOTEgTDc1MCAyODEgTDc1MSAyNzIgTDc1MiAyNjMgTDc1NSAyNTQgTDc1NyAyNDQgTDc2MSAyMzUgTDc2NCAyMjYgTDc2OCAyMTggTDc3MyAyMDggTDc3OCAxOTggTDc4NCAxODkgTDc4OSAxODEgTDc5NSAxNzMgTDgwMyAxNjQgTDgwOSAxNTUgTDgwNiAxNDUgTDc5NiAxMzUgTDc4NiAxMjUgTDc3NyAxMTUgTDc2OCAxMDUgTDc1OSA5NiBMNzQ5IDg2IEw3NDAgNzcgTDczMCA2NyBMNzIwIDU3IEw3MTAgNDcgTDcwMSAzOCBMNjkxIDI4IEw2ODEgMTkgTDY3MSAxNiBMNjYzIDIwIEw2NTQgMjUgTDY0NCAyOSBMNjM0IDMyIEw2MjUgMzQgTDYxNSAzNiBMNjA1IDM4IEw1OTUgNDAgTDU4NSA0MiBMNTc1IDQzIEw1NjUgNDQgTDU1NSA0NCBMNTQ1IDQ0IEw1MzUgNDQgTDUyNSA0NCBMNTE1IDQzIEw1MDYgNDIgTDQ5NiAzOSBMNDg2IDM3IEw0NzcgMzUgTDQ2NyAzMiBMNDU3IDI4IEw0NDggMjUgTDQzOCAyMSBMNDI5IDE3IEw0MjEgMTMgWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExMTExIiBzdHJva2Utd2lkdGg9IjYwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPC9nPgogIDxwYXRoIGQ9Ik0xNzYuMDAgMjIwLjkyVjEwMC4wN0gyMjMuNzVRMjM2LjM3IDEwMC4wNyAyNDMuODAgMTA1LjM4UTI1MS4yMiAxMTAuNjggMjU0LjQxIDExOS40NVEyNTcuNjAgMTI4LjIxIDI1Ny42MCAxMzguNDBRMjU3LjYwIDE0NS4yMiAyNTUuNDkgMTUyLjIxUTI1My4zNyAxNTkuMjAgMjQ5LjE0IDE2NC45NFEyNDQuOTEgMTcwLjY4IDIzOC42NyAxNzMuNDRMMjU3Ljg5IDIyMC45MkgyMzQuODBMMjE2LjMwIDE3Ny4xNkgxOTYuNjVWMjIwLjkyWk0xOTYuNjUgMTUzLjc2SDIyNC4wNFEyMjguNjMgMTUzLjc2IDIzMS4zMiAxNTEuNjBRMjM0LjAxIDE0OS40NSAyMzUuMTIgMTQ1Ljk1UTIzNi4yMyAxNDIuNDUgMjM2LjIzIDEzOC40OFEyMzYuMjMgMTM0Ljg2IDIzNS4xOSAxMzEuNDBRMjM0LjE1IDEyNy45NSAyMzEuNDYgMTI1LjcxUTIyOC43NyAxMjMuNDYgMjI0LjA0IDEyMy40NkgxOTYuNjVaTTMxNy45OCAyMjMuMFEzMDUuOTMgMjIzLjAgMjk3LjQ3IDIxNy41MVEyODkuMDEgMjEyLjAzIDI4My44MSAyMDIuOTJRMjc4LjYxIDE5My44MiAyNzYuMjEgMTgyLjc3UTI3My44MSAxNzEuNzIgMjczLjgxIDE2MC41UTI3My44MSAxNDkuMjcgMjc2LjIxIDEzOC4yMlEyNzguNjEgMTI3LjE3IDI4My44MSAxMTguMDdRMjg5LjAxIDEwOC45NiAyOTcuNDcgMTAzLjQ4UTMwNS45MyA5Ny45OSAzMTcuOTggOTcuOTlRMzMwLjE3IDk3Ljk5IDMzOC41NiAxMDMuNDhRMzQ2Ljk1IDEwOC45NiAzNTIuMTUgMTE4LjA3UTM1Ny4zNSAxMjcuMTcgMzU5LjcyIDEzOC4yMlEzNjIuMDggMTQ5LjI3IDM2Mi4wOCAxNjAuNVEzNjIuMDggMTcxLjcyIDM1OS43MiAxODIuNzdRMzU3LjM1IDE5My44MiAzNTIuMTUgMjAyLjkyUTM0Ni45NSAyMTIuMDMgMzM4LjU2IDIxNy41MVEzMzAuMTcgMjIzLjAgMzE3Ljk4IDIyMy4wWk0zMTcuOTggMTk5LjAwUTMyNC4yOSAxOTkuMDAgMzI4LjYzIDE5NS40NlEzMzIuOTcgMTkxLjkyIDMzNS42MiAxODYuMDlRMzM4LjI4IDE4MC4yNiAzMzkuNDkgMTczLjUzUTM0MC43MSAxNjYuODAgMzQwLjcxIDE2MC41UTM0MC43MSAxNTMuNzYgMzM5LjU3IDE0Ni45NFEzMzguNDIgMTQwLjEyIDMzNS44MCAxMzQuNDJRMzMzLjE4IDEyOC43MyAzMjguODEgMTI1LjI3UTMyNC40MyAxMjEuODIgMzE3Ljk4IDEyMS44MlEzMTEuNTMgMTIxLjgyIDMwNy4xNSAxMjUuNDBRMzAyLjc4IDEyOC45OSAzMDAuMTMgMTM0Ljc3UTI5Ny40NyAxNDAuNTUgMjk2LjMyIDE0Ny4zN1EyOTUuMTggMTU0LjE5IDI5NS4xOCAxNjAuNVEyOTUuMTggMTY3LjE0IDI5Ni4zNiAxNzMuOTJRMjk3LjU0IDE4MC43MCAzMDAuMjMgMTg2LjM5UTMwMi45MiAxOTIuMDkgMzA3LjMwIDE5NS41NFEzMTEuNjcgMTk5LjAwIDMxNy45OCAxOTkuMDBaTTQyMi42MSAyMjMuMFE0MDkuODQgMjIzLjAgNDAwLjU5IDIxNy4zMFEzOTEuMzQgMjExLjYwIDM4Ni4zOSAyMDAuNzdRMzgxLjQ0IDE4OS45MyAzODEuNDQgMTc0LjU3VjEwMC4wN0g0MDIuMTBWMTc0LjU3UTQwMi4xMCAxODcuNjkgNDA3LjAxIDE5My4zNFE0MTEuOTIgMTk5LjAwIDQyMi42MSAxOTkuMDBRNDI5LjM1IDE5OS4wMCA0MzMuOTAgMTk2LjY3UTQzOC40NSAxOTQuMzMgNDQwLjc1IDE4OC45NFE0NDMuMDQgMTgzLjU0IDQ0My4wNCAxNzQuNTdWMTAwLjA3SDQ2My43MFYxNzQuNTdRNDYzLjcwIDE4Ny43NyA0NjAuMjkgMTk3LjAxUTQ1Ni44OCAyMDYuMjUgNDUxLjA4IDIxMS45OVE0NDUuMjcgMjE3LjczIDQzNy45MiAyMjAuMzZRNDMwLjU3IDIyMy4wIDQyMi42MSAyMjMuMFpNNTA4Ljg3IDIyMC45MlYxMjMuODlINDgwLjE5VjEwMC4wN0g1NTguMjhWMTIzLjg5SDUyOS41M1YyMjAuOTJaTTU3NS40OSAyMjAuOTJWMTAwLjA3SDY0Ni4wNVYxMjMuNjNINTk2LjE0VjE0Ni43N0g2MjQuNjFWMTcwLjM0SDU5Ni4xNFYxOTcuMThINjQ5LjAwVjIyMC45MloiIGZpbGw9IiMxMTExMTEiLz4KICA8cGF0aCBkPSJNMjIwLjQ0IDYzNS4wVjU3OS4wMlEyNDEuNDMgNTc3Ljk2IDI2MS45OSA1NzAuNzVRMjgyLjU2IDU2My41NSAyOTguNzggNTQ3LjU0UTMxNS4wMCA1MzEuNTMgMzIzLjA1IDUwNC44MlEzMTQuMTUgNTExLjM5IDMwMi4wNiA1MTUuMzFRMjg5Ljk4IDUxOS4yMyAyNzQuOTMgNTE5LjIzUTI0NS42NyA1MTkuMjMgMjIyLjg4IDUwNy44OVEyMDAuMDggNDk2LjU1IDE4Ni45NCA0NzUuMjRRMTczLjc5IDQ1My45MyAxNzMuNzkgNDIzLjYxUTE3My43OSAzOTQuNTcgMTg3Ljc5IDM3My4wNVEyMDEuNzggMzUxLjUzIDIyNi4xNiAzMzkuNzZRMjUwLjU0IDMyNy45OSAyODIuMzUgMzI3Ljk5UTMyMC4zMCAzMjcuOTkgMzQ0LjY4IDM0Mi44NFEzNjkuMDYgMzU3LjY4IDM4MC44MyAzODMuNjVRMzkyLjYwIDQwOS42MiAzOTIuNjAgNDQyLjkxUTM5Mi42MCA0OTkuNTIgMzczLjczIDU0MS45MlEzNTQuODYgNTg0LjMyIDMxNi42OSA2MDguNjBRMjc4LjUzIDYzMi44NyAyMjAuNDQgNjM1LjBaTTI4MS43MSA0NjMuMjZRMjk1LjA3IDQ2My4yNiAzMDUuMjQgNDU4LjcwUTMxNS40MiA0NTQuMTQgMzIxLjA0IDQ0NS4yNFEzMjYuNjYgNDM2LjM0IDMyNi42NiA0MjIuOThRMzI2LjY2IDQxMS4zMiAzMjAuOTMgNDAyLjIwUTMxNS4yMSAzOTMuMDggMzA1LjE0IDM4OC4wMFEyOTUuMDcgMzgyLjkxIDI4MS45MiAzODIuOTFRMjY2LjY2IDM4Mi45MSAyNTUuODQgMzg4LjAwUTI0NS4wMyAzOTMuMDggMjM5LjIwIDQwMi4wOVEyMzMuMzcgNDExLjExIDIzMy4zNyA0MjIuNTVRMjMzLjM3IDQzNS43MCAyMzkuMjAgNDQ0LjgyUTI0NS4wMyA0NTMuOTMgMjU1Ljg0IDQ1OC42MFEyNjYuNjYgNDYzLjI2IDI4MS43MSA0NjMuMjZaTTUzNi4zNCA2MzUuMFE1MTQuNTEgNjM1LjAgNDk2LjgwIDYzMC41NFE0NzkuMTAgNjI2LjA5IDQ2NS42NCA2MTkuMjBRNDUyLjE3IDYxMi4zMSA0NDMuMDYgNjA1LjEwTDQ3NS4wNyA1NTcuNDBRNDgyLjcwIDU2Mi40OSA0OTEuOTMgNTY3LjE1UTUwMS4xNSA1NzEuODEgNTEyLjE3IDU3NC43OFE1MjMuMjAgNTc3Ljc1IDUzNi4zNCA1NzcuNzVRNTUyLjAzIDU3Ny43NSA1NjQuMTIgNTcyLjI0UTU3Ni4yMCA1NjYuNzMgNTgyLjg4IDU1Ni4xMlE1ODkuNTYgNTQ1LjUyIDU4OS41NiA1MzAuNDdRNTg5LjU2IDUxOC4zOSA1ODUuMjEgNTA5LjA2UTU4MC44NyA0OTkuNzMgNTcyLjQ5IDQ5NC40M1E1NjQuMTIgNDg5LjEzIDU1MS42MSA0ODkuMTNRNTM1LjI4IDQ4OS4xMyA1MjQuNDcgNDk0Ljk2UTUxMy42NiA1MDAuNzkgNTA0Ljc1IDUxMC43NUw0NTEuOTYgNDgzLjgzTDQ1OS44MCAzMzMuMDhINjMxLjMzVjM5MS42MEg1MTUuNzhMNTEyLjYwIDQzOS41MlE1MjIuMzUgNDM1LjkxIDUzMS43OCA0MzMuNjlRNTQxLjIyIDQzMS40NiA1NTIuMDMgNDMxLjQ2UTU4NC4wNSA0MzEuNDYgNjA1Ljg4IDQ0NC42MFE2MjcuNzIgNDU3Ljc1IDYzOC45NiA0ODAuMjJRNjUwLjIwIDUwMi43MCA2NTAuMjAgNTMwLjY4UTY1MC4yMCA1NjIuNDkgNjM1LjQ2IDU4NS45MVE2MjAuNzMgNjA5LjM0IDU5NC45NyA2MjIuMTdRNTY5LjIxIDYzNS4wIDUzNi4zNCA2MzUuMFoiIGZpbGw9IiMxMTExMTEiLz4KPC9zdmc+Cg==" alt=""><span>Route 95</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#/offres" data-nav="offres" data-i18n="nav_offers">Offres</a>
+      <a href="#/chauffeur" data-nav="chauffeur" data-i18n="nav_driver">Espace chauffeur</a>
+      <a href="#/entreprise" data-nav="entreprise" data-i18n="nav_company">Espace entreprise</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Langue">
+        <button data-lang="fr" class="on">FR</button><button data-lang="nl">NL</button><button data-lang="de">DE</button>
+      </div>
+      <a href="#/chauffeur" class="btn btn-primary btn-sm" data-i18n="cta_profile">Créer mon profil</a>
+      <button class="burger" id="burger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+  <div class="tri"><i></i><i></i><i></i></div>
+</header>
+
+<main>
+<!-- ============ ACCUEIL ============ -->
+<section class="view" id="view-home">
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow"><span class="dot"></span><span data-i18n="eyebrow">Gratuit pour les chauffeurs · Belgique</span></span>
+        <h1 data-i18n="hero_title">Chauffeurs et transporteurs, sur la même route.</h1>
+        <p class="lead" data-i18n="hero_lead">Ton profil pro en 3 minutes : permis, code 95, ADR, VCA, engins. Les entreprises trouvent le bon chauffeur, et toi le job qui colle à ta vie.</p>
+        <div class="hero-cta">
+          <a href="#/chauffeur" class="btn btn-primary" data-i18n="cta_driver">Je suis chauffeur</a>
+          <a href="#/entreprise" class="btn btn-ghost" data-i18n="cta_company">Je recrute des chauffeurs</a>
+        </div>
+        <div class="stats">
+          <div><b>C · CE</b><span data-i18n="stat1">permis et certificats à jour</span></div>
+          <div><b>3 min</b><span data-i18n="stat2">pour créer son profil</span></div>
+          <div><b>0 €</b><span data-i18n="stat3">pour les chauffeurs, toujours</span></div>
+        </div>
+      </div>
+      <div class="hero-shield"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MjIgODIwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlJvdXRlIDk1Ij4KICA8dGl0bGU+Um91dGUgOTU8L3RpdGxlPgogIDxkZWZzPjxjbGlwUGF0aCBpZD0icjk1LXNoYXBlIj48cGF0aCBkPSJNNDExIDExIEw0MDEgMTMgTDM5MyAxNyBMMzg0IDIxIEwzNzQgMjUgTDM2NSAyOCBMMzU1IDMyIEwzNDUgMzUgTDMzNiAzNyBMMzI2IDM5IEwzMTYgNDIgTDMwNyA0MyBMMjk3IDQ0IEwyODcgNDQgTDI3NyA0NCBMMjY3IDQ0IEwyNTcgNDQgTDI0NyA0MyBMMjM3IDQyIEwyMjcgNDAgTDIxNyAzOCBMMjA3IDM2IEwxOTcgMzQgTDE4OCAzMiBMMTc4IDI5IEwxNjggMjUgTDE1OSAyMCBMMTUxIDE2IEwxNDEgMTkgTDEzMSAyOCBMMTIxIDM4IEwxMTIgNDcgTDEwMiA1NyBMOTIgNjcgTDgyIDc3IEw3MyA4NiBMNjMgOTYgTDU0IDEwNSBMNDUgMTE1IEwzNiAxMjUgTDI2IDEzNSBMMTYgMTQ1IEwxMyAxNTUgTDE5IDE2NCBMMjcgMTczIEwzMyAxODEgTDM4IDE4OSBMNDQgMTk4IEw0OSAyMDggTDU0IDIxOCBMNTggMjI2IEw2MSAyMzUgTDY1IDI0NCBMNjcgMjU0IEw3MCAyNjMgTDcxIDI3MiBMNzIgMjgxIEw3MyAyOTEgTDczIDMwMSBMNzMgMzExIEw3MyAzMjEgTDcyIDMzMSBMNzAgMzQxIEw2OCAzNTAgTDY2IDM2MCBMNjQgMzY5IEw2MSAzNzkgTDU3IDM4OSBMNTQgMzk4IEw1MCA0MDcgTDQ2IDQxNyBMNDIgNDI2IEwzOSA0MzYgTDM1IDQ0NiBMMzEgNDU1IEwyOCA0NjQgTDI1IDQ3NCBMMjIgNDg0IEwxOSA0OTMgTDE3IDUwMyBMMTUgNTEyIEwxMyA1MjIgTDExIDUzMiBMMTAgNTQyIEwxMCA1NTIgTDEwIDU2MiBMMTEgNTcyIEwxMiA1ODIgTDE0IDU5MiBMMTYgNjAxIEwxOSA2MTEgTDIyIDYyMSBMMjcgNjMxIEwzMSA2NDEgTDM3IDY1MSBMNDIgNjYwIEw0OSA2NjkgTDU1IDY3NyBMNjQgNjg2IEw3MyA2OTUgTDgyIDcwNCBMOTEgNzExIEw5OSA3MTYgTDEwOCA3MjIgTDExOCA3MjcgTDEyOCA3MzIgTDEzNyA3MzYgTDE0NiA3MzkgTDE1NiA3NDEgTDE2NiA3NDQgTDE3NiA3NDYgTDE4NSA3NDcgTDE5NSA3NDggTDIwNCA3NDkgTDIxNCA3NTAgTDIyNCA3NTAgTDIzMyA3NTEgTDI0MyA3NTIgTDI1MyA3NTMgTDI2MyA3NTQgTDI3MyA3NTUgTDI4MyA3NTYgTDI5MyA3NTggTDMwMyA3NjAgTDMxMyA3NjIgTDMyMyA3NjUgTDMzMiA3NjggTDM0MSA3NzIgTDM1MCA3NzUgTDM2MCA3ODAgTDM2OSA3ODQgTDM3NyA3ODkgTDM4NiA3OTQgTDM5NiA4MDAgTDQxMSA4MDUgTDQyNiA4MDAgTDQzNiA3OTQgTDQ0NSA3ODkgTDQ1MyA3ODQgTDQ2MiA3ODAgTDQ3MiA3NzUgTDQ4MSA3NzIgTDQ5MCA3NjggTDQ5OSA3NjUgTDUwOSA3NjIgTDUxOSA3NjAgTDUyOSA3NTggTDUzOSA3NTYgTDU0OSA3NTUgTDU1OSA3NTQgTDU2OSA3NTMgTDU3OSA3NTIgTDU4OSA3NTEgTDU5OCA3NTAgTDYwOCA3NTAgTDYxOCA3NDkgTDYyNyA3NDggTDYzNyA3NDcgTDY0NiA3NDYgTDY1NiA3NDQgTDY2NiA3NDEgTDY3NiA3MzkgTDY4NSA3MzYgTDY5NCA3MzIgTDcwNCA3MjcgTDcxNCA3MjIgTDcyMyA3MTYgTDczMSA3MTEgTDc0MCA3MDQgTDc0OSA2OTUgTDc1OCA2ODYgTDc2NyA2NzcgTDc3MyA2NjkgTDc4MCA2NjAgTDc4NSA2NTEgTDc5MSA2NDEgTDc5NSA2MzEgTDgwMCA2MjEgTDgwMyA2MTEgTDgwNiA2MDEgTDgwOCA1OTIgTDgxMCA1ODIgTDgxMSA1NzIgTDgxMiA1NjIgTDgxMiA1NTIgTDgxMiA1NDIgTDgxMSA1MzIgTDgwOSA1MjIgTDgwNyA1MTIgTDgwNSA1MDMgTDgwMyA0OTMgTDgwMCA0ODQgTDc5NyA0NzQgTDc5NCA0NjQgTDc5MSA0NTUgTDc4NyA0NDYgTDc4MyA0MzYgTDc4MCA0MjYgTDc3NiA0MTcgTDc3MiA0MDcgTDc2OCAzOTggTDc2NSAzODkgTDc2MSAzNzkgTDc1OCAzNjkgTDc1NiAzNjAgTDc1NCAzNTAgTDc1MiAzNDEgTDc1MCAzMzEgTDc0OSAzMjEgTDc0OSAzMTEgTDc0OSAzMDEgTDc0OSAyOTEgTDc1MCAyODEgTDc1MSAyNzIgTDc1MiAyNjMgTDc1NSAyNTQgTDc1NyAyNDQgTDc2MSAyMzUgTDc2NCAyMjYgTDc2OCAyMTggTDc3MyAyMDggTDc3OCAxOTggTDc4NCAxODkgTDc4OSAxODEgTDc5NSAxNzMgTDgwMyAxNjQgTDgwOSAxNTUgTDgwNiAxNDUgTDc5NiAxMzUgTDc4NiAxMjUgTDc3NyAxMTUgTDc2OCAxMDUgTDc1OSA5NiBMNzQ5IDg2IEw3NDAgNzcgTDczMCA2NyBMNzIwIDU3IEw3MTAgNDcgTDcwMSAzOCBMNjkxIDI4IEw2ODEgMTkgTDY3MSAxNiBMNjYzIDIwIEw2NTQgMjUgTDY0NCAyOSBMNjM0IDMyIEw2MjUgMzQgTDYxNSAzNiBMNjA1IDM4IEw1OTUgNDAgTDU4NSA0MiBMNTc1IDQzIEw1NjUgNDQgTDU1NSA0NCBMNTQ1IDQ0IEw1MzUgNDQgTDUyNSA0NCBMNTE1IDQzIEw1MDYgNDIgTDQ5NiAzOSBMNDg2IDM3IEw0NzcgMzUgTDQ2NyAzMiBMNDU3IDI4IEw0NDggMjUgTDQzOCAyMSBMNDI5IDE3IEw0MjEgMTMgWiIvPjwvY2xpcFBhdGg+PC9kZWZzPgogIDxwYXRoIGQ9Ik00MTEgMTEgTDQwMSAxMyBMMzkzIDE3IEwzODQgMjEgTDM3NCAyNSBMMzY1IDI4IEwzNTUgMzIgTDM0NSAzNSBMMzM2IDM3IEwzMjYgMzkgTDMxNiA0MiBMMzA3IDQzIEwyOTcgNDQgTDI4NyA0NCBMMjc3IDQ0IEwyNjcgNDQgTDI1NyA0NCBMMjQ3IDQzIEwyMzcgNDIgTDIyNyA0MCBMMjE3IDM4IEwyMDcgMzYgTDE5NyAzNCBMMTg4IDMyIEwxNzggMjkgTDE2OCAyNSBMMTU5IDIwIEwxNTEgMTYgTDE0MSAxOSBMMTMxIDI4IEwxMjEgMzggTDExMiA0NyBMMTAyIDU3IEw5MiA2NyBMODIgNzcgTDczIDg2IEw2MyA5NiBMNTQgMTA1IEw0NSAxMTUgTDM2IDEyNSBMMjYgMTM1IEwxNiAxNDUgTDEzIDE1NSBMMTkgMTY0IEwyNyAxNzMgTDMzIDE4MSBMMzggMTg5IEw0NCAxOTggTDQ5IDIwOCBMNTQgMjE4IEw1OCAyMjYgTDYxIDIzNSBMNjUgMjQ0IEw2NyAyNTQgTDcwIDI2MyBMNzEgMjcyIEw3MiAyODEgTDczIDI5MSBMNzMgMzAxIEw3MyAzMTEgTDczIDMyMSBMNzIgMzMxIEw3MCAzNDEgTDY4IDM1MCBMNjYgMzYwIEw2NCAzNjkgTDYxIDM3OSBMNTcgMzg5IEw1NCAzOTggTDUwIDQwNyBMNDYgNDE3IEw0MiA0MjYgTDM5IDQzNiBMMzUgNDQ2IEwzMSA0NTUgTDI4IDQ2NCBMMjUgNDc0IEwyMiA0ODQgTDE5IDQ5MyBMMTcgNTAzIEwxNSA1MTIgTDEzIDUyMiBMMTEgNTMyIEwxMCA1NDIgTDEwIDU1MiBMMTAgNTYyIEwxMSA1NzIgTDEyIDU4MiBMMTQgNTkyIEwxNiA2MDEgTDE5IDYxMSBMMjIgNjIxIEwyNyA2MzEgTDMxIDY0MSBMMzcgNjUxIEw0MiA2NjAgTDQ5IDY2OSBMNTUgNjc3IEw2NCA2ODYgTDczIDY5NSBMODIgNzA0IEw5MSA3MTEgTDk5IDcxNiBMMTA4IDcyMiBMMTE4IDcyNyBMMTI4IDczMiBMMTM3IDczNiBMMTQ2IDczOSBMMTU2IDc0MSBMMTY2IDc0NCBMMTc2IDc0NiBMMTg1IDc0NyBMMTk1IDc0OCBMMjA0IDc0OSBMMjE0IDc1MCBMMjI0IDc1MCBMMjMzIDc1MSBMMjQzIDc1MiBMMjUzIDc1MyBMMjYzIDc1NCBMMjczIDc1NSBMMjgzIDc1NiBMMjkzIDc1OCBMMzAzIDc2MCBMMzEzIDc2MiBMMzIzIDc2NSBMMzMyIDc2OCBMMzQxIDc3MiBMMzUwIDc3NSBMMzYwIDc4MCBMMzY5IDc4NCBMMzc3IDc4OSBMMzg2IDc5NCBMMzk2IDgwMCBMNDExIDgwNSBMNDI2IDgwMCBMNDM2IDc5NCBMNDQ1IDc4OSBMNDUzIDc4NCBMNDYyIDc4MCBMNDcyIDc3NSBMNDgxIDc3MiBMNDkwIDc2OCBMNDk5IDc2NSBMNTA5IDc2MiBMNTE5IDc2MCBMNTI5IDc1OCBMNTM5IDc1NiBMNTQ5IDc1NSBMNTU5IDc1NCBMNTY5IDc1MyBMNTc5IDc1MiBMNTg5IDc1MSBMNTk4IDc1MCBMNjA4IDc1MCBMNjE4IDc0OSBMNjI3IDc0OCBMNjM3IDc0NyBMNjQ2IDc0NiBMNjU2IDc0NCBMNjY2IDc0MSBMNjc2IDczOSBMNjg1IDczNiBMNjk0IDczMiBMNzA0IDcyNyBMNzE0IDcyMiBMNzIzIDcxNiBMNzMxIDcxMSBMNzQwIDcwNCBMNzQ5IDY5NSBMNzU4IDY4NiBMNzY3IDY3NyBMNzczIDY2OSBMNzgwIDY2MCBMNzg1IDY1MSBMNzkxIDY0MSBMNzk1IDYzMSBMODAwIDYyMSBMODAzIDYxMSBMODA2IDYwMSBMODA4IDU5MiBMODEwIDU4MiBMODExIDU3MiBMODEyIDU2MiBMODEyIDU1MiBMODEyIDU0MiBMODExIDUzMiBMODA5IDUyMiBMODA3IDUxMiBMODA1IDUwMyBMODAzIDQ5MyBMODAwIDQ4NCBMNzk3IDQ3NCBMNzk0IDQ2NCBMNzkxIDQ1NSBMNzg3IDQ0NiBMNzgzIDQzNiBMNzgwIDQyNiBMNzc2IDQxNyBMNzcyIDQwNyBMNzY4IDM5OCBMNzY1IDM4OSBMNzYxIDM3OSBMNzU4IDM2OSBMNzU2IDM2MCBMNzU0IDM1MCBMNzUyIDM0MSBMNzUwIDMzMSBMNzQ5IDMyMSBMNzQ5IDMxMSBMNzQ5IDMwMSBMNzQ5IDI5MSBMNzUwIDI4MSBMNzUxIDI3MiBMNzUyIDI2MyBMNzU1IDI1NCBMNzU3IDI0NCBMNzYxIDIzNSBMNzY0IDIyNiBMNzY4IDIxOCBMNzczIDIwOCBMNzc4IDE5OCBMNzg0IDE4OSBMNzg5IDE4MSBMNzk1IDE3MyBMODAzIDE2NCBMODA5IDE1NSBMODA2IDE0NSBMNzk2IDEzNSBMNzg2IDEyNSBMNzc3IDExNSBMNzY4IDEwNSBMNzU5IDk2IEw3NDkgODYgTDc0MCA3NyBMNzMwIDY3IEw3MjAgNTcgTDcxMCA0NyBMNzAxIDM4IEw2OTEgMjggTDY4MSAxOSBMNjcxIDE2IEw2NjMgMjAgTDY1NCAyNSBMNjQ0IDI5IEw2MzQgMzIgTDYyNSAzNCBMNjE1IDM2IEw2MDUgMzggTDU5NSA0MCBMNTg1IDQyIEw1NzUgNDMgTDU2NSA0NCBMNTU1IDQ0IEw1NDUgNDQgTDUzNSA0NCBMNTI1IDQ0IEw1MTUgNDMgTDUwNiA0MiBMNDk2IDM5IEw0ODYgMzcgTDQ3NyAzNSBMNDY3IDMyIEw0NTcgMjggTDQ0OCAyNSBMNDM4IDIxIEw0MjkgMTcgTDQyMSAxMyBaIiBmaWxsPSIjRkZGRkZGIi8+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI3I5NS1zaGFwZSkiPgogICAgPHJlY3QgeD0iOTkuNSIgeT0iMjQ3IiB3aWR0aD0iMjA3LjYiIGhlaWdodD0iMjciIGZpbGw9IiMxMTExMTEiLz4KICAgIDxyZWN0IHg9IjMwNy4yIiB5PSIyNDciIHdpZHRoPSIyMDcuNiIgaGVpZ2h0PSIyNyIgZmlsbD0iI0ZEREEyNCIvPgogICAgPHJlY3QgeD0iNTE0LjgiIHk9IjI0NyIgd2lkdGg9IjIwNy42IiBoZWlnaHQ9IjI3IiBmaWxsPSIjRUYzMzQwIi8+CiAgICA8cGF0aCBkPSJNNDExIDExIEw0MDEgMTMgTDM5MyAxNyBMMzg0IDIxIEwzNzQgMjUgTDM2NSAyOCBMMzU1IDMyIEwzNDUgMzUgTDMzNiAzNyBMMzI2IDM5IEwzMTYgNDIgTDMwNyA0MyBMMjk3IDQ0IEwyODcgNDQgTDI3NyA0NCBMMjY3IDQ0IEwyNTcgNDQgTDI0NyA0MyBMMjM3IDQyIEwyMjcgNDAgTDIxNyAzOCBMMjA3IDM2IEwxOTcgMzQgTDE4OCAzMiBMMTc4IDI5IEwxNjggMjUgTDE1OSAyMCBMMTUxIDE2IEwxNDEgMTkgTDEzMSAyOCBMMTIxIDM4IEwxMTIgNDcgTDEwMiA1NyBMOTIgNjcgTDgyIDc3IEw3MyA4NiBMNjMgOTYgTDU0IDEwNSBMNDUgMTE1IEwzNiAxMjUgTDI2IDEzNSBMMTYgMTQ1IEwxMyAxNTUgTDE5IDE2NCBMMjcgMTczIEwzMyAxODEgTDM4IDE4OSBMNDQgMTk4IEw0OSAyMDggTDU0IDIxOCBMNTggMjI2IEw2MSAyMzUgTDY1IDI0NCBMNjcgMjU0IEw3MCAyNjMgTDcxIDI3MiBMNzIgMjgxIEw3MyAyOTEgTDczIDMwMSBMNzMgMzExIEw3MyAzMjEgTDcyIDMzMSBMNzAgMzQxIEw2OCAzNTAgTDY2IDM2MCBMNjQgMzY5IEw2MSAzNzkgTDU3IDM4OSBMNTQgMzk4IEw1MCA0MDcgTDQ2IDQxNyBMNDIgNDI2IEwzOSA0MzYgTDM1IDQ0NiBMMzEgNDU1IEwyOCA0NjQgTDI1IDQ3NCBMMjIgNDg0IEwxOSA0OTMgTDE3IDUwMyBMMTUgNTEyIEwxMyA1MjIgTDExIDUzMiBMMTAgNTQyIEwxMCA1NTIgTDEwIDU2MiBMMTEgNTcyIEwxMiA1ODIgTDE0IDU5MiBMMTYgNjAxIEwxOSA2MTEgTDIyIDYyMSBMMjcgNjMxIEwzMSA2NDEgTDM3IDY1MSBMNDIgNjYwIEw0OSA2NjkgTDU1IDY3NyBMNjQgNjg2IEw3MyA2OTUgTDgyIDcwNCBMOTEgNzExIEw5OSA3MTYgTDEwOCA3MjIgTDExOCA3MjcgTDEyOCA3MzIgTDEzNyA3MzYgTDE0NiA3MzkgTDE1NiA3NDEgTDE2NiA3NDQgTDE3NiA3NDYgTDE4NSA3NDcgTDE5NSA3NDggTDIwNCA3NDkgTDIxNCA3NTAgTDIyNCA3NTAgTDIzMyA3NTEgTDI0MyA3NTIgTDI1MyA3NTMgTDI2MyA3NTQgTDI3MyA3NTUgTDI4MyA3NTYgTDI5MyA3NTggTDMwMyA3NjAgTDMxMyA3NjIgTDMyMyA3NjUgTDMzMiA3NjggTDM0MSA3NzIgTDM1MCA3NzUgTDM2MCA3ODAgTDM2OSA3ODQgTDM3NyA3ODkgTDM4NiA3OTQgTDM5NiA4MDAgTDQxMSA4MDUgTDQyNiA4MDAgTDQzNiA3OTQgTDQ0NSA3ODkgTDQ1MyA3ODQgTDQ2MiA3ODAgTDQ3MiA3NzUgTDQ4MSA3NzIgTDQ5MCA3NjggTDQ5OSA3NjUgTDUwOSA3NjIgTDUxOSA3NjAgTDUyOSA3NTggTDUzOSA3NTYgTDU0OSA3NTUgTDU1OSA3NTQgTDU2OSA3NTMgTDU3OSA3NTIgTDU4OSA3NTEgTDU5OCA3NTAgTDYwOCA3NTAgTDYxOCA3NDkgTDYyNyA3NDggTDYzNyA3NDcgTDY0NiA3NDYgTDY1NiA3NDQgTDY2NiA3NDEgTDY3NiA3MzkgTDY4NSA3MzYgTDY5NCA3MzIgTDcwNCA3MjcgTDcxNCA3MjIgTDcyMyA3MTYgTDczMSA3MTEgTDc0MCA3MDQgTDc0OSA2OTUgTDc1OCA2ODYgTDc2NyA2NzcgTDc3MyA2NjkgTDc4MCA2NjAgTDc4NSA2NTEgTDc5MSA2NDEgTDc5NSA2MzEgTDgwMCA2MjEgTDgwMyA2MTEgTDgwNiA2MDEgTDgwOCA1OTIgTDgxMCA1ODIgTDgxMSA1NzIgTDgxMiA1NjIgTDgxMiA1NTIgTDgxMiA1NDIgTDgxMSA1MzIgTDgwOSA1MjIgTDgwNyA1MTIgTDgwNSA1MDMgTDgwMyA0OTMgTDgwMCA0ODQgTDc5NyA0NzQgTDc5NCA0NjQgTDc5MSA0NTUgTDc4NyA0NDYgTDc4MyA0MzYgTDc4MCA0MjYgTDc3NiA0MTcgTDc3MiA0MDcgTDc2OCAzOTggTDc2NSAzODkgTDc2MSAzNzkgTDc1OCAzNjkgTDc1NiAzNjAgTDc1NCAzNTAgTDc1MiAzNDEgTDc1MCAzMzEgTDc0OSAzMjEgTDc0OSAzMTEgTDc0OSAzMDEgTDc0OSAyOTEgTDc1MCAyODEgTDc1MSAyNzIgTDc1MiAyNjMgTDc1NSAyNTQgTDc1NyAyNDQgTDc2MSAyMzUgTDc2NCAyMjYgTDc2OCAyMTggTDc3MyAyMDggTDc3OCAxOTggTDc4NCAxODkgTDc4OSAxODEgTDc5NSAxNzMgTDgwMyAxNjQgTDgwOSAxNTUgTDgwNiAxNDUgTDc5NiAxMzUgTDc4NiAxMjUgTDc3NyAxMTUgTDc2OCAxMDUgTDc1OSA5NiBMNzQ5IDg2IEw3NDAgNzcgTDczMCA2NyBMNzIwIDU3IEw3MTAgNDcgTDcwMSAzOCBMNjkxIDI4IEw2ODEgMTkgTDY3MSAxNiBMNjYzIDIwIEw2NTQgMjUgTDY0NCAyOSBMNjM0IDMyIEw2MjUgMzQgTDYxNSAzNiBMNjA1IDM4IEw1OTUgNDAgTDU4NSA0MiBMNTc1IDQzIEw1NjUgNDQgTDU1NSA0NCBMNTQ1IDQ0IEw1MzUgNDQgTDUyNSA0NCBMNTE1IDQzIEw1MDYgNDIgTDQ5NiAzOSBMNDg2IDM3IEw0NzcgMzUgTDQ2NyAzMiBMNDU3IDI4IEw0NDggMjUgTDQzOCAyMSBMNDI5IDE3IEw0MjEgMTMgWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExMTExIiBzdHJva2Utd2lkdGg9IjYwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPC9nPgogIDxwYXRoIGQ9Ik0xNzYuMDAgMjIwLjkyVjEwMC4wN0gyMjMuNzVRMjM2LjM3IDEwMC4wNyAyNDMuODAgMTA1LjM4UTI1MS4yMiAxMTAuNjggMjU0LjQxIDExOS40NVEyNTcuNjAgMTI4LjIxIDI1Ny42MCAxMzguNDBRMjU3LjYwIDE0NS4yMiAyNTUuNDkgMTUyLjIxUTI1My4zNyAxNTkuMjAgMjQ5LjE0IDE2NC45NFEyNDQuOTEgMTcwLjY4IDIzOC42NyAxNzMuNDRMMjU3Ljg5IDIyMC45MkgyMzQuODBMMjE2LjMwIDE3Ny4xNkgxOTYuNjVWMjIwLjkyWk0xOTYuNjUgMTUzLjc2SDIyNC4wNFEyMjguNjMgMTUzLjc2IDIzMS4zMiAxNTEuNjBRMjM0LjAxIDE0OS40NSAyMzUuMTIgMTQ1Ljk1UTIzNi4yMyAxNDIuNDUgMjM2LjIzIDEzOC40OFEyMzYuMjMgMTM0Ljg2IDIzNS4xOSAxMzEuNDBRMjM0LjE1IDEyNy45NSAyMzEuNDYgMTI1LjcxUTIyOC43NyAxMjMuNDYgMjI0LjA0IDEyMy40NkgxOTYuNjVaTTMxNy45OCAyMjMuMFEzMDUuOTMgMjIzLjAgMjk3LjQ3IDIxNy41MVEyODkuMDEgMjEyLjAzIDI4My44MSAyMDIuOTJRMjc4LjYxIDE5My44MiAyNzYuMjEgMTgyLjc3UTI3My44MSAxNzEuNzIgMjczLjgxIDE2MC41UTI3My44MSAxNDkuMjcgMjc2LjIxIDEzOC4yMlEyNzguNjEgMTI3LjE3IDI4My44MSAxMTguMDdRMjg5LjAxIDEwOC45NiAyOTcuNDcgMTAzLjQ4UTMwNS45MyA5Ny45OSAzMTcuOTggOTcuOTlRMzMwLjE3IDk3Ljk5IDMzOC41NiAxMDMuNDhRMzQ2Ljk1IDEwOC45NiAzNTIuMTUgMTE4LjA3UTM1Ny4zNSAxMjcuMTcgMzU5LjcyIDEzOC4yMlEzNjIuMDggMTQ5LjI3IDM2Mi4wOCAxNjAuNVEzNjIuMDggMTcxLjcyIDM1OS43MiAxODIuNzdRMzU3LjM1IDE5My44MiAzNTIuMTUgMjAyLjkyUTM0Ni45NSAyMTIuMDMgMzM4LjU2IDIxNy41MVEzMzAuMTcgMjIzLjAgMzE3Ljk4IDIyMy4wWk0zMTcuOTggMTk5LjAwUTMyNC4yOSAxOTkuMDAgMzI4LjYzIDE5NS40NlEzMzIuOTcgMTkxLjkyIDMzNS42MiAxODYuMDlRMzM4LjI4IDE4MC4yNiAzMzkuNDkgMTczLjUzUTM0MC43MSAxNjYuODAgMzQwLjcxIDE2MC41UTM0MC43MSAxNTMuNzYgMzM5LjU3IDE0Ni45NFEzMzguNDIgMTQwLjEyIDMzNS44MCAxMzQuNDJRMzMzLjE4IDEyOC43MyAzMjguODEgMTI1LjI3UTMyNC40MyAxMjEuODIgMzE3Ljk4IDEyMS44MlEzMTEuNTMgMTIxLjgyIDMwNy4xNSAxMjUuNDBRMzAyLjc4IDEyOC45OSAzMDAuMTMgMTM0Ljc3UTI5Ny40NyAxNDAuNTUgMjk2LjMyIDE0Ny4zN1EyOTUuMTggMTU0LjE5IDI5NS4xOCAxNjAuNVEyOTUuMTggMTY3LjE0IDI5Ni4zNiAxNzMuOTJRMjk3LjU0IDE4MC43MCAzMDAuMjMgMTg2LjM5UTMwMi45MiAxOTIuMDkgMzA3LjMwIDE5NS41NFEzMTEuNjcgMTk5LjAwIDMxNy45OCAxOTkuMDBaTTQyMi42MSAyMjMuMFE0MDkuODQgMjIzLjAgNDAwLjU5IDIxNy4zMFEzOTEuMzQgMjExLjYwIDM4Ni4zOSAyMDAuNzdRMzgxLjQ0IDE4OS45MyAzODEuNDQgMTc0LjU3VjEwMC4wN0g0MDIuMTBWMTc0LjU3UTQwMi4xMCAxODcuNjkgNDA3LjAxIDE5My4zNFE0MTEuOTIgMTk5LjAwIDQyMi42MSAxOTkuMDBRNDI5LjM1IDE5OS4wMCA0MzMuOTAgMTk2LjY3UTQzOC40NSAxOTQuMzMgNDQwLjc1IDE4OC45NFE0NDMuMDQgMTgzLjU0IDQ0My4wNCAxNzQuNTdWMTAwLjA3SDQ2My43MFYxNzQuNTdRNDYzLjcwIDE4Ny43NyA0NjAuMjkgMTk3LjAxUTQ1Ni44OCAyMDYuMjUgNDUxLjA4IDIxMS45OVE0NDUuMjcgMjE3LjczIDQzNy45MiAyMjAuMzZRNDMwLjU3IDIyMy4wIDQyMi42MSAyMjMuMFpNNTA4Ljg3IDIyMC45MlYxMjMuODlINDgwLjE5VjEwMC4wN0g1NTguMjhWMTIzLjg5SDUyOS41M1YyMjAuOTJaTTU3NS40OSAyMjAuOTJWMTAwLjA3SDY0Ni4wNVYxMjMuNjNINTk2LjE0VjE0Ni43N0g2MjQuNjFWMTcwLjM0SDU5Ni4xNFYxOTcuMThINjQ5LjAwVjIyMC45MloiIGZpbGw9IiMxMTExMTEiLz4KICA8cGF0aCBkPSJNMjIwLjQ0IDYzNS4wVjU3OS4wMlEyNDEuNDMgNTc3Ljk2IDI2MS45OSA1NzAuNzVRMjgyLjU2IDU2My41NSAyOTguNzggNTQ3LjU0UTMxNS4wMCA1MzEuNTMgMzIzLjA1IDUwNC44MlEzMTQuMTUgNTExLjM5IDMwMi4wNiA1MTUuMzFRMjg5Ljk4IDUxOS4yMyAyNzQuOTMgNTE5LjIzUTI0NS42NyA1MTkuMjMgMjIyLjg4IDUwNy44OVEyMDAuMDggNDk2LjU1IDE4Ni45NCA0NzUuMjRRMTczLjc5IDQ1My45MyAxNzMuNzkgNDIzLjYxUTE3My43OSAzOTQuNTcgMTg3Ljc5IDM3My4wNVEyMDEuNzggMzUxLjUzIDIyNi4xNiAzMzkuNzZRMjUwLjU0IDMyNy45OSAyODIuMzUgMzI3Ljk5UTMyMC4zMCAzMjcuOTkgMzQ0LjY4IDM0Mi44NFEzNjkuMDYgMzU3LjY4IDM4MC44MyAzODMuNjVRMzkyLjYwIDQwOS42MiAzOTIuNjAgNDQyLjkxUTM5Mi42MCA0OTkuNTIgMzczLjczIDU0MS45MlEzNTQuODYgNTg0LjMyIDMxNi42OSA2MDguNjBRMjc4LjUzIDYzMi44NyAyMjAuNDQgNjM1LjBaTTI4MS43MSA0NjMuMjZRMjk1LjA3IDQ2My4yNiAzMDUuMjQgNDU4LjcwUTMxNS40MiA0NTQuMTQgMzIxLjA0IDQ0NS4yNFEzMjYuNjYgNDM2LjM0IDMyNi42NiA0MjIuOThRMzI2LjY2IDQxMS4zMiAzMjAuOTMgNDAyLjIwUTMxNS4yMSAzOTMuMDggMzA1LjE0IDM4OC4wMFEyOTUuMDcgMzgyLjkxIDI4MS45MiAzODIuOTFRMjY2LjY2IDM4Mi45MSAyNTUuODQgMzg4LjAwUTI0NS4wMyAzOTMuMDggMjM5LjIwIDQwMi4wOVEyMzMuMzcgNDExLjExIDIzMy4zNyA0MjIuNTVRMjMzLjM3IDQzNS43MCAyMzkuMjAgNDQ0LjgyUTI0NS4wMyA0NTMuOTMgMjU1Ljg0IDQ1OC42MFEyNjYuNjYgNDYzLjI2IDI4MS43MSA0NjMuMjZaTTUzNi4zNCA2MzUuMFE1MTQuNTEgNjM1LjAgNDk2LjgwIDYzMC41NFE0NzkuMTAgNjI2LjA5IDQ2NS42NCA2MTkuMjBRNDUyLjE3IDYxMi4zMSA0NDMuMDYgNjA1LjEwTDQ3NS4wNyA1NTcuNDBRNDgyLjcwIDU2Mi40OSA0OTEuOTMgNTY3LjE1UTUwMS4xNSA1NzEuODEgNTEyLjE3IDU3NC43OFE1MjMuMjAgNTc3Ljc1IDUzNi4zNCA1NzcuNzVRNTUyLjAzIDU3Ny43NSA1NjQuMTIgNTcyLjI0UTU3Ni4yMCA1NjYuNzMgNTgyLjg4IDU1Ni4xMlE1ODkuNTYgNTQ1LjUyIDU4OS41NiA1MzAuNDdRNTg5LjU2IDUxOC4zOSA1ODUuMjEgNTA5LjA2UTU4MC44NyA0OTkuNzMgNTcyLjQ5IDQ5NC40M1E1NjQuMTIgNDg5LjEzIDU1MS42MSA0ODkuMTNRNTM1LjI4IDQ4OS4xMyA1MjQuNDcgNDk0Ljk2UTUxMy42NiA1MDAuNzkgNTA0Ljc1IDUxMC43NUw0NTEuOTYgNDgzLjgzTDQ1OS44MCAzMzMuMDhINjMxLjMzVjM5MS42MEg1MTUuNzhMNTEyLjYwIDQzOS41MlE1MjIuMzUgNDM1LjkxIDUzMS43OCA0MzMuNjlRNTQxLjIyIDQzMS40NiA1NTIuMDMgNDMxLjQ2UTU4NC4wNSA0MzEuNDYgNjA1Ljg4IDQ0NC42MFE2MjcuNzIgNDU3Ljc1IDYzOC45NiA0ODAuMjJRNjUwLjIwIDUwMi43MCA2NTAuMjAgNTMwLjY4UTY1MC4yMCA1NjIuNDkgNjM1LjQ2IDU4NS45MVE2MjAuNzMgNjA5LjM0IDU5NC45NyA2MjIuMTdRNTY5LjIxIDYzNS4wIDUzNi4zNCA2MzUuMFoiIGZpbGw9IiMxMTExMTEiLz4KPC9zdmc+Cg==" alt="Logo Route 95"></div>
+    </div>
+  </div>
+
+  <div class="section" style="background:#fff">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-i18n="choose_title">Tu viens pour quoi ?</h2>
+        <p class="muted" data-i18n="choose_lead">Choisis ton espace. Tu pourras toujours changer plus tard.</p>
+      </div>
+      <div class="roles">
+        <a class="role driver" href="#/chauffeur">
+          <svg class="illu" viewBox="0 0 240 160" aria-hidden="true">
+            <rect x="8" y="40" width="140" height="80" rx="6" fill="#E3E6EB"/>
+            <rect x="8" y="40" width="140" height="10" fill="#15181D"/>
+            <path d="M148 64h44l26 26v30h-70z" fill="#15181D"/>
+            <path d="M160 72h28l18 18h-46z" fill="#9EC5FF"/>
+            <rect x="196" y="100" width="20" height="6" rx="2" fill="#FDDA24"/>
+            <circle cx="40" cy="126" r="14" fill="#15181D"/><circle cx="40" cy="126" r="6" fill="#fff"/>
+            <circle cx="112" cy="126" r="14" fill="#15181D"/><circle cx="112" cy="126" r="6" fill="#fff"/>
+            <circle cx="186" cy="126" r="14" fill="#15181D"/><circle cx="186" cy="126" r="6" fill="#fff"/>
+            <rect x="20" y="62" width="40" height="5" rx="2" fill="#15181D"/><rect x="62" y="62" width="40" height="5" rx="2" fill="#FDDA24"/><rect x="104" y="62" width="40" height="5" rx="2" fill="#EF3340"/>
+          </svg>
+          <div class="intro">
+            <div class="kicker" data-i18n="role_driver_k">Espace</div>
+            <h3 data-i18n="role_driver">CHAUFFEUR</h3>
+            <p data-i18n="role_driver_p">Un profil pro qui se met à jour tout seul, et des offres avec horaires et salaire visibles.</p>
+          </div>
+          <div>
+            <ul>
+              <li data-i18n="role_driver_1">Rappels avant l'expiration du code 95, de l'ADR…</li>
+              <li data-i18n="role_driver_2">Coordonnées cachées jusqu'à ton accord</li>
+              <li data-i18n="role_driver_3">Gratuit, sans CV à rédiger</li>
+            </ul>
+            <span class="go"><span data-i18n="role_go_driver">Créer mon profil</span> <svg width="18" height="18" viewBox="0 0 20 20"><path d="M4 10h11m-4-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
+        <a class="role company" href="#/entreprise">
+          <svg class="illu" viewBox="0 0 240 160" aria-hidden="true">
+            <rect x="20" y="30" width="200" height="110" rx="6" fill="#E3E6EB"/>
+            <path d="M14 34 120 6l106 28" fill="none" stroke="#15181D" stroke-width="8" stroke-linejoin="round"/>
+            <rect x="36" y="70" width="48" height="70" fill="#15181D"/><rect x="96" y="70" width="48" height="70" fill="#15181D"/><rect x="156" y="70" width="48" height="70" fill="#15181D"/>
+            <g fill="#5D6573"><rect x="36" y="80" width="48" height="4"/><rect x="36" y="92" width="48" height="4"/><rect x="96" y="80" width="48" height="4"/><rect x="156" y="80" width="48" height="4"/><rect x="156" y="92" width="48" height="4"/></g>
+            <rect x="104" y="112" width="32" height="28" fill="#FDDA24"/>
+            <rect x="60" y="44" width="120" height="14" rx="3" fill="#fff"/>
+          </svg>
+          <div class="intro">
+            <div class="kicker" data-i18n="role_company_k">Espace</div>
+            <h3 data-i18n="role_company">ENTREPRISE</h3>
+            <p data-i18n="role_company_p">Trouve des chauffeurs qualifiés et disponibles, filtrés comme sur un site de voitures.</p>
+          </div>
+          <div>
+            <ul>
+              <li data-i18n="role_company_1">Filtres permis, ADR, VCA, carrosserie, région</li>
+              <li data-i18n="role_company_2">Certificats valides à la date d'embauche</li>
+              <li data-i18n="role_company_3">Tu paies un contact accepté, pas un CV</li>
+            </ul>
+            <span class="go"><span data-i18n="role_go_company">Chercher des chauffeurs</span> <svg width="18" height="18" viewBox="0 0 20 20"><path d="M4 10h11m-4-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Pensé par et pour les pros de la route</h2>
+        <p class="muted">Pas un site d'emploi de plus : une base de profils structurés, que les chauffeurs tiennent à jour parce qu'elle leur sert au quotidien.</p>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#15181D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 10h18M8 15l2 2 4-4"/></svg></div>
+          <h3>Tes dates, sous contrôle</h3>
+          <p class="muted">Code 95, ADR, VCA, carte conducteur, examen médical : un rappel 12 mois, 6 mois et 1 mois avant chaque échéance.</p>
+        </div>
+        <div class="feature">
+          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#15181D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18M6 12h12M10 19h4"/></svg></div>
+          <h3>Des filtres de pro</h3>
+          <p class="muted">Carrosserie, secteur, organisation du travail : trois filtres simples au lieu d'une liste de mots-clés qui se recoupent.</p>
+        </div>
+        <div class="feature">
+          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#15181D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
+          <h3>Contact protégé</h3>
+          <p class="muted">Profil anonymisé, coordonnées dévoilées seulement si tu acceptes. Tu peux même masquer ton profil à ton patron actuel.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="band">
+        <div>
+          <h2 style="color:#fff">Plus jamais un ADR qui expire en douce.</h2>
+          <p>Route 95 te prévient à temps. Pour l'ADR, un recyclage réussi dans les 12 mois avant l'échéance prolonge ton certificat sans perdre un jour.</p>
+          <a href="#/chauffeur" class="btn btn-primary">Ajouter mes dates</a>
+        </div>
+        <div class="remind" aria-label="Exemple de rappels">
+          <div class="remind-row"><span><span class="plate"><span>ADR</span></span> &nbsp;Certificat ADR base</span><span class="pill warn">dans 4 mois</span></div>
+          <div class="remind-row"><span><span class="plate"><span>95</span></span> &nbsp;Code 95 · 21 h / 35 h</span><span class="pill ok">valide 2029</span></div>
+          <div class="remind-row"><span><span class="plate"><span>VCA</span></span> &nbsp;VCA de base</span><span class="pill ok">valide 2033</span></div>
+          <div class="remind-row"><span><span class="plate"><span>TACHY</span></span> &nbsp;Carte conducteur</span><span class="pill bad">expirée</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="background:#fff">
+    <div class="wrap">
+      <div class="section-head"><h2>Comment ça marche</h2></div>
+      <div class="steps">
+        <div class="step"><h3>Le chauffeur crée son profil</h3><p class="muted">Permis, certificats et dates, engins, préférences d'horaires et salaire souhaité. Trois minutes sur téléphone.</p></div>
+        <div class="step"><h3>L'entreprise filtre</h3><p class="muted">CE + ADR valides, 2 ans de frigo, retour le soir, région de Liège… Chaque résultat explique pourquoi il correspond.</p></div>
+        <div class="step"><h3>Le chauffeur accepte</h3><p class="muted">L'entreprise envoie une demande de contact. Les coordonnées ne s'affichent que si le chauffeur dit oui.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ESPACE CHAUFFEUR ============ -->
+<section class="view" id="view-chauffeur">
+  <div class="page-head"><div class="wrap">
+    <h2>Mon profil chauffeur</h2>
+    <p class="muted">Remplis ce qui te concerne, le reste peut attendre. Tes dates servent à te prévenir avant chaque échéance.</p>
+  </div></div>
+  <div class="wrap layout profile">
+    <div class="panel" id="profileForm"></div>
+    <aside class="sticky" id="profileSide"></aside>
+  </div>
+</section>
+
+<!-- ============ ESPACE ENTREPRISE ============ -->
+<section class="view" id="view-entreprise">
+  <div class="page-head"><div class="wrap">
+    <h2>Trouver un chauffeur</h2>
+    <p class="muted">Cochez vos exigences : seuls les profils qui les remplissent s'affichent, classés par correspondance.</p>
+  </div></div>
+  <div class="wrap layout">
+    <aside>
+      <button class="btn btn-ghost filters-toggle" id="filtersToggle" style="width:100%;margin-bottom:12px">Afficher les filtres</button>
+      <div class="panel panel-pad filters sticky collapsed" id="filters"></div>
+    </aside>
+    <div>
+      <div class="toolbar">
+        <div><b id="resCount">0</b> <span class="muted">profils correspondent</span></div>
+        <div style="display:flex;gap:8px;align-items:center">
+          <label for="sort" class="small muted">Trier par</label>
+          <select id="sort" style="width:auto">
+            <option value="score">Meilleure correspondance</option>
+            <option value="exp">Expérience</option>
+            <option value="sal">Salaire souhaité (croissant)</option>
+          </select>
+        </div>
+      </div>
+      <div class="results" id="results"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OFFRES ============ -->
+<section class="view" id="view-offres">
+  <div class="page-head"><div class="wrap">
+    <h2>Offres d'emploi</h2>
+    <p class="muted">Sur Route 95, chaque offre affiche ses horaires réels et son salaire horaire brut. Pas de surprise.</p>
+  </div></div>
+  <div class="wrap" style="padding:24px 20px 64px">
+    <div class="chips" id="offerFilters" style="margin-bottom:18px"></div>
+    <div class="offers" id="offers"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="fbrand"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MjIgODIwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlJvdXRlIDk1Ij4KICA8dGl0bGU+Um91dGUgOTU8L3RpdGxlPgogIDxkZWZzPjxjbGlwUGF0aCBpZD0icjk1LXNoYXBlIj48cGF0aCBkPSJNNDExIDExIEw0MDEgMTMgTDM5MyAxNyBMMzg0IDIxIEwzNzQgMjUgTDM2NSAyOCBMMzU1IDMyIEwzNDUgMzUgTDMzNiAzNyBMMzI2IDM5IEwzMTYgNDIgTDMwNyA0MyBMMjk3IDQ0IEwyODcgNDQgTDI3NyA0NCBMMjY3IDQ0IEwyNTcgNDQgTDI0NyA0MyBMMjM3IDQyIEwyMjcgNDAgTDIxNyAzOCBMMjA3IDM2IEwxOTcgMzQgTDE4OCAzMiBMMTc4IDI5IEwxNjggMjUgTDE1OSAyMCBMMTUxIDE2IEwxNDEgMTkgTDEzMSAyOCBMMTIxIDM4IEwxMTIgNDcgTDEwMiA1NyBMOTIgNjcgTDgyIDc3IEw3MyA4NiBMNjMgOTYgTDU0IDEwNSBMNDUgMTE1IEwzNiAxMjUgTDI2IDEzNSBMMTYgMTQ1IEwxMyAxNTUgTDE5IDE2NCBMMjcgMTczIEwzMyAxODEgTDM4IDE4OSBMNDQgMTk4IEw0OSAyMDggTDU0IDIxOCBMNTggMjI2IEw2MSAyMzUgTDY1IDI0NCBMNjcgMjU0IEw3MCAyNjMgTDcxIDI3MiBMNzIgMjgxIEw3MyAyOTEgTDczIDMwMSBMNzMgMzExIEw3MyAzMjEgTDcyIDMzMSBMNzAgMzQxIEw2OCAzNTAgTDY2IDM2MCBMNjQgMzY5IEw2MSAzNzkgTDU3IDM4OSBMNTQgMzk4IEw1MCA0MDcgTDQ2IDQxNyBMNDIgNDI2IEwzOSA0MzYgTDM1IDQ0NiBMMzEgNDU1IEwyOCA0NjQgTDI1IDQ3NCBMMjIgNDg0IEwxOSA0OTMgTDE3IDUwMyBMMTUgNTEyIEwxMyA1MjIgTDExIDUzMiBMMTAgNTQyIEwxMCA1NTIgTDEwIDU2MiBMMTEgNTcyIEwxMiA1ODIgTDE0IDU5MiBMMTYgNjAxIEwxOSA2MTEgTDIyIDYyMSBMMjcgNjMxIEwzMSA2NDEgTDM3IDY1MSBMNDIgNjYwIEw0OSA2NjkgTDU1IDY3NyBMNjQgNjg2IEw3MyA2OTUgTDgyIDcwNCBMOTEgNzExIEw5OSA3MTYgTDEwOCA3MjIgTDExOCA3MjcgTDEyOCA3MzIgTDEzNyA3MzYgTDE0NiA3MzkgTDE1NiA3NDEgTDE2NiA3NDQgTDE3NiA3NDYgTDE4NSA3NDcgTDE5NSA3NDggTDIwNCA3NDkgTDIxNCA3NTAgTDIyNCA3NTAgTDIzMyA3NTEgTDI0MyA3NTIgTDI1MyA3NTMgTDI2MyA3NTQgTDI3MyA3NTUgTDI4MyA3NTYgTDI5MyA3NTggTDMwMyA3NjAgTDMxMyA3NjIgTDMyMyA3NjUgTDMzMiA3NjggTDM0MSA3NzIgTDM1MCA3NzUgTDM2MCA3ODAgTDM2OSA3ODQgTDM3NyA3ODkgTDM4NiA3OTQgTDM5NiA4MDAgTDQxMSA4MDUgTDQyNiA4MDAgTDQzNiA3OTQgTDQ0NSA3ODkgTDQ1MyA3ODQgTDQ2MiA3ODAgTDQ3MiA3NzUgTDQ4MSA3NzIgTDQ5MCA3NjggTDQ5OSA3NjUgTDUwOSA3NjIgTDUxOSA3NjAgTDUyOSA3NTggTDUzOSA3NTYgTDU0OSA3NTUgTDU1OSA3NTQgTDU2OSA3NTMgTDU3OSA3NTIgTDU4OSA3NTEgTDU5OCA3NTAgTDYwOCA3NTAgTDYxOCA3NDkgTDYyNyA3NDggTDYzNyA3NDcgTDY0NiA3NDYgTDY1NiA3NDQgTDY2NiA3NDEgTDY3NiA3MzkgTDY4NSA3MzYgTDY5NCA3MzIgTDcwNCA3MjcgTDcxNCA3MjIgTDcyMyA3MTYgTDczMSA3MTEgTDc0MCA3MDQgTDc0OSA2OTUgTDc1OCA2ODYgTDc2NyA2NzcgTDc3MyA2NjkgTDc4MCA2NjAgTDc4NSA2NTEgTDc5MSA2NDEgTDc5NSA2MzEgTDgwMCA2MjEgTDgwMyA2MTEgTDgwNiA2MDEgTDgwOCA1OTIgTDgxMCA1ODIgTDgxMSA1NzIgTDgxMiA1NjIgTDgxMiA1NTIgTDgxMiA1NDIgTDgxMSA1MzIgTDgwOSA1MjIgTDgwNyA1MTIgTDgwNSA1MDMgTDgwMyA0OTMgTDgwMCA0ODQgTDc5NyA0NzQgTDc5NCA0NjQgTDc5MSA0NTUgTDc4NyA0NDYgTDc4MyA0MzYgTDc4MCA0MjYgTDc3NiA0MTcgTDc3MiA0MDcgTDc2OCAzOTggTDc2NSAzODkgTDc2MSAzNzkgTDc1OCAzNjkgTDc1NiAzNjAgTDc1NCAzNTAgTDc1MiAzNDEgTDc1MCAzMzEgTDc0OSAzMjEgTDc0OSAzMTEgTDc0OSAzMDEgTDc0OSAyOTEgTDc1MCAyODEgTDc1MSAyNzIgTDc1MiAyNjMgTDc1NSAyNTQgTDc1NyAyNDQgTDc2MSAyMzUgTDc2NCAyMjYgTDc2OCAyMTggTDc3MyAyMDggTDc3OCAxOTggTDc4NCAxODkgTDc4OSAxODEgTDc5NSAxNzMgTDgwMyAxNjQgTDgwOSAxNTUgTDgwNiAxNDUgTDc5NiAxMzUgTDc4NiAxMjUgTDc3NyAxMTUgTDc2OCAxMDUgTDc1OSA5NiBMNzQ5IDg2IEw3NDAgNzcgTDczMCA2NyBMNzIwIDU3IEw3MTAgNDcgTDcwMSAzOCBMNjkxIDI4IEw2ODEgMTkgTDY3MSAxNiBMNjYzIDIwIEw2NTQgMjUgTDY0NCAyOSBMNjM0IDMyIEw2MjUgMzQgTDYxNSAzNiBMNjA1IDM4IEw1OTUgNDAgTDU4NSA0MiBMNTc1IDQzIEw1NjUgNDQgTDU1NSA0NCBMNTQ1IDQ0IEw1MzUgNDQgTDUyNSA0NCBMNTE1IDQzIEw1MDYgNDIgTDQ5NiAzOSBMNDg2IDM3IEw0NzcgMzUgTDQ2NyAzMiBMNDU3IDI4IEw0NDggMjUgTDQzOCAyMSBMNDI5IDE3IEw0MjEgMTMgWiIvPjwvY2xpcFBhdGg+PC9kZWZzPgogIDxwYXRoIGQ9Ik00MTEgMTEgTDQwMSAxMyBMMzkzIDE3IEwzODQgMjEgTDM3NCAyNSBMMzY1IDI4IEwzNTUgMzIgTDM0NSAzNSBMMzM2IDM3IEwzMjYgMzkgTDMxNiA0MiBMMzA3IDQzIEwyOTcgNDQgTDI4NyA0NCBMMjc3IDQ0IEwyNjcgNDQgTDI1NyA0NCBMMjQ3IDQzIEwyMzcgNDIgTDIyNyA0MCBMMjE3IDM4IEwyMDcgMzYgTDE5NyAzNCBMMTg4IDMyIEwxNzggMjkgTDE2OCAyNSBMMTU5IDIwIEwxNTEgMTYgTDE0MSAxOSBMMTMxIDI4IEwxMjEgMzggTDExMiA0NyBMMTAyIDU3IEw5MiA2NyBMODIgNzcgTDczIDg2IEw2MyA5NiBMNTQgMTA1IEw0NSAxMTUgTDM2IDEyNSBMMjYgMTM1IEwxNiAxNDUgTDEzIDE1NSBMMTkgMTY0IEwyNyAxNzMgTDMzIDE4MSBMMzggMTg5IEw0NCAxOTggTDQ5IDIwOCBMNTQgMjE4IEw1OCAyMjYgTDYxIDIzNSBMNjUgMjQ0IEw2NyAyNTQgTDcwIDI2MyBMNzEgMjcyIEw3MiAyODEgTDczIDI5MSBMNzMgMzAxIEw3MyAzMTEgTDczIDMyMSBMNzIgMzMxIEw3MCAzNDEgTDY4IDM1MCBMNjYgMzYwIEw2NCAzNjkgTDYxIDM3OSBMNTcgMzg5IEw1NCAzOTggTDUwIDQwNyBMNDYgNDE3IEw0MiA0MjYgTDM5IDQzNiBMMzUgNDQ2IEwzMSA0NTUgTDI4IDQ2NCBMMjUgNDc0IEwyMiA0ODQgTDE5IDQ5MyBMMTcgNTAzIEwxNSA1MTIgTDEzIDUyMiBMMTEgNTMyIEwxMCA1NDIgTDEwIDU1MiBMMTAgNTYyIEwxMSA1NzIgTDEyIDU4MiBMMTQgNTkyIEwxNiA2MDEgTDE5IDYxMSBMMjIgNjIxIEwyNyA2MzEgTDMxIDY0MSBMMzcgNjUxIEw0MiA2NjAgTDQ5IDY2OSBMNTUgNjc3IEw2NCA2ODYgTDczIDY5NSBMODIgNzA0IEw5MSA3MTEgTDk5IDcxNiBMMTA4IDcyMiBMMTE4IDcyNyBMMTI4IDczMiBMMTM3IDczNiBMMTQ2IDczOSBMMTU2IDc0MSBMMTY2IDc0NCBMMTc2IDc0NiBMMTg1IDc0NyBMMTk1IDc0OCBMMjA0IDc0OSBMMjE0IDc1MCBMMjI0IDc1MCBMMjMzIDc1MSBMMjQzIDc1MiBMMjUzIDc1MyBMMjYzIDc1NCBMMjczIDc1NSBMMjgzIDc1NiBMMjkzIDc1OCBMMzAzIDc2MCBMMzEzIDc2MiBMMzIzIDc2NSBMMzMyIDc2OCBMMzQxIDc3MiBMMzUwIDc3NSBMMzYwIDc4MCBMMzY5IDc4NCBMMzc3IDc4OSBMMzg2IDc5NCBMMzk2IDgwMCBMNDExIDgwNSBMNDI2IDgwMCBMNDM2IDc5NCBMNDQ1IDc4OSBMNDUzIDc4NCBMNDYyIDc4MCBMNDcyIDc3NSBMNDgxIDc3MiBMNDkwIDc2OCBMNDk5IDc2NSBMNTA5IDc2MiBMNTE5IDc2MCBMNTI5IDc1OCBMNTM5IDc1NiBMNTQ5IDc1NSBMNTU5IDc1NCBMNTY5IDc1MyBMNTc5IDc1MiBMNTg5IDc1MSBMNTk4IDc1MCBMNjA4IDc1MCBMNjE4IDc0OSBMNjI3IDc0OCBMNjM3IDc0NyBMNjQ2IDc0NiBMNjU2IDc0NCBMNjY2IDc0MSBMNjc2IDczOSBMNjg1IDczNiBMNjk0IDczMiBMNzA0IDcyNyBMNzE0IDcyMiBMNzIzIDcxNiBMNzMxIDcxMSBMNzQwIDcwNCBMNzQ5IDY5NSBMNzU4IDY4NiBMNzY3IDY3NyBMNzczIDY2OSBMNzgwIDY2MCBMNzg1IDY1MSBMNzkxIDY0MSBMNzk1IDYzMSBMODAwIDYyMSBMODAzIDYxMSBMODA2IDYwMSBMODA4IDU5MiBMODEwIDU4MiBMODExIDU3MiBMODEyIDU2MiBMODEyIDU1MiBMODEyIDU0MiBMODExIDUzMiBMODA5IDUyMiBMODA3IDUxMiBMODA1IDUwMyBMODAzIDQ5MyBMODAwIDQ4NCBMNzk3IDQ3NCBMNzk0IDQ2NCBMNzkxIDQ1NSBMNzg3IDQ0NiBMNzgzIDQzNiBMNzgwIDQyNiBMNzc2IDQxNyBMNzcyIDQwNyBMNzY4IDM5OCBMNzY1IDM4OSBMNzYxIDM3OSBMNzU4IDM2OSBMNzU2IDM2MCBMNzU0IDM1MCBMNzUyIDM0MSBMNzUwIDMzMSBMNzQ5IDMyMSBMNzQ5IDMxMSBMNzQ5IDMwMSBMNzQ5IDI5MSBMNzUwIDI4MSBMNzUxIDI3MiBMNzUyIDI2MyBMNzU1IDI1NCBMNzU3IDI0NCBMNzYxIDIzNSBMNzY0IDIyNiBMNzY4IDIxOCBMNzczIDIwOCBMNzc4IDE5OCBMNzg0IDE4OSBMNzg5IDE4MSBMNzk1IDE3MyBMODAzIDE2NCBMODA5IDE1NSBMODA2IDE0NSBMNzk2IDEzNSBMNzg2IDEyNSBMNzc3IDExNSBMNzY4IDEwNSBMNzU5IDk2IEw3NDkgODYgTDc0MCA3NyBMNzMwIDY3IEw3MjAgNTcgTDcxMCA0NyBMNzAxIDM4IEw2OTEgMjggTDY4MSAxOSBMNjcxIDE2IEw2NjMgMjAgTDY1NCAyNSBMNjQ0IDI5IEw2MzQgMzIgTDYyNSAzNCBMNjE1IDM2IEw2MDUgMzggTDU5NSA0MCBMNTg1IDQyIEw1NzUgNDMgTDU2NSA0NCBMNTU1IDQ0IEw1NDUgNDQgTDUzNSA0NCBMNTI1IDQ0IEw1MTUgNDMgTDUwNiA0MiBMNDk2IDM5IEw0ODYgMzcgTDQ3NyAzNSBMNDY3IDMyIEw0NTcgMjggTDQ0OCAyNSBMNDM4IDIxIEw0MjkgMTcgTDQyMSAxMyBaIiBmaWxsPSIjRkZGRkZGIi8+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI3I5NS1zaGFwZSkiPgogICAgPHJlY3QgeD0iOTkuNSIgeT0iMjQ3IiB3aWR0aD0iMjA3LjYiIGhlaWdodD0iMjciIGZpbGw9IiMxMTExMTEiLz4KICAgIDxyZWN0IHg9IjMwNy4yIiB5PSIyNDciIHdpZHRoPSIyMDcuNiIgaGVpZ2h0PSIyNyIgZmlsbD0iI0ZEREEyNCIvPgogICAgPHJlY3QgeD0iNTE0LjgiIHk9IjI0NyIgd2lkdGg9IjIwNy42IiBoZWlnaHQ9IjI3IiBmaWxsPSIjRUYzMzQwIi8+CiAgICA8cGF0aCBkPSJNNDExIDExIEw0MDEgMTMgTDM5MyAxNyBMMzg0IDIxIEwzNzQgMjUgTDM2NSAyOCBMMzU1IDMyIEwzNDUgMzUgTDMzNiAzNyBMMzI2IDM5IEwzMTYgNDIgTDMwNyA0MyBMMjk3IDQ0IEwyODcgNDQgTDI3NyA0NCBMMjY3IDQ0IEwyNTcgNDQgTDI0NyA0MyBMMjM3IDQyIEwyMjcgNDAgTDIxNyAzOCBMMjA3IDM2IEwxOTcgMzQgTDE4OCAzMiBMMTc4IDI5IEwxNjggMjUgTDE1OSAyMCBMMTUxIDE2IEwxNDEgMTkgTDEzMSAyOCBMMTIxIDM4IEwxMTIgNDcgTDEwMiA1NyBMOTIgNjcgTDgyIDc3IEw3MyA4NiBMNjMgOTYgTDU0IDEwNSBMNDUgMTE1IEwzNiAxMjUgTDI2IDEzNSBMMTYgMTQ1IEwxMyAxNTUgTDE5IDE2NCBMMjcgMTczIEwzMyAxODEgTDM4IDE4OSBMNDQgMTk4IEw0OSAyMDggTDU0IDIxOCBMNTggMjI2IEw2MSAyMzUgTDY1IDI0NCBMNjcgMjU0IEw3MCAyNjMgTDcxIDI3MiBMNzIgMjgxIEw3MyAyOTEgTDczIDMwMSBMNzMgMzExIEw3MyAzMjEgTDcyIDMzMSBMNzAgMzQxIEw2OCAzNTAgTDY2IDM2MCBMNjQgMzY5IEw2MSAzNzkgTDU3IDM4OSBMNTQgMzk4IEw1MCA0MDcgTDQ2IDQxNyBMNDIgNDI2IEwzOSA0MzYgTDM1IDQ0NiBMMzEgNDU1IEwyOCA0NjQgTDI1IDQ3NCBMMjIgNDg0IEwxOSA0OTMgTDE3IDUwMyBMMTUgNTEyIEwxMyA1MjIgTDExIDUzMiBMMTAgNTQyIEwxMCA1NTIgTDEwIDU2MiBMMTEgNTcyIEwxMiA1ODIgTDE0IDU5MiBMMTYgNjAxIEwxOSA2MTEgTDIyIDYyMSBMMjcgNjMxIEwzMSA2NDEgTDM3IDY1MSBMNDIgNjYwIEw0OSA2NjkgTDU1IDY3NyBMNjQgNjg2IEw3MyA2OTUgTDgyIDcwNCBMOTEgNzExIEw5OSA3MTYgTDEwOCA3MjIgTDExOCA3MjcgTDEyOCA3MzIgTDEzNyA3MzYgTDE0NiA3MzkgTDE1NiA3NDEgTDE2NiA3NDQgTDE3NiA3NDYgTDE4NSA3NDcgTDE5NSA3NDggTDIwNCA3NDkgTDIxNCA3NTAgTDIyNCA3NTAgTDIzMyA3NTEgTDI0MyA3NTIgTDI1MyA3NTMgTDI2MyA3NTQgTDI3MyA3NTUgTDI4MyA3NTYgTDI5MyA3NTggTDMwMyA3NjAgTDMxMyA3NjIgTDMyMyA3NjUgTDMzMiA3NjggTDM0MSA3NzIgTDM1MCA3NzUgTDM2MCA3ODAgTDM2OSA3ODQgTDM3NyA3ODkgTDM4NiA3OTQgTDM5NiA4MDAgTDQxMSA4MDUgTDQyNiA4MDAgTDQzNiA3OTQgTDQ0NSA3ODkgTDQ1MyA3ODQgTDQ2MiA3ODAgTDQ3MiA3NzUgTDQ4MSA3NzIgTDQ5MCA3NjggTDQ5OSA3NjUgTDUwOSA3NjIgTDUxOSA3NjAgTDUyOSA3NTggTDUzOSA3NTYgTDU0OSA3NTUgTDU1OSA3NTQgTDU2OSA3NTMgTDU3OSA3NTIgTDU4OSA3NTEgTDU5OCA3NTAgTDYwOCA3NTAgTDYxOCA3NDkgTDYyNyA3NDggTDYzNyA3NDcgTDY0NiA3NDYgTDY1NiA3NDQgTDY2NiA3NDEgTDY3NiA3MzkgTDY4NSA3MzYgTDY5NCA3MzIgTDcwNCA3MjcgTDcxNCA3MjIgTDcyMyA3MTYgTDczMSA3MTEgTDc0MCA3MDQgTDc0OSA2OTUgTDc1OCA2ODYgTDc2NyA2NzcgTDc3MyA2NjkgTDc4MCA2NjAgTDc4NSA2NTEgTDc5MSA2NDEgTDc5NSA2MzEgTDgwMCA2MjEgTDgwMyA2MTEgTDgwNiA2MDEgTDgwOCA1OTIgTDgxMCA1ODIgTDgxMSA1NzIgTDgxMiA1NjIgTDgxMiA1NTIgTDgxMiA1NDIgTDgxMSA1MzIgTDgwOSA1MjIgTDgwNyA1MTIgTDgwNSA1MDMgTDgwMyA0OTMgTDgwMCA0ODQgTDc5NyA0NzQgTDc5NCA0NjQgTDc5MSA0NTUgTDc4NyA0NDYgTDc4MyA0MzYgTDc4MCA0MjYgTDc3NiA0MTcgTDc3MiA0MDcgTDc2OCAzOTggTDc2NSAzODkgTDc2MSAzNzkgTDc1OCAzNjkgTDc1NiAzNjAgTDc1NCAzNTAgTDc1MiAzNDEgTDc1MCAzMzEgTDc0OSAzMjEgTDc0OSAzMTEgTDc0OSAzMDEgTDc0OSAyOTEgTDc1MCAyODEgTDc1MSAyNzIgTDc1MiAyNjMgTDc1NSAyNTQgTDc1NyAyNDQgTDc2MSAyMzUgTDc2NCAyMjYgTDc2OCAyMTggTDc3MyAyMDggTDc3OCAxOTggTDc4NCAxODkgTDc4OSAxODEgTDc5NSAxNzMgTDgwMyAxNjQgTDgwOSAxNTUgTDgwNiAxNDUgTDc5NiAxMzUgTDc4NiAxMjUgTDc3NyAxMTUgTDc2OCAxMDUgTDc1OSA5NiBMNzQ5IDg2IEw3NDAgNzcgTDczMCA2NyBMNzIwIDU3IEw3MTAgNDcgTDcwMSAzOCBMNjkxIDI4IEw2ODEgMTkgTDY3MSAxNiBMNjYzIDIwIEw2NTQgMjUgTDY0NCAyOSBMNjM0IDMyIEw2MjUgMzQgTDYxNSAzNiBMNjA1IDM4IEw1OTUgNDAgTDU4NSA0MiBMNTc1IDQzIEw1NjUgNDQgTDU1NSA0NCBMNTQ1IDQ0IEw1MzUgNDQgTDUyNSA0NCBMNTE1IDQzIEw1MDYgNDIgTDQ5NiAzOSBMNDg2IDM3IEw0NzcgMzUgTDQ2NyAzMiBMNDU3IDI4IEw0NDggMjUgTDQzOCAyMSBMNDI5IDE3IEw0MjEgMTMgWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExMTExIiBzdHJva2Utd2lkdGg9IjYwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPC9nPgogIDxwYXRoIGQ9Ik0xNzYuMDAgMjIwLjkyVjEwMC4wN0gyMjMuNzVRMjM2LjM3IDEwMC4wNyAyNDMuODAgMTA1LjM4UTI1MS4yMiAxMTAuNjggMjU0LjQxIDExOS40NVEyNTcuNjAgMTI4LjIxIDI1Ny42MCAxMzguNDBRMjU3LjYwIDE0NS4yMiAyNTUuNDkgMTUyLjIxUTI1My4zNyAxNTkuMjAgMjQ5LjE0IDE2NC45NFEyNDQuOTEgMTcwLjY4IDIzOC42NyAxNzMuNDRMMjU3Ljg5IDIyMC45MkgyMzQuODBMMjE2LjMwIDE3Ny4xNkgxOTYuNjVWMjIwLjkyWk0xOTYuNjUgMTUzLjc2SDIyNC4wNFEyMjguNjMgMTUzLjc2IDIzMS4zMiAxNTEuNjBRMjM0LjAxIDE0OS40NSAyMzUuMTIgMTQ1Ljk1UTIzNi4yMyAxNDIuNDUgMjM2LjIzIDEzOC40OFEyMzYuMjMgMTM0Ljg2IDIzNS4xOSAxMzEuNDBRMjM0LjE1IDEyNy45NSAyMzEuNDYgMTI1LjcxUTIyOC43NyAxMjMuNDYgMjI0LjA0IDEyMy40NkgxOTYuNjVaTTMxNy45OCAyMjMuMFEzMDUuOTMgMjIzLjAgMjk3LjQ3IDIxNy41MVEyODkuMDEgMjEyLjAzIDI4My44MSAyMDIuOTJRMjc4LjYxIDE5My44MiAyNzYuMjEgMTgyLjc3UTI3My44MSAxNzEuNzIgMjczLjgxIDE2MC41UTI3My44MSAxNDkuMjcgMjc2LjIxIDEzOC4yMlEyNzguNjEgMTI3LjE3IDI4My44MSAxMTguMDdRMjg5LjAxIDEwOC45NiAyOTcuNDcgMTAzLjQ4UTMwNS45MyA5Ny45OSAzMTcuOTggOTcuOTlRMzMwLjE3IDk3Ljk5IDMzOC41NiAxMDMuNDhRMzQ2Ljk1IDEwOC45NiAzNTIuMTUgMTE4LjA3UTM1Ny4zNSAxMjcuMTcgMzU5LjcyIDEzOC4yMlEzNjIuMDggMTQ5LjI3IDM2Mi4wOCAxNjAuNVEzNjIuMDggMTcxLjcyIDM1OS43MiAxODIuNzdRMzU3LjM1IDE5My44MiAzNTIuMTUgMjAyLjkyUTM0Ni45NSAyMTIuMDMgMzM4LjU2IDIxNy41MVEzMzAuMTcgMjIzLjAgMzE3Ljk4IDIyMy4wWk0zMTcuOTggMTk5LjAwUTMyNC4yOSAxOTkuMDAgMzI4LjYzIDE5NS40NlEzMzIuOTcgMTkxLjkyIDMzNS42MiAxODYuMDlRMzM4LjI4IDE4MC4yNiAzMzkuNDkgMTczLjUzUTM0MC43MSAxNjYuODAgMzQwLjcxIDE2MC41UTM0MC43MSAxNTMuNzYgMzM5LjU3IDE0Ni45NFEzMzguNDIgMTQwLjEyIDMzNS44MCAxMzQuNDJRMzMzLjE4IDEyOC43MyAzMjguODEgMTI1LjI3UTMyNC40MyAxMjEuODIgMzE3Ljk4IDEyMS44MlEzMTEuNTMgMTIxLjgyIDMwNy4xNSAxMjUuNDBRMzAyLjc4IDEyOC45OSAzMDAuMTMgMTM0Ljc3UTI5Ny40NyAxNDAuNTUgMjk2LjMyIDE0Ny4zN1EyOTUuMTggMTU0LjE5IDI5NS4xOCAxNjAuNVEyOTUuMTggMTY3LjE0IDI5Ni4zNiAxNzMuOTJRMjk3LjU0IDE4MC43MCAzMDAuMjMgMTg2LjM5UTMwMi45MiAxOTIuMDkgMzA3LjMwIDE5NS41NFEzMTEuNjcgMTk5LjAwIDMxNy45OCAxOTkuMDBaTTQyMi42MSAyMjMuMFE0MDkuODQgMjIzLjAgNDAwLjU5IDIxNy4zMFEzOTEuMzQgMjExLjYwIDM4Ni4zOSAyMDAuNzdRMzgxLjQ0IDE4OS45MyAzODEuNDQgMTc0LjU3VjEwMC4wN0g0MDIuMTBWMTc0LjU3UTQwMi4xMCAxODcuNjkgNDA3LjAxIDE5My4zNFE0MTEuOTIgMTk5LjAwIDQyMi42MSAxOTkuMDBRNDI5LjM1IDE5OS4wMCA0MzMuOTAgMTk2LjY3UTQzOC40NSAxOTQuMzMgNDQwLjc1IDE4OC45NFE0NDMuMDQgMTgzLjU0IDQ0My4wNCAxNzQuNTdWMTAwLjA3SDQ2My43MFYxNzQuNTdRNDYzLjcwIDE4Ny43NyA0NjAuMjkgMTk3LjAxUTQ1Ni44OCAyMDYuMjUgNDUxLjA4IDIxMS45OVE0NDUuMjcgMjE3LjczIDQzNy45MiAyMjAuMzZRNDMwLjU3IDIyMy4wIDQyMi42MSAyMjMuMFpNNTA4Ljg3IDIyMC45MlYxMjMuODlINDgwLjE5VjEwMC4wN0g1NTguMjhWMTIzLjg5SDUyOS41M1YyMjAuOTJaTTU3NS40OSAyMjAuOTJWMTAwLjA3SDY0Ni4wNVYxMjMuNjNINTk2LjE0VjE0Ni43N0g2MjQuNjFWMTcwLjM0SDU5Ni4xNFYxOTcuMThINjQ5LjAwVjIyMC45MloiIGZpbGw9IiMxMTExMTEiLz4KICA8cGF0aCBkPSJNMjIwLjQ0IDYzNS4wVjU3OS4wMlEyNDEuNDMgNTc3Ljk2IDI2MS45OSA1NzAuNzVRMjgyLjU2IDU2My41NSAyOTguNzggNTQ3LjU0UTMxNS4wMCA1MzEuNTMgMzIzLjA1IDUwNC44MlEzMTQuMTUgNTExLjM5IDMwMi4wNiA1MTUuMzFRMjg5Ljk4IDUxOS4yMyAyNzQuOTMgNTE5LjIzUTI0NS42NyA1MTkuMjMgMjIyLjg4IDUwNy44OVEyMDAuMDggNDk2LjU1IDE4Ni45NCA0NzUuMjRRMTczLjc5IDQ1My45MyAxNzMuNzkgNDIzLjYxUTE3My43OSAzOTQuNTcgMTg3Ljc5IDM3My4wNVEyMDEuNzggMzUxLjUzIDIyNi4xNiAzMzkuNzZRMjUwLjU0IDMyNy45OSAyODIuMzUgMzI3Ljk5UTMyMC4zMCAzMjcuOTkgMzQ0LjY4IDM0Mi44NFEzNjkuMDYgMzU3LjY4IDM4MC44MyAzODMuNjVRMzkyLjYwIDQwOS42MiAzOTIuNjAgNDQyLjkxUTM5Mi42MCA0OTkuNTIgMzczLjczIDU0MS45MlEzNTQuODYgNTg0LjMyIDMxNi42OSA2MDguNjBRMjc4LjUzIDYzMi44NyAyMjAuNDQgNjM1LjBaTTI4MS43MSA0NjMuMjZRMjk1LjA3IDQ2My4yNiAzMDUuMjQgNDU4LjcwUTMxNS40MiA0NTQuMTQgMzIxLjA0IDQ0NS4yNFEzMjYuNjYgNDM2LjM0IDMyNi42NiA0MjIuOThRMzI2LjY2IDQxMS4zMiAzMjAuOTMgNDAyLjIwUTMxNS4yMSAzOTMuMDggMzA1LjE0IDM4OC4wMFEyOTUuMDcgMzgyLjkxIDI4MS45MiAzODIuOTFRMjY2LjY2IDM4Mi45MSAyNTUuODQgMzg4LjAwUTI0NS4wMyAzOTMuMDggMjM5LjIwIDQwMi4wOVEyMzMuMzcgNDExLjExIDIzMy4zNyA0MjIuNTVRMjMzLjM3IDQzNS43MCAyMzkuMjAgNDQ0LjgyUTI0NS4wMyA0NTMuOTMgMjU1Ljg0IDQ1OC42MFEyNjYuNjYgNDYzLjI2IDI4MS43MSA0NjMuMjZaTTUzNi4zNCA2MzUuMFE1MTQuNTEgNjM1LjAgNDk2LjgwIDYzMC41NFE0NzkuMTAgNjI2LjA5IDQ2NS42NCA2MTkuMjBRNDUyLjE3IDYxMi4zMSA0NDMuMDYgNjA1LjEwTDQ3NS4wNyA1NTcuNDBRNDgyLjcwIDU2Mi40OSA0OTEuOTMgNTY3LjE1UTUwMS4xNSA1NzEuODEgNTEyLjE3IDU3NC43OFE1MjMuMjAgNTc3Ljc1IDUzNi4zNCA1NzcuNzVRNTUyLjAzIDU3Ny43NSA1NjQuMTIgNTcyLjI0UTU3Ni4yMCA1NjYuNzMgNTgyLjg4IDU1Ni4xMlE1ODkuNTYgNTQ1LjUyIDU4OS41NiA1MzAuNDdRNTg5LjU2IDUxOC4zOSA1ODUuMjEgNTA5LjA2UTU4MC44NyA0OTkuNzMgNTcyLjQ5IDQ5NC40M1E1NjQuMTIgNDg5LjEzIDU1MS42MSA0ODkuMTNRNTM1LjI4IDQ4OS4xMyA1MjQuNDcgNDk0Ljk2UTUxMy42NiA1MDAuNzkgNTA0Ljc1IDUxMC43NUw0NTEuOTYgNDgzLjgzTDQ1OS44MCAzMzMuMDhINjMxLjMzVjM5MS42MEg1MTUuNzhMNTEyLjYwIDQzOS41MlE1MjIuMzUgNDM1LjkxIDUzMS43OCA0MzMuNjlRNTQxLjIyIDQzMS40NiA1NTIuMDMgNDMxLjQ2UTU4NC4wNSA0MzEuNDYgNjA1Ljg4IDQ0NC42MFE2MjcuNzIgNDU3Ljc1IDYzOC45NiA0ODAuMjJRNjUwLjIwIDUwMi43MCA2NTAuMjAgNTMwLjY4UTY1MC4yMCA1NjIuNDkgNjM1LjQ2IDU4NS45MVE2MjAuNzMgNjA5LjM0IDU5NC45NyA2MjIuMTdRNTY5LjIxIDYzNS4wIDUzNi4zNCA2MzUuMFoiIGZpbGw9IiMxMTExMTEiLz4KPC9zdmc+Cg==" alt="">Route 95</div>
+      <p style="margin-top:12px;max-width:380px" class="small">Chauffeurs et transporteurs, sur la même route. Prototype de démonstration : entreprises, chauffeurs et offres sont fictifs.</p>
+    </div>
+    <div class="small">
+      <p><a href="#/offres">Offres</a> · <a href="#/chauffeur">Espace chauffeur</a> · <a href="#/entreprise">Espace entreprise</a></p>
+      <p>Repère salarial : barèmes CP 140.03 au 01/01/2026 (source CSC).<br>© 2026 Route 95</p>
+    </div>
+  </div>
+</footer>
+
+<div class="modal-bg" id="modal" role="dialog" aria-modal="true"><div class="modal" id="modalBox"></div></div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* ================= Données de référence ================= */
+const PERMIS = ['B','BE','C1','C1E','C','CE','G','D'];
+const CERTS = [
+  {k:'code95', label:'Code 95', sub:'aptitude professionnelle · 35 h / 5 ans', plate:'95'},
+  {k:'carte',  label:'Carte conducteur', sub:'tachygraphe · 5 ans', plate:'TACHY'},
+  {k:'adr',    label:'ADR base', sub:'recyclage + examen · 5 ans', plate:'ADR'},
+  {k:'adrc',   label:'ADR citernes', sub:'spécialisation · 5 ans', plate:'ADR-C'},
+  {k:'vca',    label:'VCA de base', sub:'sécurité chantiers · 10 ans', plate:'VCA'},
+  {k:'animaux',label:'Transport d’animaux', sub:'certificat d’aptitude', plate:'ANIM'},
+  {k:'med',    label:'Examen médical (groupe 2)', sub:'privé : sert uniquement à tes rappels', plate:'MED', priv:true}
+];
+const ENGINS = ['Chariot frontal','Chariot rétractable','Transpalette / gerbeur','Chariot embarqué','Télescopique','Grue auxiliaire','Nacelle','Pont roulant','Hayon','Ampliroll'];
+const CARROS = ['Bâché / tautliner','Fourgon / caisse','Frigo','Citerne','Benne','Plateau','Porte-conteneurs','Porte-voitures','Porte-engins','Camion-grue','Ampliroll'];
+const SECTEURS = ['Marchandises générales','Alimentaire','Matières dangereuses','Construction','Vrac','Déchets / recyclage','Agricole','Convoi exceptionnel'];
+const ORGA = ['Distribution multi-arrêts','Navettes / lots complets','Messagerie / groupage','Régional','National longue distance','International'];
+const HORAIRES = ['Jour','Départ très tôt','Nuit','Week-end possible'];
+const CONTRATS = ['CDI','CDD','Temps partiel','Intérim'];
+const LANGS = ['FR','NL','DE','EN'];
+const REGIONS = ['Liège','Namur','Hainaut','Luxembourg','Brabant wallon','Bruxelles','Brabant flamand','Anvers','Limbourg','Flandre orientale','Flandre occidentale'];
+const DISPO = {now:'Disponible tout de suite', open:'En poste, ouvert aux propositions', month:'Disponible dans 1 mois'};
+const BAREME_MIN = 14.93; // CP 140.03, niveau 1, 38 h, au 01/01/2026
+
+/* ================= Chauffeurs fictifs ================= */
+const DRIVERS = [
+ {n:'Marc D.', r:'Liège', city:'Huy', p:['B','C','CE'], c:{code95:'2029-03-01',carte:'2028-10-01',adr:'2027-02-01',vca:'2031-05-01'}, e:['Chariot frontal','Grue auxiliaire'], y:14, yce:11, car:['Bâché / tautliner','Plateau','Camion-grue'], sect:['Construction','Marchandises générales'], org:['Régional','Distribution multi-arrêts'], d:'open', s:17.5, l:['FR'], soir:true},
+ {n:'Sofie V.', r:'Limbourg', city:'Hasselt', p:['B','C','CE'], c:{code95:'2028-06-01',carte:'2027-11-01',adr:'2029-09-01',adrc:'2029-09-01'}, e:[], y:9, yce:9, car:['Citerne'], sect:['Matières dangereuses'], org:['National longue distance','Navettes / lots complets'], d:'now', s:18.25, l:['NL','FR','EN'], soir:true},
+ {n:'Karim B.', r:'Hainaut', city:'Charleroi', p:['B','C','CE'], c:{code95:'2027-01-15',carte:'2026-12-20'}, e:['Transpalette / gerbeur','Hayon'], y:6, yce:4, car:['Frigo','Fourgon / caisse'], sect:['Alimentaire'], org:['Distribution multi-arrêts'], d:'now', s:16.5, l:['FR'], soir:true},
+ {n:'Julien M.', r:'Liège', city:'Waremme', p:['B','BE','C','CE','G'], c:{code95:'2030-04-01',carte:'2029-02-01',vca:'2035-06-01'}, e:['Télescopique','Chariot frontal'], y:2, yce:1, car:['Benne','Plateau'], sect:['Agricole','Construction'], org:['Régional'], d:'month', s:15.75, l:['FR','NL'], soir:true},
+ {n:'Pieter G.', r:'Flandre orientale', city:'Gand', p:['B','C','CE'], c:{code95:'2029-11-01',carte:'2028-05-01'}, e:['Chariot embarqué'], y:18, yce:16, car:['Porte-conteneurs','Bâché / tautliner'], sect:['Marchandises générales'], org:['Navettes / lots complets','International'], d:'open', s:19, l:['NL','FR','DE','EN'], soir:false},
+ {n:'Nadia E.', r:'Bruxelles', city:'Anderlecht', p:['B','C1','C1E','C'], c:{code95:'2028-02-01',carte:'2027-08-01'}, e:['Hayon','Transpalette / gerbeur'], y:4, yce:0, car:['Fourgon / caisse','Frigo'], sect:['Alimentaire','Marchandises générales'], org:['Distribution multi-arrêts','Messagerie / groupage'], d:'now', s:16, l:['FR','NL','EN'], soir:true},
+ {n:'Thomas L.', r:'Namur', city:'Andenne', p:['B','C','CE'], c:{code95:'2026-09-01',carte:'2028-01-01',adr:'2026-08-01'}, e:['Ampliroll'], y:22, yce:20, car:['Ampliroll','Benne'], sect:['Déchets / recyclage','Matières dangereuses'], org:['Régional'], d:'open', s:18, l:['FR'], soir:true},
+ {n:'Kevin R.', r:'Luxembourg', city:'Arlon', p:['B','C','CE'], c:{code95:'2028-12-01',carte:'2028-12-01',adr:'2028-04-01'}, e:[], y:11, yce:10, car:['Bâché / tautliner','Frigo'], sect:['Alimentaire','Marchandises générales'], org:['International','National longue distance'], d:'now', s:18.5, l:['FR','DE'], soir:false},
+ {n:'Lotte D.', r:'Anvers', city:'Anvers', p:['B','C','CE'], c:{code95:'2030-01-01',carte:'2029-06-01',adr:'2030-01-01',adrc:'2030-01-01',vca:'2034-01-01'}, e:['Chariot frontal'], y:7, yce:7, car:['Citerne','Porte-conteneurs'], sect:['Matières dangereuses','Vrac'], org:['Navettes / lots complets'], d:'month', s:19.25, l:['NL','EN'], soir:true},
+ {n:'Sébastien P.', r:'Liège', city:'Seraing', p:['B','C','CE'], c:{code95:'2027-03-01',carte:'2027-07-01',vca:'2030-03-01'}, e:['Grue auxiliaire','Chariot embarqué'], y:12, yce:9, car:['Camion-grue','Plateau','Porte-engins'], sect:['Construction','Convoi exceptionnel'], org:['Régional'], d:'now', s:18.75, l:['FR'], soir:true},
+ {n:'Ahmed K.', r:'Brabant wallon', city:'Wavre', p:['B','C','CE'], c:{code95:'2029-08-01',carte:'2029-01-01'}, e:['Hayon'], y:3, yce:2, car:['Bâché / tautliner','Fourgon / caisse'], sect:['Marchandises générales'], org:['Messagerie / groupage','Distribution multi-arrêts'], d:'now', s:16.25, l:['FR','NL','EN'], soir:true},
+ {n:'Bart S.', r:'Flandre occidentale', city:'Courtrai', p:['B','C','CE'], c:{code95:'2028-10-01',carte:'2028-03-01'}, e:['Télescopique'], y:25, yce:23, car:['Frigo','Bâché / tautliner'], sect:['Alimentaire','Agricole'], org:['International'], d:'open', s:20, l:['NL','FR'], soir:false},
+ {n:'Élodie F.', r:'Namur', city:'Namur', p:['B','C','CE'], c:{code95:'2031-02-01',carte:'2030-09-01'}, e:['Chariot frontal','Transpalette / gerbeur'], y:1, yce:1, car:['Bâché / tautliner'], sect:['Marchandises générales'], org:['Régional','Distribution multi-arrêts'], d:'now', s:15.5, l:['FR'], soir:true},
+ {n:'Dirk V.', r:'Brabant flamand', city:'Louvain', p:['B','C','CE','D'], c:{code95:'2027-05-01',carte:'2027-05-01',animaux:'2029-01-01'}, e:[], y:16, yce:14, car:['Plateau'], sect:['Agricole'], org:['National longue distance'], d:'month', s:17.75, l:['NL','FR'], soir:true},
+ {n:'Yassine T.', r:'Hainaut', city:'Mons', p:['B','C','CE'], c:{code95:'2029-04-01',carte:'2028-11-01',adr:'2029-04-01'}, e:['Chariot frontal'], y:8, yce:6, car:['Citerne','Benne'], sect:['Matières dangereuses','Vrac'], org:['Régional','National longue distance'], d:'open', s:18, l:['FR','EN'], soir:true},
+ {n:'Chloé H.', r:'Liège', city:'Verviers', p:['B','C1','C'], c:{code95:'2030-10-01',carte:'2030-02-01'}, e:['Hayon'], y:2, yce:0, car:['Fourgon / caisse','Frigo'], sect:['Alimentaire'], org:['Distribution multi-arrêts'], d:'now', s:15.25, l:['FR','DE'], soir:true}
+];
+
+/* ================= Offres fictives ================= */
+const OFFERS = [
+ {t:'Chauffeur CE grue auxiliaire', co:'Matériaux Condroz (fictif)', col:'#15181D', city:'Huy', h:'06:30 – 15:30', soir:true, intl:false, sal:'17,80 €/h', extra:'+ RGPT, chèques-repas', req:['CE','95','VCA'], ct:'CDI', tags:['Camion-grue','Construction','Régional']},
+ {t:'Chauffeur CE citerne carburant', co:'Mosa Fuel Logistics (fictif)', col:'#B4232F', city:'Liège', h:'05:00 – 14:00', soir:true, intl:false, sal:'18,40 €/h', extra:'+ prime ADR', req:['CE','95','ADR','ADR-C'], ct:'CDI', tags:['Citerne','Matières dangereuses']},
+ {t:'Chauffeur C distribution frigo', co:'Fraîcheur Hesbaye (fictif)', col:'#1F8A5B', city:'Waremme', h:'07:00 – 16:00', soir:true, intl:false, sal:'16,60 €/h', extra:'+ RGPT', req:['C','95'], ct:'CDI', tags:['Frigo','Alimentaire','Distribution']},
+ {t:'Chauffeur CE international Benelux–Allemagne', co:'Trans-Euregio (fictif)', col:'#1D4ED8', city:'Eupen', h:'lundi – vendredi', soir:false, intl:true, sal:'17,20 €/h', extra:'+ frais de séjour', req:['CE','95'], ct:'CDI', tags:['Tautliner','International','DE requis']},
+ {t:'Chauffeur CE benne carrière', co:'Carrières du Hoyoux (fictif)', col:'#8A6100', city:'Modave', h:'06:00 – 15:00', soir:true, intl:false, sal:'17,50 €/h', extra:'+ prime d’équipe', req:['CE','95','VCA'], ct:'CDD 6 mois', tags:['Benne','Vrac','Régional']},
+ {t:'Chauffeur C1 / C messagerie (temps partiel)', co:'Colis Meuse Express (fictif)', col:'#5D6573', city:'Namur', h:'08:00 – 13:00', soir:true, intl:false, sal:'15,90 €/h', extra:'', req:['C1','95'], ct:'Temps partiel', tags:['Fourgon','Messagerie','Compatible études']}
+];
+
+/* ================= Outils ================= */
+const $ = (s, el=document) => el.querySelector(s);
+const $$ = (s, el=document) => [...el.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const TODAY = new Date();
+function monthsLeft(iso){ if(!iso) return null; const d = new Date(iso); return (d - TODAY) / (1000*60*60*24*30.44); }
+function status(iso){
+  const m = monthsLeft(iso);
+  if(m === null) return {cls:'neutral', txt:'date à ajouter'};
+  if(m < 0) return {cls:'bad', txt:'expiré'};
+  if(m < 6) return {cls:'warn', txt: m < 1 ? 'expire ce mois-ci' : `dans ${Math.round(m)} mois`};
+  return {cls:'ok', txt:'valide ' + new Date(iso).getFullYear()};
+}
+function fmtDate(iso){ const d = new Date(iso); return d.toLocaleDateString('fr-BE',{month:'2-digit',year:'numeric'}); }
+function plate(txt){ return `<span class="plate"><span>${esc(txt)}</span></span>`; }
+function toast(html){ const t=$('#toast'); t.innerHTML=html; t.classList.add('show'); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),3200); }
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); return true; }catch(e){ return false; } }
+};
+
+/* ================= Traductions (accueil et navigation) ================= */
+const I18N = {
+ nl:{nav_offers:'Vacatures',nav_driver:'Chauffeurs',nav_company:'Bedrijven',cta_profile:'Mijn profiel maken',eyebrow:'Gratis voor chauffeurs · België',hero_title:'Chauffeurs en transporteurs, op dezelfde weg.',hero_lead:'Je pro-profiel in 3 minuten: rijbewijs, code 95, ADR, VCA, machines. Bedrijven vinden de juiste chauffeur, jij de job die bij je leven past.',cta_driver:'Ik ben chauffeur',cta_company:'Ik zoek chauffeurs',stat1:'rijbewijzen en attesten up-to-date',stat2:'om je profiel te maken',stat3:'voor chauffeurs, altijd',choose_title:'Waarvoor kom je?',choose_lead:'Kies je ruimte. Je kan later altijd wisselen.',role_driver_k:'Ruimte',role_driver:'CHAUFFEUR',role_driver_p:'Een pro-profiel dat zichzelf bijwerkt, en vacatures met zichtbare uren en loon.',role_driver_1:'Herinneringen vóór je code 95, ADR… vervalt',role_driver_2:'Contactgegevens verborgen tot jij akkoord gaat',role_driver_3:'Gratis, zonder cv te schrijven',role_go_driver:'Mijn profiel maken',role_company_k:'Ruimte',role_company:'BEDRIJF',role_company_p:'Vind gekwalificeerde, beschikbare chauffeurs, gefilterd zoals op een autosite.',role_company_1:'Filters rijbewijs, ADR, VCA, opbouw, regio',role_company_2:'Attesten geldig op de startdatum',role_company_3:'Je betaalt een aanvaard contact, geen cv',role_go_company:'Chauffeurs zoeken'},
+ de:{nav_offers:'Stellen',nav_driver:'Fahrer',nav_company:'Unternehmen',cta_profile:'Profil erstellen',eyebrow:'Kostenlos für Fahrer · Belgien',hero_title:'Fahrer und Transportunternehmen, auf demselben Weg.',hero_lead:'Dein Profi-Profil in 3 Minuten: Führerschein, Code 95, ADR, VCA, Geräte. Unternehmen finden den richtigen Fahrer, du den Job, der zu deinem Leben passt.',cta_driver:'Ich bin Fahrer',cta_company:'Ich suche Fahrer',stat1:'Führerscheine und Nachweise aktuell',stat2:'für dein Profil',stat3:'für Fahrer, immer',choose_title:'Wofür bist du hier?',choose_lead:'Wähle deinen Bereich. Du kannst später jederzeit wechseln.',role_driver_k:'Bereich',role_driver:'FAHRER',role_driver_p:'Ein Profi-Profil, das aktuell bleibt, und Stellen mit sichtbaren Arbeitszeiten und Lohn.',role_driver_1:'Erinnerungen vor Ablauf von Code 95, ADR…',role_driver_2:'Kontaktdaten verborgen bis zu deiner Zustimmung',role_driver_3:'Kostenlos, ohne Lebenslauf',role_go_driver:'Profil erstellen',role_company_k:'Bereich',role_company:'UNTERNEHMEN',role_company_p:'Finde qualifizierte, verfügbare Fahrer, gefiltert wie auf einem Autoportal.',role_company_1:'Filter Führerschein, ADR, VCA, Aufbau, Region',role_company_2:'Nachweise gültig zum Starttermin',role_company_3:'Du zahlst pro angenommenem Kontakt, nicht pro Lebenslauf',role_go_company:'Fahrer suchen'}
+};
+const FR = {};
+$$('[data-i18n]').forEach(el => FR[el.dataset.i18n] = el.textContent);
+function setLang(l){
+  const dict = l === 'fr' ? FR : Object.assign({}, FR, I18N[l]);
+  $$('[data-i18n]').forEach(el => { const v = dict[el.dataset.i18n]; if(v) el.textContent = v; });
+  $$('.lang button').forEach(b => b.classList.toggle('on', b.dataset.lang === l));
+  document.documentElement.lang = l;
+  store.set('r95_lang', l);
+  if(l !== 'fr') toast(`<b>${l.toUpperCase()}</b> — prototype : accueil et menu traduits, le reste suivra.`);
+}
+
+/* ================= Espace chauffeur ================= */
+const DEFAULT_PROFILE = {prenom:'', nom:'', region:'Liège', city:'', langs:['FR'], permis:[], certs:{}, certOn:{}, engins:[], y:'', yce:'', car:[], sect:[], org:[], soir:'soir', horaires:['Jour'], contrats:['CDI'], dispo:'now', salaire:16.5, hidden:false};
+let P = Object.assign(JSON.parse(JSON.stringify(DEFAULT_PROFILE)), store.get('r95_profile', {}));
+
+function chipGroup(name, list, selected, extra=''){
+  return `<div class="chips">${list.map(v => `<button type="button" class="chip ${extra} ${selected.includes(v)?'on':''}" data-group="${name}" data-val="${esc(v)}" aria-pressed="${selected.includes(v)}">${esc(v)}</button>`).join('')}</div>`;
+}
+function renderProfileForm(){
+  $('#profileForm').innerHTML = `
+  <div class="form-section">
+    <h3><span class="n">1</span>Qui es-tu ?</h3>
+    <p>Les entreprises voient seulement ton prénom, l'initiale de ton nom et ta région.</p>
+    <div class="grid3">
+      <div><label class="f" for="fPrenom">Prénom</label><input type="text" id="fPrenom" data-k="prenom" value="${esc(P.prenom)}" placeholder="Lucas"></div>
+      <div><label class="f" for="fNom">Nom</label><input type="text" id="fNom" data-k="nom" value="${esc(P.nom)}" placeholder="Dupont"></div>
+      <div><label class="f" for="fRegion">Région</label><select id="fRegion" data-k="region">${REGIONS.map(r=>`<option ${P.region===r?'selected':''}>${r}</option>`).join('')}</select></div>
+    </div>
+    <div style="margin-top:12px"><label class="f">Langues parlées</label>${chipGroup('langs', LANGS, P.langs)}</div>
+  </div>
+  <div class="form-section">
+    <h3><span class="n">2</span>Permis de conduire</h3>
+    <p>Coche toutes les catégories que tu possèdes. Le permis D (bus) est noté à titre indicatif.</p>
+    ${chipGroup('permis', PERMIS, P.permis, 'plate-chip')}
+  </div>
+  <div class="form-section">
+    <h3><span class="n">3</span>Certificats et dates de validité</h3>
+    <p>Coche ce que tu as et indique la date de fin. Route 95 te préviendra 12, 6 et 1 mois avant.</p>
+    ${CERTS.map(c => { const on = !!P.certOn[c.k]; const st = on ? status(P.certs[c.k]) : null; return `
+      <div class="cert-row">
+        <label class="lbl"><input type="checkbox" data-cert="${c.k}" ${on?'checked':''} style="width:20px;height:20px;accent-color:#15181D">
+          ${plate(c.plate)}<span>${esc(c.label)}<small>${esc(c.sub)}${c.priv?' · <span class="lock">🔒 jamais visible des entreprises</span>':''}</small></span></label>
+        <input type="month" data-certdate="${c.k}" value="${P.certs[c.k] ? P.certs[c.k].slice(0,7) : ''}" ${on?'':'disabled'} aria-label="Date de fin ${esc(c.label)}">
+        <span>${on ? `<span class="pill ${st.cls}">${st.txt}</span>` : '<span class="pill neutral">non renseigné</span>'}</span>
+      </div>`; }).join('')}
+  </div>
+  <div class="form-section">
+    <h3><span class="n">4</span>Engins</h3>
+    <p>Ce que tu sais utiliser (attestation, autorisation d'un employeur ou expérience).</p>
+    ${chipGroup('engins', ENGINS, P.engins)}
+  </div>
+  <div class="form-section">
+    <h3><span class="n">5</span>Expérience</h3>
+    <div class="grid2">
+      <div><label class="f" for="fY">Années d'expérience poids lourd</label><input type="number" min="0" max="50" id="fY" data-k="y" value="${esc(P.y)}" placeholder="0"></div>
+      <div><label class="f" for="fYce">Dont années en CE (semi)</label><input type="number" min="0" max="50" id="fYce" data-k="yce" value="${esc(P.yce)}" placeholder="0"></div>
+    </div>
+    <div style="margin-top:14px"><label class="f">Carrosseries déjà conduites</label>${chipGroup('car', CARROS, P.car)}</div>
+    <div style="margin-top:14px"><label class="f">Secteurs</label>${chipGroup('sect', SECTEURS, P.sect)}</div>
+    <div style="margin-top:14px"><label class="f">Organisation du travail</label>${chipGroup('org', ORGA, P.org)}</div>
+  </div>
+  <div class="form-section">
+    <h3><span class="n">6</span>Ce que tu cherches</h3>
+    <div class="grid2">
+      <div><label class="f" for="fSoir">Nuits dehors</label><select id="fSoir" data-k="soir">
+        <option value="soir" ${P.soir==='soir'?'selected':''}>Retour chaque soir</option>
+        <option value="semaine" ${P.soir==='semaine'?'selected':''}>Découchés acceptés</option></select></div>
+      <div><label class="f" for="fDispo">Disponibilité</label><select id="fDispo" data-k="dispo">${Object.entries(DISPO).map(([k,v])=>`<option value="${k}" ${P.dispo===k?'selected':''}>${v}</option>`).join('')}</select></div>
+    </div>
+    <div style="margin-top:14px"><label class="f">Horaires possibles</label>${chipGroup('horaires', HORAIRES, P.horaires)}</div>
+    <div style="margin-top:14px"><label class="f">Contrats</label>${chipGroup('contrats', CONTRATS, P.contrats)}</div>
+  </div>
+  <div class="form-section">
+    <h3><span class="n">7</span>Salaire souhaité</h3>
+    <p>Salaire horaire brut, hors primes et indemnités (RGPT, séjour, nuit).</p>
+    <div style="display:flex;align-items:baseline;gap:10px"><span class="salary-out" id="salOut">${P.salaire.toFixed(2).replace('.',',')} €</span><span class="muted">/ heure brut</span></div>
+    <input type="range" min="14.5" max="24" step="0.25" id="fSal" data-k="salaire" value="${P.salaire}" aria-label="Salaire horaire souhaité">
+    <p class="hint" id="salHint"></p>
+  </div>
+  <div class="form-section" style="display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center">
+    <label class="check"><input type="checkbox" id="fHidden" ${P.hidden?'checked':''}> Masquer mon profil aux entreprises pour l'instant</label>
+    <div style="display:flex;gap:10px"><button class="btn btn-ghost" id="resetProfile" type="button">Effacer</button><button class="btn btn-primary" id="saveProfile" type="button">Enregistrer mon profil</button></div>
+  </div>`;
+  updateSalHint();
+}
+function updateSalHint(){
+  const v = P.salaire, h = $('#salHint'); if(!h) return;
+  h.innerHTML = v < BAREME_MIN
+    ? `⚠️ En dessous du barème minimum du transport pour compte de tiers (CP 140.03, niveau 1 : ${BAREME_MIN.toFixed(2).replace('.',',')} €/h au 01/01/2026).`
+    : `Repère : barème CP 140.03 de ${BAREME_MIN.toFixed(2).replace('.',',')} à 15,81 €/h (niveaux 1 à 4, 01/01/2026). Les offres réelles sont souvent au-dessus.`;
+}
+function completion(){
+  const checks = [P.prenom, P.nom, P.permis.length, Object.keys(P.certOn).filter(k=>P.certOn[k]).length, P.engins.length || P.car.length, P.y !== '', P.car.length, P.org.length, P.horaires.length, P.langs.length];
+  return Math.round(100 * checks.filter(Boolean).length / checks.length);
+}
+function renderProfileSide(){
+  const name = (P.prenom || 'Ton prénom') + ' ' + (P.nom ? P.nom[0].toUpperCase() + '.' : 'X.');
+  const pct = completion();
+  const certList = CERTS.filter(c => P.certOn[c.k]);
+  const upcoming = certList.filter(c => P.certs[c.k]).map(c => ({c, m: monthsLeft(P.certs[c.k])})).sort((a,b)=>a.m-b.m);
+  $('#profileSide').innerHTML = `
+  <div class="panel panel-pad" style="margin-bottom:16px">
+    <div style="display:flex;justify-content:space-between;margin-bottom:8px"><b>Profil complété</b><b>${pct} %</b></div>
+    <div class="progress"><i style="width:${pct}%"></i></div>
+    <p class="hint" style="margin:8px 0 0">${pct < 70 ? 'Un profil complet à 70 % apparaît beaucoup plus souvent dans les recherches.' : 'Ton profil est bien rempli. Les entreprises vont te trouver.'}</p>
+  </div>
+  <div class="procard" style="margin-bottom:16px">
+    <div class="procard-top"><img src="${LOGO}" alt=""><div><div style="font:900 1.2rem var(--head)">${esc(name)}</div><div class="small" style="color:#C9CED6">${esc(P.region)}${P.y!==''?' · '+esc(P.y)+' ans d’expérience':''}</div></div></div>
+    <div class="procard-body">
+      <div><h5>Permis</h5><div class="plates">${P.permis.length ? P.permis.map(plate).join('') : '<span class="muted small">Aucun permis coché</span>'}</div></div>
+      <div><h5>Certificats</h5><div class="plates">${certList.filter(c=>!c.priv).length ? certList.filter(c=>!c.priv).map(c=>`${plate(c.plate)}`).join('') : '<span class="muted small">Aucun certificat coché</span>'}</div></div>
+      ${P.car.length ? `<div><h5>Carrosseries</h5><div class="plates">${P.car.map(v=>`<span class="tag">${esc(v)}</span>`).join('')}</div></div>` : ''}
+      <div><h5>Recherche</h5><div class="small">${esc(DISPO[P.dispo])} · ${P.soir==='soir'?'retour chaque soir':'découchés acceptés'} · ${P.salaire.toFixed(2).replace('.',',')} €/h souhaités</div></div>
+      ${P.hidden ? '<span class="pill warn">Profil masqué aux entreprises</span>' : '<span class="pill ok">Visible, coordonnées protégées</span>'}
+    </div>
+  </div>
+  <div class="panel panel-pad">
+    <b>Mes prochains rappels</b>
+    <div class="rlist" style="margin-top:10px">${upcoming.length ? upcoming.map(({c}) => { const st = status(P.certs[c.k]); return `<div class="remind-row"><span>${plate(c.plate)} &nbsp;${esc(c.label)}</span><span class="pill ${st.cls}">${st.txt}</span></div>`; }).join('') : '<p class="hint" style="margin:0">Ajoute la date de fin de tes certificats pour recevoir des rappels.</p>'}</div>
+  </div>`;
+}
+function bindProfile(){
+  const form = $('#profileForm');
+  form.addEventListener('click', e => {
+    const chip = e.target.closest('.chip'); if(!chip) return;
+    const g = chip.dataset.group, v = chip.dataset.val, arr = P[g];
+    const i = arr.indexOf(v); i >= 0 ? arr.splice(i,1) : arr.push(v);
+    chip.classList.toggle('on'); chip.setAttribute('aria-pressed', chip.classList.contains('on'));
+    renderProfileSide();
+  });
+  form.addEventListener('input', e => {
+    const el = e.target;
+    if(el.dataset.k){ P[el.dataset.k] = el.type === 'range' ? parseFloat(el.value) : el.value;
+      if(el.dataset.k === 'salaire'){ $('#salOut').textContent = P.salaire.toFixed(2).replace('.',',') + ' €'; updateSalHint(); } }
+    if(el.dataset.certdate){ P.certs[el.dataset.certdate] = el.value ? el.value + '-01' : ''; renderProfileForm(); restoreFocus(`[data-certdate="${el.dataset.certdate}"]`); }
+    if(el.id === 'fHidden') P.hidden = el.checked;
+    renderProfileSide();
+  });
+  form.addEventListener('change', e => {
+    const el = e.target;
+    if(el.dataset.cert){ P.certOn[el.dataset.cert] = el.checked; renderProfileForm(); renderProfileSide(); restoreFocus(`[data-certdate="${el.dataset.cert}"]`); }
+    if(el.id === 'saveProfile') return;
+  });
+  form.addEventListener('click', e => {
+    if(e.target.id === 'saveProfile'){ const ok = store.set('r95_profile', P); toast(ok ? '<b>Profil enregistré</b> dans ce navigateur. En vrai, il serait visible des entreprises (sans tes coordonnées).' : 'Enregistrement impossible dans ce navigateur, mais le prototype reste utilisable.'); }
+    if(e.target.id === 'resetProfile'){ P = JSON.parse(JSON.stringify(DEFAULT_PROFILE)); store.set('r95_profile', P); renderProfileForm(); renderProfileSide(); toast('Profil effacé.'); }
+  });
+}
+function restoreFocus(sel){ const el = $(sel); if(el && !el.disabled) el.focus(); }
+
+/* ================= Espace entreprise ================= */
+const F = {permis:[], certs:[], car:[], region:'', exp:0, dispo:[], langs:[], soir:false, salMax:24};
+function renderFilters(){
+  $('#filters').innerHTML = `
+    <h4>Permis exigés</h4>${chipGroup('permis', ['C1','C','CE','BE','G'], F.permis, 'plate-chip')}
+    <h4>Certificats valides</h4>
+    ${CERTS.filter(c=>!c.priv).map(c=>`<label class="check"><input type="checkbox" data-fcert="${c.k}" ${F.certs.includes(c.k)?'checked':''}> ${esc(c.label)}</label>`).join('')}
+    <h4>Expérience minimale</h4>
+    <input type="range" min="0" max="20" step="1" id="fExp" value="${F.exp}" aria-label="Expérience minimale"><div class="small"><b id="fExpOut">${F.exp}</b> an(s) ou plus</div>
+    <h4>Carrosserie (au moins une)</h4>
+    ${['Bâché / tautliner','Frigo','Citerne','Benne','Plateau','Camion-grue','Porte-conteneurs','Ampliroll','Fourgon / caisse'].map(v=>`<label class="check"><input type="checkbox" data-fcar="${esc(v)}" ${F.car.includes(v)?'checked':''}> ${esc(v)}</label>`).join('')}
+    <h4>Région</h4>
+    <select id="fReg"><option value="">Toute la Belgique</option>${REGIONS.map(r=>`<option ${F.region===r?'selected':''}>${r}</option>`).join('')}</select>
+    <h4>Disponibilité</h4>
+    ${Object.entries(DISPO).map(([k,v])=>`<label class="check"><input type="checkbox" data-fdispo="${k}" ${F.dispo.includes(k)?'checked':''}> ${v}</label>`).join('')}
+    <h4>Langues</h4>
+    ${chipGroup('langs', LANGS, F.langs)}
+    <h4>Organisation</h4>
+    <label class="check"><input type="checkbox" id="fSoirC" ${F.soir?'checked':''}> Accepte les découchés</label>
+    <h4>Salaire souhaité max.</h4>
+    <input type="range" min="15" max="24" step="0.25" id="fSalMax" value="${F.salMax}" aria-label="Salaire maximum"><div class="small">jusqu'à <b id="fSalOut">${F.salMax.toFixed(2).replace('.',',')}</b> €/h</div>
+    <button class="btn btn-ghost btn-sm" id="resetFilters" style="width:100%;margin-top:16px">Réinitialiser les filtres</button>`;
+}
+function evaluate(d){
+  const reasons = [];
+  for(const p of F.permis){ if(!d.p.includes(p)) return null; reasons.push(p + ' ✓'); }
+  for(const k of F.certs){ const m = monthsLeft(d.c[k]); if(m === null || m < 0) return null; const c = CERTS.find(x=>x.k===k); reasons.push(`${c.plate} valide → ${fmtDate(d.c[k])}`); }
+  if(d.y < F.exp) return null; if(F.exp) reasons.push(`${d.y} ans d'expérience`);
+  if(F.region && d.r !== F.region) return null; if(F.region) reasons.push(d.r);
+  if(F.dispo.length && !F.dispo.includes(d.d)) return null;
+  if(F.soir && d.soir) return null;
+  if(d.s > F.salMax) return null;
+  for(const l of F.langs){ if(!d.l.includes(l)) return null; reasons.push(l); }
+  let soft = 0, total = 0;
+  if(F.car.length){ total++; const hit = F.car.filter(v => d.car.includes(v)); if(!hit.length) return null; soft += hit.length / F.car.length; hit.forEach(h => reasons.push(h)); }
+  // critères doux : certificats à jour, expérience, disponibilité
+  total++; soft += Object.values(d.c).filter(v => monthsLeft(v) > 6).length / Math.max(1, Object.keys(d.c).length);
+  total++; soft += Math.min(1, d.y / 15);
+  total++; soft += d.d === 'now' ? 1 : d.d === 'open' ? .6 : .4;
+  const score = Math.round(55 + 45 * (soft / total));
+  return {score, reasons};
+}
+function renderResults(){
+  const sort = $('#sort').value;
+  let list = DRIVERS.map(d => ({d, ev: evaluate(d)})).filter(x => x.ev);
+  list.sort((a,b) => sort === 'exp' ? b.d.y - a.d.y : sort === 'sal' ? a.d.s - b.d.s : b.ev.score - a.ev.score);
+  $('#resCount').textContent = list.length;
+  $('#results').innerHTML = list.length ? list.map(({d, ev}, i) => {
+    const idx = DRIVERS.indexOf(d);
+    const certs = Object.keys(d.c).map(k => { const c = CERTS.find(x=>x.k===k); const st = status(d.c[k]); return `<span style="display:inline-flex;gap:4px;align-items:center">${plate(c.plate)}<span class="pill ${st.cls}">${st.txt}</span></span>`; }).join('');
+    return `<article class="panel driver-card">
+      <div class="avatar">${esc(d.n.split(' ').map(x=>x[0]).join(''))}</div>
+      <div>
+        <h3>${esc(d.n)}</h3>
+        <div class="meta"><span>📍 ${esc(d.city)} (${esc(d.r)})</span><span>🛣️ ${d.y} ans · ${d.yce} en CE</span><span>${d.soir ? '🏠 retour chaque soir' : '🛏️ découchés OK'}</span><span>💬 ${d.l.join(' · ')}</span></div>
+        <div class="plates" style="margin-bottom:8px">${d.p.map(plate).join('')}</div>
+        <div class="plates">${certs}</div>
+        <div class="why">${ev.reasons.length ? ev.reasons.map(r=>`<span>${esc(r)}</span>`).join('') : '<span style="background:var(--bg);color:var(--muted)">Ajoutez des filtres pour voir pourquoi un profil correspond</span>'}</div>
+      </div>
+      <div class="score">
+        <div class="small muted">Correspondance</div><b>${ev.score} %</b>
+        <div class="bar"><i style="width:${ev.score}%"></i></div>
+        <div class="small" style="margin-bottom:10px"><span class="pill ${d.d==='now'?'ok':d.d==='open'?'neutral':'warn'}">${esc(DISPO[d.d])}</span></div>
+        <div style="display:grid;gap:8px">
+          <button class="btn btn-ghost btn-sm" data-view="${idx}">Voir le profil</button>
+          <button class="btn btn-dark btn-sm" data-contact="${idx}">Demander un contact</button>
+        </div>
+      </div>
+    </article>`; }).join('')
+    : `<div class="panel empty"><h3>Aucun profil ne coche toutes les cases</h3><p>Essayez d'enlever un filtre, par exemple la région ou l'expérience minimale.</p></div>`;
+}
+function openDriver(i){
+  const d = DRIVERS[i];
+  $('#modalBox').innerHTML = `
+    <div class="modal-head"><h3 style="margin:0">${esc(d.n)} <span class="muted small" style="font-family:var(--body);font-weight:500">· ${esc(d.city)}</span></h3><button class="x" data-close aria-label="Fermer">✕</button></div>
+    <div class="modal-body">
+      <div><h5 class="muted small" style="margin:0 0 6px;text-transform:uppercase;letter-spacing:.08em">Permis</h5><div class="plates">${d.p.map(plate).join('')}</div></div>
+      <div><h5 class="muted small" style="margin:0 0 6px;text-transform:uppercase;letter-spacing:.08em">Certificats</h5>
+        ${Object.keys(d.c).map(k=>{const c=CERTS.find(x=>x.k===k); const st=status(d.c[k]); return `<div class="remind-row" style="margin-bottom:6px"><span>${plate(c.plate)} &nbsp;${esc(c.label)}</span><span class="pill ${st.cls}">${st.txt} · ${fmtDate(d.c[k])}</span></div>`;}).join('')}</div>
+      <div class="grid2">
+        <div><h5 class="muted small" style="margin:0 0 6px;text-transform:uppercase;letter-spacing:.08em">Carrosseries</h5><div class="plates">${d.car.map(v=>`<span class="tag">${esc(v)}</span>`).join('')}</div></div>
+        <div><h5 class="muted small" style="margin:0 0 6px;text-transform:uppercase;letter-spacing:.08em">Engins</h5><div class="plates">${d.e.length?d.e.map(v=>`<span class="tag">${esc(v)}</span>`).join(''):'<span class="muted small">—</span>'}</div></div>
+      </div>
+      <div><h5 class="muted small" style="margin:0 0 6px;text-transform:uppercase;letter-spacing:.08em">Recherche</h5><p style="margin:0">${esc(DISPO[d.d])} · ${d.soir?'retour chaque soir':'découchés acceptés'} · ${d.org.join(', ')} · souhaite ${d.s.toFixed(2).replace('.',',')} €/h brut</p></div>
+      <div class="remind-row" style="background:var(--bg)"><span>🔒 Téléphone et e-mail visibles seulement après acceptation du chauffeur.</span></div>
+      <button class="btn btn-dark" data-contact="${i}">Demander un contact</button>
+    </div>`;
+  $('#modal').classList.add('show');
+}
+
+/* ================= Offres ================= */
+const OF = {soir:false, intl:false};
+function renderOffers(){
+  $('#offerFilters').innerHTML = `
+    <button class="chip ${OF.soir?'on':''}" data-of="soir">🏠 Retour chaque soir</button>
+    <button class="chip ${OF.intl?'on':''}" data-of="intl">🌍 International</button>`;
+  const list = OFFERS.filter(o => (!OF.soir || o.soir) && (!OF.intl || o.intl));
+  $('#offers').innerHTML = list.map((o,i) => `
+    <article class="panel offer">
+      <div class="offer-top">
+        <div><h3>${esc(o.t)}</h3><div class="offer-co"><span class="logo" style="background:${o.col}">${esc(o.co.replace(/\s*\(fictif\)/,'').split(/[\s\-&]+/).filter(Boolean).map(w=>w[0]).slice(0,2).join('').toUpperCase())}</span>${esc(o.co)} · ${esc(o.city)}</div></div>
+        <span class="tag">${esc(o.ct)}</span>
+      </div>
+      <div class="facts">
+        <div class="fact"><small>Horaires</small><b>${esc(o.h)}</b></div>
+        <div class="fact"><small>Salaire brut</small><b>${esc(o.sal)}</b></div>
+        <div class="fact"><small>Nuits dehors</small><b>${o.soir?'Aucune':'Semaine'}</b></div>
+      </div>
+      <div class="small muted">${esc(o.extra)}</div>
+      <div class="plates">${o.req.map(plate).join('')} ${o.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>
+      <div class="offer-foot"><span class="small muted">Publiée il y a ${i+1} jour${i?'s':''}</span><button class="btn btn-primary btn-sm" data-apply="${esc(o.t)}">Postuler en 1 clic</button></div>
+    </article>`).join('') || '<div class="panel empty">Aucune offre avec ces critères.</div>';
+}
+
+/* ================= Navigation ================= */
+const VIEWS = {'':'home', offres:'offres', chauffeur:'chauffeur', entreprise:'entreprise'};
+function route(){
+  const key = (location.hash.replace(/^#\/?/, '') || '').split('?')[0];
+  const v = VIEWS[key] || 'home';
+  $$('.view').forEach(s => s.classList.toggle('on', s.id === 'view-' + v));
+  $$('[data-nav]').forEach(a => a.classList.toggle('active', a.dataset.nav === v));
+  $('#navLinks').classList.remove('open');
+  window.scrollTo({top:0});
+  document.title = {home:'Route 95 — Chauffeurs et transporteurs, sur la même route', offres:'Offres — Route 95', chauffeur:'Mon profil — Route 95', entreprise:'Trouver un chauffeur — Route 95'}[v];
+}
+
+/* ================= Initialisation ================= */
+const LOGO = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MjIgODIwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlJvdXRlIDk1Ij4KICA8dGl0bGU+Um91dGUgOTU8L3RpdGxlPgogIDxkZWZzPjxjbGlwUGF0aCBpZD0icjk1LXNoYXBlIj48cGF0aCBkPSJNNDExIDExIEw0MDEgMTMgTDM5MyAxNyBMMzg0IDIxIEwzNzQgMjUgTDM2NSAyOCBMMzU1IDMyIEwzNDUgMzUgTDMzNiAzNyBMMzI2IDM5IEwzMTYgNDIgTDMwNyA0MyBMMjk3IDQ0IEwyODcgNDQgTDI3NyA0NCBMMjY3IDQ0IEwyNTcgNDQgTDI0NyA0MyBMMjM3IDQyIEwyMjcgNDAgTDIxNyAzOCBMMjA3IDM2IEwxOTcgMzQgTDE4OCAzMiBMMTc4IDI5IEwxNjggMjUgTDE1OSAyMCBMMTUxIDE2IEwxNDEgMTkgTDEzMSAyOCBMMTIxIDM4IEwxMTIgNDcgTDEwMiA1NyBMOTIgNjcgTDgyIDc3IEw3MyA4NiBMNjMgOTYgTDU0IDEwNSBMNDUgMTE1IEwzNiAxMjUgTDI2IDEzNSBMMTYgMTQ1IEwxMyAxNTUgTDE5IDE2NCBMMjcgMTczIEwzMyAxODEgTDM4IDE4OSBMNDQgMTk4IEw0OSAyMDggTDU0IDIxOCBMNTggMjI2IEw2MSAyMzUgTDY1IDI0NCBMNjcgMjU0IEw3MCAyNjMgTDcxIDI3MiBMNzIgMjgxIEw3MyAyOTEgTDczIDMwMSBMNzMgMzExIEw3MyAzMjEgTDcyIDMzMSBMNzAgMzQxIEw2OCAzNTAgTDY2IDM2MCBMNjQgMzY5IEw2MSAzNzkgTDU3IDM4OSBMNTQgMzk4IEw1MCA0MDcgTDQ2IDQxNyBMNDIgNDI2IEwzOSA0MzYgTDM1IDQ0NiBMMzEgNDU1IEwyOCA0NjQgTDI1IDQ3NCBMMjIgNDg0IEwxOSA0OTMgTDE3IDUwMyBMMTUgNTEyIEwxMyA1MjIgTDExIDUzMiBMMTAgNTQyIEwxMCA1NTIgTDEwIDU2MiBMMTEgNTcyIEwxMiA1ODIgTDE0IDU5MiBMMTYgNjAxIEwxOSA2MTEgTDIyIDYyMSBMMjcgNjMxIEwzMSA2NDEgTDM3IDY1MSBMNDIgNjYwIEw0OSA2NjkgTDU1IDY3NyBMNjQgNjg2IEw3MyA2OTUgTDgyIDcwNCBMOTEgNzExIEw5OSA3MTYgTDEwOCA3MjIgTDExOCA3MjcgTDEyOCA3MzIgTDEzNyA3MzYgTDE0NiA3MzkgTDE1NiA3NDEgTDE2NiA3NDQgTDE3NiA3NDYgTDE4NSA3NDcgTDE5NSA3NDggTDIwNCA3NDkgTDIxNCA3NTAgTDIyNCA3NTAgTDIzMyA3NTEgTDI0MyA3NTIgTDI1MyA3NTMgTDI2MyA3NTQgTDI3MyA3NTUgTDI4MyA3NTYgTDI5MyA3NTggTDMwMyA3NjAgTDMxMyA3NjIgTDMyMyA3NjUgTDMzMiA3NjggTDM0MSA3NzIgTDM1MCA3NzUgTDM2MCA3ODAgTDM2OSA3ODQgTDM3NyA3ODkgTDM4NiA3OTQgTDM5NiA4MDAgTDQxMSA4MDUgTDQyNiA4MDAgTDQzNiA3OTQgTDQ0NSA3ODkgTDQ1MyA3ODQgTDQ2MiA3ODAgTDQ3MiA3NzUgTDQ4MSA3NzIgTDQ5MCA3NjggTDQ5OSA3NjUgTDUwOSA3NjIgTDUxOSA3NjAgTDUyOSA3NTggTDUzOSA3NTYgTDU0OSA3NTUgTDU1OSA3NTQgTDU2OSA3NTMgTDU3OSA3NTIgTDU4OSA3NTEgTDU5OCA3NTAgTDYwOCA3NTAgTDYxOCA3NDkgTDYyNyA3NDggTDYzNyA3NDcgTDY0NiA3NDYgTDY1NiA3NDQgTDY2NiA3NDEgTDY3NiA3MzkgTDY4NSA3MzYgTDY5NCA3MzIgTDcwNCA3MjcgTDcxNCA3MjIgTDcyMyA3MTYgTDczMSA3MTEgTDc0MCA3MDQgTDc0OSA2OTUgTDc1OCA2ODYgTDc2NyA2NzcgTDc3MyA2NjkgTDc4MCA2NjAgTDc4NSA2NTEgTDc5MSA2NDEgTDc5NSA2MzEgTDgwMCA2MjEgTDgwMyA2MTEgTDgwNiA2MDEgTDgwOCA1OTIgTDgxMCA1ODIgTDgxMSA1NzIgTDgxMiA1NjIgTDgxMiA1NTIgTDgxMiA1NDIgTDgxMSA1MzIgTDgwOSA1MjIgTDgwNyA1MTIgTDgwNSA1MDMgTDgwMyA0OTMgTDgwMCA0ODQgTDc5NyA0NzQgTDc5NCA0NjQgTDc5MSA0NTUgTDc4NyA0NDYgTDc4MyA0MzYgTDc4MCA0MjYgTDc3NiA0MTcgTDc3MiA0MDcgTDc2OCAzOTggTDc2NSAzODkgTDc2MSAzNzkgTDc1OCAzNjkgTDc1NiAzNjAgTDc1NCAzNTAgTDc1MiAzNDEgTDc1MCAzMzEgTDc0OSAzMjEgTDc0OSAzMTEgTDc0OSAzMDEgTDc0OSAyOTEgTDc1MCAyODEgTDc1MSAyNzIgTDc1MiAyNjMgTDc1NSAyNTQgTDc1NyAyNDQgTDc2MSAyMzUgTDc2NCAyMjYgTDc2OCAyMTggTDc3MyAyMDggTDc3OCAxOTggTDc4NCAxODkgTDc4OSAxODEgTDc5NSAxNzMgTDgwMyAxNjQgTDgwOSAxNTUgTDgwNiAxNDUgTDc5NiAxMzUgTDc4NiAxMjUgTDc3NyAxMTUgTDc2OCAxMDUgTDc1OSA5NiBMNzQ5IDg2IEw3NDAgNzcgTDczMCA2NyBMNzIwIDU3IEw3MTAgNDcgTDcwMSAzOCBMNjkxIDI4IEw2ODEgMTkgTDY3MSAxNiBMNjYzIDIwIEw2NTQgMjUgTDY0NCAyOSBMNjM0IDMyIEw2MjUgMzQgTDYxNSAzNiBMNjA1IDM4IEw1OTUgNDAgTDU4NSA0MiBMNTc1IDQzIEw1NjUgNDQgTDU1NSA0NCBMNTQ1IDQ0IEw1MzUgNDQgTDUyNSA0NCBMNTE1IDQzIEw1MDYgNDIgTDQ5NiAzOSBMNDg2IDM3IEw0NzcgMzUgTDQ2NyAzMiBMNDU3IDI4IEw0NDggMjUgTDQzOCAyMSBMNDI5IDE3IEw0MjEgMTMgWiIvPjwvY2xpcFBhdGg+PC9kZWZzPgogIDxwYXRoIGQ9Ik00MTEgMTEgTDQwMSAxMyBMMzkzIDE3IEwzODQgMjEgTDM3NCAyNSBMMzY1IDI4IEwzNTUgMzIgTDM0NSAzNSBMMzM2IDM3IEwzMjYgMzkgTDMxNiA0MiBMMzA3IDQzIEwyOTcgNDQgTDI4NyA0NCBMMjc3IDQ0IEwyNjcgNDQgTDI1NyA0NCBMMjQ3IDQzIEwyMzcgNDIgTDIyNyA0MCBMMjE3IDM4IEwyMDcgMzYgTDE5NyAzNCBMMTg4IDMyIEwxNzggMjkgTDE2OCAyNSBMMTU5IDIwIEwxNTEgMTYgTDE0MSAxOSBMMTMxIDI4IEwxMjEgMzggTDExMiA0NyBMMTAyIDU3IEw5MiA2NyBMODIgNzcgTDczIDg2IEw2MyA5NiBMNTQgMTA1IEw0NSAxMTUgTDM2IDEyNSBMMjYgMTM1IEwxNiAxNDUgTDEzIDE1NSBMMTkgMTY0IEwyNyAxNzMgTDMzIDE4MSBMMzggMTg5IEw0NCAxOTggTDQ5IDIwOCBMNTQgMjE4IEw1OCAyMjYgTDYxIDIzNSBMNjUgMjQ0IEw2NyAyNTQgTDcwIDI2MyBMNzEgMjcyIEw3MiAyODEgTDczIDI5MSBMNzMgMzAxIEw3MyAzMTEgTDczIDMyMSBMNzIgMzMxIEw3MCAzNDEgTDY4IDM1MCBMNjYgMzYwIEw2NCAzNjkgTDYxIDM3OSBMNTcgMzg5IEw1NCAzOTggTDUwIDQwNyBMNDYgNDE3IEw0MiA0MjYgTDM5IDQzNiBMMzUgNDQ2IEwzMSA0NTUgTDI4IDQ2NCBMMjUgNDc0IEwyMiA0ODQgTDE5IDQ5MyBMMTcgNTAzIEwxNSA1MTIgTDEzIDUyMiBMMTEgNTMyIEwxMCA1NDIgTDEwIDU1MiBMMTAgNTYyIEwxMSA1NzIgTDEyIDU4MiBMMTQgNTkyIEwxNiA2MDEgTDE5IDYxMSBMMjIgNjIxIEwyNyA2MzEgTDMxIDY0MSBMMzcgNjUxIEw0MiA2NjAgTDQ5IDY2OSBMNTUgNjc3IEw2NCA2ODYgTDczIDY5NSBMODIgNzA0IEw5MSA3MTEgTDk5IDcxNiBMMTA4IDcyMiBMMTE4IDcyNyBMMTI4IDczMiBMMTM3IDczNiBMMTQ2IDczOSBMMTU2IDc0MSBMMTY2IDc0NCBMMTc2IDc0NiBMMTg1IDc0NyBMMTk1IDc0OCBMMjA0IDc0OSBMMjE0IDc1MCBMMjI0IDc1MCBMMjMzIDc1MSBMMjQzIDc1MiBMMjUzIDc1MyBMMjYzIDc1NCBMMjczIDc1NSBMMjgzIDc1NiBMMjkzIDc1OCBMMzAzIDc2MCBMMzEzIDc2MiBMMzIzIDc2NSBMMzMyIDc2OCBMMzQxIDc3MiBMMzUwIDc3NSBMMzYwIDc4MCBMMzY5IDc4NCBMMzc3IDc4OSBMMzg2IDc5NCBMMzk2IDgwMCBMNDExIDgwNSBMNDI2IDgwMCBMNDM2IDc5NCBMNDQ1IDc4OSBMNDUzIDc4NCBMNDYyIDc4MCBMNDcyIDc3NSBMNDgxIDc3MiBMNDkwIDc2OCBMNDk5IDc2NSBMNTA5IDc2MiBMNTE5IDc2MCBMNTI5IDc1OCBMNTM5IDc1NiBMNTQ5IDc1NSBMNTU5IDc1NCBMNTY5IDc1MyBMNTc5IDc1MiBMNTg5IDc1MSBMNTk4IDc1MCBMNjA4IDc1MCBMNjE4IDc0OSBMNjI3IDc0OCBMNjM3IDc0NyBMNjQ2IDc0NiBMNjU2IDc0NCBMNjY2IDc0MSBMNjc2IDczOSBMNjg1IDczNiBMNjk0IDczMiBMNzA0IDcyNyBMNzE0IDcyMiBMNzIzIDcxNiBMNzMxIDcxMSBMNzQwIDcwNCBMNzQ5IDY5NSBMNzU4IDY4NiBMNzY3IDY3NyBMNzczIDY2OSBMNzgwIDY2MCBMNzg1IDY1MSBMNzkxIDY0MSBMNzk1IDYzMSBMODAwIDYyMSBMODAzIDYxMSBMODA2IDYwMSBMODA4IDU5MiBMODEwIDU4MiBMODExIDU3MiBMODEyIDU2MiBMODEyIDU1MiBMODEyIDU0MiBMODExIDUzMiBMODA5IDUyMiBMODA3IDUxMiBMODA1IDUwMyBMODAzIDQ5MyBMODAwIDQ4NCBMNzk3IDQ3NCBMNzk0IDQ2NCBMNzkxIDQ1NSBMNzg3IDQ0NiBMNzgzIDQzNiBMNzgwIDQyNiBMNzc2IDQxNyBMNzcyIDQwNyBMNzY4IDM5OCBMNzY1IDM4OSBMNzYxIDM3OSBMNzU4IDM2OSBMNzU2IDM2MCBMNzU0IDM1MCBMNzUyIDM0MSBMNzUwIDMzMSBMNzQ5IDMyMSBMNzQ5IDMxMSBMNzQ5IDMwMSBMNzQ5IDI5MSBMNzUwIDI4MSBMNzUxIDI3MiBMNzUyIDI2MyBMNzU1IDI1NCBMNzU3IDI0NCBMNzYxIDIzNSBMNzY0IDIyNiBMNzY4IDIxOCBMNzczIDIwOCBMNzc4IDE5OCBMNzg0IDE4OSBMNzg5IDE4MSBMNzk1IDE3MyBMODAzIDE2NCBMODA5IDE1NSBMODA2IDE0NSBMNzk2IDEzNSBMNzg2IDEyNSBMNzc3IDExNSBMNzY4IDEwNSBMNzU5IDk2IEw3NDkgODYgTDc0MCA3NyBMNzMwIDY3IEw3MjAgNTcgTDcxMCA0NyBMNzAxIDM4IEw2OTEgMjggTDY4MSAxOSBMNjcxIDE2IEw2NjMgMjAgTDY1NCAyNSBMNjQ0IDI5IEw2MzQgMzIgTDYyNSAzNCBMNjE1IDM2IEw2MDUgMzggTDU5NSA0MCBMNTg1IDQyIEw1NzUgNDMgTDU2NSA0NCBMNTU1IDQ0IEw1NDUgNDQgTDUzNSA0NCBMNTI1IDQ0IEw1MTUgNDMgTDUwNiA0MiBMNDk2IDM5IEw0ODYgMzcgTDQ3NyAzNSBMNDY3IDMyIEw0NTcgMjggTDQ0OCAyNSBMNDM4IDIxIEw0MjkgMTcgTDQyMSAxMyBaIiBmaWxsPSIjRkZGRkZGIi8+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI3I5NS1zaGFwZSkiPgogICAgPHJlY3QgeD0iOTkuNSIgeT0iMjQ3IiB3aWR0aD0iMjA3LjYiIGhlaWdodD0iMjciIGZpbGw9IiMxMTExMTEiLz4KICAgIDxyZWN0IHg9IjMwNy4yIiB5PSIyNDciIHdpZHRoPSIyMDcuNiIgaGVpZ2h0PSIyNyIgZmlsbD0iI0ZEREEyNCIvPgogICAgPHJlY3QgeD0iNTE0LjgiIHk9IjI0NyIgd2lkdGg9IjIwNy42IiBoZWlnaHQ9IjI3IiBmaWxsPSIjRUYzMzQwIi8+CiAgICA8cGF0aCBkPSJNNDExIDExIEw0MDEgMTMgTDM5MyAxNyBMMzg0IDIxIEwzNzQgMjUgTDM2NSAyOCBMMzU1IDMyIEwzNDUgMzUgTDMzNiAzNyBMMzI2IDM5IEwzMTYgNDIgTDMwNyA0MyBMMjk3IDQ0IEwyODcgNDQgTDI3NyA0NCBMMjY3IDQ0IEwyNTcgNDQgTDI0NyA0MyBMMjM3IDQyIEwyMjcgNDAgTDIxNyAzOCBMMjA3IDM2IEwxOTcgMzQgTDE4OCAzMiBMMTc4IDI5IEwxNjggMjUgTDE1OSAyMCBMMTUxIDE2IEwxNDEgMTkgTDEzMSAyOCBMMTIxIDM4IEwxMTIgNDcgTDEwMiA1NyBMOTIgNjcgTDgyIDc3IEw3MyA4NiBMNjMgOTYgTDU0IDEwNSBMNDUgMTE1IEwzNiAxMjUgTDI2IDEzNSBMMTYgMTQ1IEwxMyAxNTUgTDE5IDE2NCBMMjcgMTczIEwzMyAxODEgTDM4IDE4OSBMNDQgMTk4IEw0OSAyMDggTDU0IDIxOCBMNTggMjI2IEw2MSAyMzUgTDY1IDI0NCBMNjcgMjU0IEw3MCAyNjMgTDcxIDI3MiBMNzIgMjgxIEw3MyAyOTEgTDczIDMwMSBMNzMgMzExIEw3MyAzMjEgTDcyIDMzMSBMNzAgMzQxIEw2OCAzNTAgTDY2IDM2MCBMNjQgMzY5IEw2MSAzNzkgTDU3IDM4OSBMNTQgMzk4IEw1MCA0MDcgTDQ2IDQxNyBMNDIgNDI2IEwzOSA0MzYgTDM1IDQ0NiBMMzEgNDU1IEwyOCA0NjQgTDI1IDQ3NCBMMjIgNDg0IEwxOSA0OTMgTDE3IDUwMyBMMTUgNTEyIEwxMyA1MjIgTDExIDUzMiBMMTAgNTQyIEwxMCA1NTIgTDEwIDU2MiBMMTEgNTcyIEwxMiA1ODIgTDE0IDU5MiBMMTYgNjAxIEwxOSA2MTEgTDIyIDYyMSBMMjcgNjMxIEwzMSA2NDEgTDM3IDY1MSBMNDIgNjYwIEw0OSA2NjkgTDU1IDY3NyBMNjQgNjg2IEw3MyA2OTUgTDgyIDcwNCBMOTEgNzExIEw5OSA3MTYgTDEwOCA3MjIgTDExOCA3MjcgTDEyOCA3MzIgTDEzNyA3MzYgTDE0NiA3MzkgTDE1NiA3NDEgTDE2NiA3NDQgTDE3NiA3NDYgTDE4NSA3NDcgTDE5NSA3NDggTDIwNCA3NDkgTDIxNCA3NTAgTDIyNCA3NTAgTDIzMyA3NTEgTDI0MyA3NTIgTDI1MyA3NTMgTDI2MyA3NTQgTDI3MyA3NTUgTDI4MyA3NTYgTDI5MyA3NTggTDMwMyA3NjAgTDMxMyA3NjIgTDMyMyA3NjUgTDMzMiA3NjggTDM0MSA3NzIgTDM1MCA3NzUgTDM2MCA3ODAgTDM2OSA3ODQgTDM3NyA3ODkgTDM4NiA3OTQgTDM5NiA4MDAgTDQxMSA4MDUgTDQyNiA4MDAgTDQzNiA3OTQgTDQ0NSA3ODkgTDQ1MyA3ODQgTDQ2MiA3ODAgTDQ3MiA3NzUgTDQ4MSA3NzIgTDQ5MCA3NjggTDQ5OSA3NjUgTDUwOSA3NjIgTDUxOSA3NjAgTDUyOSA3NTggTDUzOSA3NTYgTDU0OSA3NTUgTDU1OSA3NTQgTDU2OSA3NTMgTDU3OSA3NTIgTDU4OSA3NTEgTDU5OCA3NTAgTDYwOCA3NTAgTDYxOCA3NDkgTDYyNyA3NDggTDYzNyA3NDcgTDY0NiA3NDYgTDY1NiA3NDQgTDY2NiA3NDEgTDY3NiA3MzkgTDY4NSA3MzYgTDY5NCA3MzIgTDcwNCA3MjcgTDcxNCA3MjIgTDcyMyA3MTYgTDczMSA3MTEgTDc0MCA3MDQgTDc0OSA2OTUgTDc1OCA2ODYgTDc2NyA2NzcgTDc3MyA2NjkgTDc4MCA2NjAgTDc4NSA2NTEgTDc5MSA2NDEgTDc5NSA2MzEgTDgwMCA2MjEgTDgwMyA2MTEgTDgwNiA2MDEgTDgwOCA1OTIgTDgxMCA1ODIgTDgxMSA1NzIgTDgxMiA1NjIgTDgxMiA1NTIgTDgxMiA1NDIgTDgxMSA1MzIgTDgwOSA1MjIgTDgwNyA1MTIgTDgwNSA1MDMgTDgwMyA0OTMgTDgwMCA0ODQgTDc5NyA0NzQgTDc5NCA0NjQgTDc5MSA0NTUgTDc4NyA0NDYgTDc4MyA0MzYgTDc4MCA0MjYgTDc3NiA0MTcgTDc3MiA0MDcgTDc2OCAzOTggTDc2NSAzODkgTDc2MSAzNzkgTDc1OCAzNjkgTDc1NiAzNjAgTDc1NCAzNTAgTDc1MiAzNDEgTDc1MCAzMzEgTDc0OSAzMjEgTDc0OSAzMTEgTDc0OSAzMDEgTDc0OSAyOTEgTDc1MCAyODEgTDc1MSAyNzIgTDc1MiAyNjMgTDc1NSAyNTQgTDc1NyAyNDQgTDc2MSAyMzUgTDc2NCAyMjYgTDc2OCAyMTggTDc3MyAyMDggTDc3OCAxOTggTDc4NCAxODkgTDc4OSAxODEgTDc5NSAxNzMgTDgwMyAxNjQgTDgwOSAxNTUgTDgwNiAxNDUgTDc5NiAxMzUgTDc4NiAxMjUgTDc3NyAxMTUgTDc2OCAxMDUgTDc1OSA5NiBMNzQ5IDg2IEw3NDAgNzcgTDczMCA2NyBMNzIwIDU3IEw3MTAgNDcgTDcwMSAzOCBMNjkxIDI4IEw2ODEgMTkgTDY3MSAxNiBMNjYzIDIwIEw2NTQgMjUgTDY0NCAyOSBMNjM0IDMyIEw2MjUgMzQgTDYxNSAzNiBMNjA1IDM4IEw1OTUgNDAgTDU4NSA0MiBMNTc1IDQzIEw1NjUgNDQgTDU1NSA0NCBMNTQ1IDQ0IEw1MzUgNDQgTDUyNSA0NCBMNTE1IDQzIEw1MDYgNDIgTDQ5NiAzOSBMNDg2IDM3IEw0NzcgMzUgTDQ2NyAzMiBMNDU3IDI4IEw0NDggMjUgTDQzOCAyMSBMNDI5IDE3IEw0MjEgMTMgWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExMTExIiBzdHJva2Utd2lkdGg9IjYwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPC9nPgogIDxwYXRoIGQ9Ik0xNzYuMDAgMjIwLjkyVjEwMC4wN0gyMjMuNzVRMjM2LjM3IDEwMC4wNyAyNDMuODAgMTA1LjM4UTI1MS4yMiAxMTAuNjggMjU0LjQxIDExOS40NVEyNTcuNjAgMTI4LjIxIDI1Ny42MCAxMzguNDBRMjU3LjYwIDE0NS4yMiAyNTUuNDkgMTUyLjIxUTI1My4zNyAxNTkuMjAgMjQ5LjE0IDE2NC45NFEyNDQuOTEgMTcwLjY4IDIzOC42NyAxNzMuNDRMMjU3Ljg5IDIyMC45MkgyMzQuODBMMjE2LjMwIDE3Ny4xNkgxOTYuNjVWMjIwLjkyWk0xOTYuNjUgMTUzLjc2SDIyNC4wNFEyMjguNjMgMTUzLjc2IDIzMS4zMiAxNTEuNjBRMjM0LjAxIDE0OS40NSAyMzUuMTIgMTQ1Ljk1UTIzNi4yMyAxNDIuNDUgMjM2LjIzIDEzOC40OFEyMzYuMjMgMTM0Ljg2IDIzNS4xOSAxMzEuNDBRMjM0LjE1IDEyNy45NSAyMzEuNDYgMTI1LjcxUTIyOC43NyAxMjMuNDYgMjI0LjA0IDEyMy40NkgxOTYuNjVaTTMxNy45OCAyMjMuMFEzMDUuOTMgMjIzLjAgMjk3LjQ3IDIxNy41MVEyODkuMDEgMjEyLjAzIDI4My44MSAyMDIuOTJRMjc4LjYxIDE5My44MiAyNzYuMjEgMTgyLjc3UTI3My44MSAxNzEuNzIgMjczLjgxIDE2MC41UTI3My44MSAxNDkuMjcgMjc2LjIxIDEzOC4yMlEyNzguNjEgMTI3LjE3IDI4My44MSAxMTguMDdRMjg5LjAxIDEwOC45NiAyOTcuNDcgMTAzLjQ4UTMwNS45MyA5Ny45OSAzMTcuOTggOTcuOTlRMzMwLjE3IDk3Ljk5IDMzOC41NiAxMDMuNDhRMzQ2Ljk1IDEwOC45NiAzNTIuMTUgMTE4LjA3UTM1Ny4zNSAxMjcuMTcgMzU5LjcyIDEzOC4yMlEzNjIuMDggMTQ5LjI3IDM2Mi4wOCAxNjAuNVEzNjIuMDggMTcxLjcyIDM1OS43MiAxODIuNzdRMzU3LjM1IDE5My44MiAzNTIuMTUgMjAyLjkyUTM0Ni45NSAyMTIuMDMgMzM4LjU2IDIxNy41MVEzMzAuMTcgMjIzLjAgMzE3Ljk4IDIyMy4wWk0zMTcuOTggMTk5LjAwUTMyNC4yOSAxOTkuMDAgMzI4LjYzIDE5NS40NlEzMzIuOTcgMTkxLjkyIDMzNS42MiAxODYuMDlRMzM4LjI4IDE4MC4yNiAzMzkuNDkgMTczLjUzUTM0MC43MSAxNjYuODAgMzQwLjcxIDE2MC41UTM0MC43MSAxNTMuNzYgMzM5LjU3IDE0Ni45NFEzMzguNDIgMTQwLjEyIDMzNS44MCAxMzQuNDJRMzMzLjE4IDEyOC43MyAzMjguODEgMTI1LjI3UTMyNC40MyAxMjEuODIgMzE3Ljk4IDEyMS44MlEzMTEuNTMgMTIxLjgyIDMwNy4xNSAxMjUuNDBRMzAyLjc4IDEyOC45OSAzMDAuMTMgMTM0Ljc3UTI5Ny40NyAxNDAuNTUgMjk2LjMyIDE0Ny4zN1EyOTUuMTggMTU0LjE5IDI5NS4xOCAxNjAuNVEyOTUuMTggMTY3LjE0IDI5Ni4zNiAxNzMuOTJRMjk3LjU0IDE4MC43MCAzMDAuMjMgMTg2LjM5UTMwMi45MiAxOTIuMDkgMzA3LjMwIDE5NS41NFEzMTEuNjcgMTk5LjAwIDMxNy45OCAxOTkuMDBaTTQyMi42MSAyMjMuMFE0MDkuODQgMjIzLjAgNDAwLjU5IDIxNy4zMFEzOTEuMzQgMjExLjYwIDM4Ni4zOSAyMDAuNzdRMzgxLjQ0IDE4OS45MyAzODEuNDQgMTc0LjU3VjEwMC4wN0g0MDIuMTBWMTc0LjU3UTQwMi4xMCAxODcuNjkgNDA3LjAxIDE5My4zNFE0MTEuOTIgMTk5LjAwIDQyMi42MSAxOTkuMDBRNDI5LjM1IDE5OS4wMCA0MzMuOTAgMTk2LjY3UTQzOC40NSAxOTQuMzMgNDQwLjc1IDE4OC45NFE0NDMuMDQgMTgzLjU0IDQ0My4wNCAxNzQuNTdWMTAwLjA3SDQ2My43MFYxNzQuNTdRNDYzLjcwIDE4Ny43NyA0NjAuMjkgMTk3LjAxUTQ1Ni44OCAyMDYuMjUgNDUxLjA4IDIxMS45OVE0NDUuMjcgMjE3LjczIDQzNy45MiAyMjAuMzZRNDMwLjU3IDIyMy4wIDQyMi42MSAyMjMuMFpNNTA4Ljg3IDIyMC45MlYxMjMuODlINDgwLjE5VjEwMC4wN0g1NTguMjhWMTIzLjg5SDUyOS41M1YyMjAuOTJaTTU3NS40OSAyMjAuOTJWMTAwLjA3SDY0Ni4wNVYxMjMuNjNINTk2LjE0VjE0Ni43N0g2MjQuNjFWMTcwLjM0SDU5Ni4xNFYxOTcuMThINjQ5LjAwVjIyMC45MloiIGZpbGw9IiMxMTExMTEiLz4KICA8cGF0aCBkPSJNMjIwLjQ0IDYzNS4wVjU3OS4wMlEyNDEuNDMgNTc3Ljk2IDI2MS45OSA1NzAuNzVRMjgyLjU2IDU2My41NSAyOTguNzggNTQ3LjU0UTMxNS4wMCA1MzEuNTMgMzIzLjA1IDUwNC44MlEzMTQuMTUgNTExLjM5IDMwMi4wNiA1MTUuMzFRMjg5Ljk4IDUxOS4yMyAyNzQuOTMgNTE5LjIzUTI0NS42NyA1MTkuMjMgMjIyLjg4IDUwNy44OVEyMDAuMDggNDk2LjU1IDE4Ni45NCA0NzUuMjRRMTczLjc5IDQ1My45MyAxNzMuNzkgNDIzLjYxUTE3My43OSAzOTQuNTcgMTg3Ljc5IDM3My4wNVEyMDEuNzggMzUxLjUzIDIyNi4xNiAzMzkuNzZRMjUwLjU0IDMyNy45OSAyODIuMzUgMzI3Ljk5UTMyMC4zMCAzMjcuOTkgMzQ0LjY4IDM0Mi44NFEzNjkuMDYgMzU3LjY4IDM4MC44MyAzODMuNjVRMzkyLjYwIDQwOS42MiAzOTIuNjAgNDQyLjkxUTM5Mi42MCA0OTkuNTIgMzczLjczIDU0MS45MlEzNTQuODYgNTg0LjMyIDMxNi42OSA2MDguNjBRMjc4LjUzIDYzMi44NyAyMjAuNDQgNjM1LjBaTTI4MS43MSA0NjMuMjZRMjk1LjA3IDQ2My4yNiAzMDUuMjQgNDU4LjcwUTMxNS40MiA0NTQuMTQgMzIxLjA0IDQ0NS4yNFEzMjYuNjYgNDM2LjM0IDMyNi42NiA0MjIuOThRMzI2LjY2IDQxMS4zMiAzMjAuOTMgNDAyLjIwUTMxNS4yMSAzOTMuMDggMzA1LjE0IDM4OC4wMFEyOTUuMDcgMzgyLjkxIDI4MS45MiAzODIuOTFRMjY2LjY2IDM4Mi45MSAyNTUuODQgMzg4LjAwUTI0NS4wMyAzOTMuMDggMjM5LjIwIDQwMi4wOVEyMzMuMzcgNDExLjExIDIzMy4zNyA0MjIuNTVRMjMzLjM3IDQzNS43MCAyMzkuMjAgNDQ0LjgyUTI0NS4wMyA0NTMuOTMgMjU1Ljg0IDQ1OC42MFEyNjYuNjYgNDYzLjI2IDI4MS43MSA0NjMuMjZaTTUzNi4zNCA2MzUuMFE1MTQuNTEgNjM1LjAgNDk2LjgwIDYzMC41NFE0NzkuMTAgNjI2LjA5IDQ2NS42NCA2MTkuMjBRNDUyLjE3IDYxMi4zMSA0NDMuMDYgNjA1LjEwTDQ3NS4wNyA1NTcuNDBRNDgyLjcwIDU2Mi40OSA0OTEuOTMgNTY3LjE1UTUwMS4xNSA1NzEuODEgNTEyLjE3IDU3NC43OFE1MjMuMjAgNTc3Ljc1IDUzNi4zNCA1NzcuNzVRNTUyLjAzIDU3Ny43NSA1NjQuMTIgNTcyLjI0UTU3Ni4yMCA1NjYuNzMgNTgyLjg4IDU1Ni4xMlE1ODkuNTYgNTQ1LjUyIDU4OS41NiA1MzAuNDdRNTg5LjU2IDUxOC4zOSA1ODUuMjEgNTA5LjA2UTU4MC44NyA0OTkuNzMgNTcyLjQ5IDQ5NC40M1E1NjQuMTIgNDg5LjEzIDU1MS42MSA0ODkuMTNRNTM1LjI4IDQ4OS4xMyA1MjQuNDcgNDk0Ljk2UTUxMy42NiA1MDAuNzkgNTA0Ljc1IDUxMC43NUw0NTEuOTYgNDgzLjgzTDQ1OS44MCAzMzMuMDhINjMxLjMzVjM5MS42MEg1MTUuNzhMNTEyLjYwIDQzOS41MlE1MjIuMzUgNDM1LjkxIDUzMS43OCA0MzMuNjlRNTQxLjIyIDQzMS40NiA1NTIuMDMgNDMxLjQ2UTU4NC4wNSA0MzEuNDYgNjA1Ljg4IDQ0NC42MFE2MjcuNzIgNDU3Ljc1IDYzOC45NiA0ODAuMjJRNjUwLjIwIDUwMi43MCA2NTAuMjAgNTMwLjY4UTY1MC4yMCA1NjIuNDkgNjM1LjQ2IDU4NS45MVE2MjAuNzMgNjA5LjM0IDU5NC45NyA2MjIuMTdRNTY5LjIxIDYzNS4wIDUzNi4zNCA2MzUuMFoiIGZpbGw9IiMxMTExMTEiLz4KPC9zdmc+Cg==';
+renderProfileForm(); renderProfileSide(); bindProfile();
+renderFilters(); renderResults(); renderOffers();
+
+$('#filters').addEventListener('click', e => {
+  const chip = e.target.closest('.chip');
+  if(chip){ const arr = F[chip.dataset.group]; const v = chip.dataset.val; const i = arr.indexOf(v); i>=0?arr.splice(i,1):arr.push(v); chip.classList.toggle('on'); renderResults(); }
+  if(e.target.id === 'resetFilters'){ Object.assign(F, {permis:[], certs:[], car:[], region:'', exp:0, dispo:[], langs:[], soir:false, salMax:24}); renderFilters(); renderResults(); }
+});
+$('#filters').addEventListener('input', e => {
+  const el = e.target;
+  if(el.dataset.fcert){ el.checked ? F.certs.push(el.dataset.fcert) : F.certs.splice(F.certs.indexOf(el.dataset.fcert),1); }
+  if(el.dataset.fcar){ el.checked ? F.car.push(el.dataset.fcar) : F.car.splice(F.car.indexOf(el.dataset.fcar),1); }
+  if(el.dataset.fdispo){ el.checked ? F.dispo.push(el.dataset.fdispo) : F.dispo.splice(F.dispo.indexOf(el.dataset.fdispo),1); }
+  if(el.id === 'fExp'){ F.exp = +el.value; $('#fExpOut').textContent = F.exp; }
+  if(el.id === 'fReg') F.region = el.value;
+  if(el.id === 'fSoirC') F.soir = el.checked;
+  if(el.id === 'fSalMax'){ F.salMax = +el.value; $('#fSalOut').textContent = F.salMax.toFixed(2).replace('.',','); }
+  renderResults();
+});
+$('#sort').addEventListener('change', renderResults);
+$('#filtersToggle').addEventListener('click', e => { const f = $('#filters'); f.classList.toggle('collapsed'); e.target.textContent = f.classList.contains('collapsed') ? 'Afficher les filtres' : 'Masquer les filtres'; });
+document.addEventListener('click', e => {
+  const v = e.target.closest('[data-view]'); if(v) openDriver(+v.dataset.view);
+  const c = e.target.closest('[data-contact]');
+  if(c){ const d = DRIVERS[+c.dataset.contact]; $('#modal').classList.remove('show'); toast(`<b>Demande envoyée à ${esc(d.n)}.</b> Ses coordonnées s'afficheront s'il ou elle accepte.`); }
+  if(e.target.closest('[data-close]') || e.target.id === 'modal') $('#modal').classList.remove('show');
+  const a = e.target.closest('[data-apply]'); if(a) toast(`<b>Candidature envoyée</b> pour « ${esc(a.dataset.apply)} » avec ton profil Route 95.`);
+  const of = e.target.closest('[data-of]'); if(of){ OF[of.dataset.of] = !OF[of.dataset.of]; renderOffers(); }
+  const lb = e.target.closest('.lang button'); if(lb) setLang(lb.dataset.lang);
+});
+document.addEventListener('keydown', e => { if(e.key === 'Escape') $('#modal').classList.remove('show'); });
+$('#burger').addEventListener('click', () => $('#navLinks').classList.toggle('open'));
+window.addEventListener('hashchange', route);
+route();
+const savedLang = store.get('r95_lang', 'fr'); if(savedLang !== 'fr') setLang(savedLang);
+</script>
+</body>
+</html>
